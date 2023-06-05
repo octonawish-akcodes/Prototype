@@ -1,22 +1,22 @@
 #!/usr/bin/bash
 
-# python3 proto.py empty
+# python3 cache.py empty
 
-python3 proto.py cache \
+python3 cache.py cache \
     https://lava.sirena.org.uk/scheduler/job/179189/log_file/plain \
     https://lava.sirena.org.uk/scheduler/job/179229/log_file/plain \
     https://lava.sirena.org.uk/scheduler/job/179230/log_file/plain \
     https://lava.sirena.org.uk/scheduler/job/179230/log_file/plain \
     https://lava.sirena.org.uk/scheduler/job/179334/log_file/plain &
 
-python3 proto.py cache \
+python3 cache.py cache \
     https://lava.sirena.org.uk/scheduler/job/179235/log_file/plain \
     https://lava.sirena.org.uk/scheduler/job/179240/log_file/plain \
     https://lava.sirena.org.uk/scheduler/job/179243/log_file/plain \
     https://lava.sirena.org.uk/scheduler/job/179245/log_file/plain \
     https://lava.sirena.org.uk/scheduler/job/179325/log_file/plain &
 
-python3 proto.py cache \
+python3 cache.py cache \
     https://lava.sirena.org.uk/scheduler/job/179379/log_file/plain \
     https://lava.sirena.org.uk/scheduler/job/179380/log_file/plain \
     https://lava.sirena.org.uk/scheduler/job/179381/log_file/plain \
