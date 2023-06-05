@@ -1,0 +1,717 @@
+- {"dt": "2023-03-17T14:13:55.136660", "lvl": "info", "msg": "lava-dispatcher, installed at version: 2023.01"}
+- {"dt": "2023-03-17T14:13:55.136896", "lvl": "info", "msg": "start: 0 validate"}
+- {"dt": "2023-03-17T14:13:55.137022", "lvl": "info", "msg": "Start time: 2023-03-17 14:13:55.137012+00:00 (UTC)"}
+- {"dt": "2023-03-17T14:13:55.138173", "lvl": "debug", "msg": "Validating that https://builds.sirena.org.uk/d0be868c5a6e0dafb53d0ee9f0b9d66e40d963f6/x86_64/defconfig/bzImage exists"}
+- {"dt": "2023-03-17T14:13:55.446092", "lvl": "debug", "msg": "Validating that https://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz exists"}
+- {"dt": "2023-03-17T14:13:56.185501", "lvl": "info", "msg": "qemu-system-x86, installed at version: 1:7.2+dfsg-1~bpo11+2, host architecture: amd64"}
+- {"dt": "2023-03-17T14:13:56.186324", "lvl": "info", "msg": "validate duration: 1.05"}
+- {"dt": "2023-03-17T14:13:56.186490", "lvl": "results", "msg": {"case": "validate", "definition": "lava", "result": "pass"}}
+- {"dt": "2023-03-17T14:13:56.186772", "lvl": "info", "msg": "start: 1 deployimages (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.187037", "lvl": "debug", "msg": "start: 1.1 lava-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.187365", "lvl": "debug", "msg": "[common] Preparing overlay tarball in /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l"}
+- {"dt": "2023-03-17T14:13:56.187612", "lvl": "debug", "msg": "makedir: /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin"}
+- {"dt": "2023-03-17T14:13:56.187801", "lvl": "debug", "msg": "makedir: /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/tests"}
+- {"dt": "2023-03-17T14:13:56.187985", "lvl": "debug", "msg": "makedir: /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/results"}
+- {"dt": "2023-03-17T14:13:56.188178", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-add-keys"}
+- {"dt": "2023-03-17T14:13:56.188436", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-add-sources"}
+- {"dt": "2023-03-17T14:13:56.188678", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-background-process-start"}
+- {"dt": "2023-03-17T14:13:56.188919", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-background-process-stop"}
+- {"dt": "2023-03-17T14:13:56.189153", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-common-functions"}
+- {"dt": "2023-03-17T14:13:56.189381", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-echo-ipv4"}
+- {"dt": "2023-03-17T14:13:56.189612", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-install-packages"}
+- {"dt": "2023-03-17T14:13:56.189857", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-installed-packages"}
+- {"dt": "2023-03-17T14:13:56.190086", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-os-build"}
+- {"dt": "2023-03-17T14:13:56.190317", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-probe-channel"}
+- {"dt": "2023-03-17T14:13:56.190548", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-probe-ip"}
+- {"dt": "2023-03-17T14:13:56.190775", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-target-ip"}
+- {"dt": "2023-03-17T14:13:56.191005", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-target-mac"}
+- {"dt": "2023-03-17T14:13:56.191288", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-target-storage"}
+- {"dt": "2023-03-17T14:13:56.191527", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-test-case"}
+- {"dt": "2023-03-17T14:13:56.191759", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-test-event"}
+- {"dt": "2023-03-17T14:13:56.191990", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-test-feedback"}
+- {"dt": "2023-03-17T14:13:56.192220", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-test-raise"}
+- {"dt": "2023-03-17T14:13:56.192451", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-test-reference"}
+- {"dt": "2023-03-17T14:13:56.192680", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-test-runner"}
+- {"dt": "2023-03-17T14:13:56.192910", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-test-set"}
+- {"dt": "2023-03-17T14:13:56.193140", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-test-shell"}
+- {"dt": "2023-03-17T14:13:56.193376", "lvl": "debug", "msg": "Updating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-install-packages (oe)"}
+- {"dt": "2023-03-17T14:13:56.193686", "lvl": "debug", "msg": "Updating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/bin/lava-installed-packages (oe)"}
+- {"dt": "2023-03-17T14:13:56.193954", "lvl": "debug", "msg": "Creating /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/environment"}
+- {"dt": "2023-03-17T14:13:56.194182", "lvl": "debug", "msg": "LAVA metadata"}
+- {"dt": "2023-03-17T14:13:56.194345", "lvl": "debug", "msg": "- LAVA_JOB_ID=179325"}
+- {"dt": "2023-03-17T14:13:56.194487", "lvl": "debug", "msg": "- LAVA_DISPATCHER_IP=172.26.0.2"}
+- {"dt": "2023-03-17T14:13:56.194697", "lvl": "debug", "msg": "start: 1.1.1 lava-vland-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.194847", "lvl": "debug", "msg": "skipped lava-vland-overlay"}
+- {"dt": "2023-03-17T14:13:56.195008", "lvl": "debug", "msg": "end: 1.1.1 lava-vland-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.195182", "lvl": "debug", "msg": "start: 1.1.2 lava-multinode-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.195320", "lvl": "debug", "msg": "skipped lava-multinode-overlay"}
+- {"dt": "2023-03-17T14:13:56.195474", "lvl": "debug", "msg": "end: 1.1.2 lava-multinode-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.195646", "lvl": "debug", "msg": "start: 1.1.3 test-definition (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.195815", "lvl": "info", "msg": "Loading test definitions"}
+- {"dt": "2023-03-17T14:13:56.196004", "lvl": "debug", "msg": "start: 1.1.3.1 inline-repo-action (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.196162", "lvl": "debug", "msg": "Using /lava-179325 at stage 0"}
+- {"dt": "2023-03-17T14:13:56.196837", "lvl": "debug", "msg": "uuid=179325_1.1.3.1 testdef=None"}
+- {"dt": "2023-03-17T14:13:56.197015", "lvl": "debug", "msg": "end: 1.1.3.1 inline-repo-action (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.197178", "lvl": "debug", "msg": "start: 1.1.3.2 test-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.198212", "lvl": "debug", "msg": "end: 1.1.3.2 test-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.198364", "lvl": "results", "msg": {"case": "test-overlay", "definition": "lava", "duration": "0.00", "extra": {"from": "inline", "name": "dmesg", "path": "inline/dmesg.yaml", "uuid": "179325_1.1.3.1"}, "level": "1.1.3.2", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:13:56.198688", "lvl": "debug", "msg": "start: 1.1.3.3 test-install-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.199970", "lvl": "debug", "msg": "end: 1.1.3.3 test-install-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.200129", "lvl": "results", "msg": {"case": "test-install-overlay", "definition": "lava", "duration": "0.00", "extra": {"from": "inline", "name": "dmesg", "path": "inline/dmesg.yaml", "skipped test-install-overlay": "179325_1.1.3.1", "uuid": "179325_1.1.3.1"}, "level": "1.1.3.3", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:13:56.200463", "lvl": "debug", "msg": "start: 1.1.3.4 test-runscript-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.201709", "lvl": "debug", "msg": "runner path: /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/0/tests/0_dmesg test_uuid 179325_1.1.3.1"}
+- {"dt": "2023-03-17T14:13:56.202004", "lvl": "debug", "msg": "end: 1.1.3.4 test-runscript-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.202153", "lvl": "results", "msg": {"case": "test-runscript-overlay", "definition": "lava", "duration": "0.00", "extra": {"filename": "/var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/0/tests/0_dmesg/run.sh", "from": "inline", "name": "dmesg", "path": "inline/dmesg.yaml", "uuid": "179325_1.1.3.1"}, "level": "1.1.3.4", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:13:56.202475", "lvl": "debug", "msg": "start: 1.1.3.5 inline-repo-action (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.202614", "lvl": "debug", "msg": "Using /lava-179325 at stage 1"}
+- {"dt": "2023-03-17T14:13:56.203183", "lvl": "debug", "msg": "uuid=179325_1.1.3.5 testdef=None"}
+- {"dt": "2023-03-17T14:13:56.203351", "lvl": "debug", "msg": "end: 1.1.3.5 inline-repo-action (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.203508", "lvl": "debug", "msg": "start: 1.1.3.6 test-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.204427", "lvl": "debug", "msg": "end: 1.1.3.6 test-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.204569", "lvl": "results", "msg": {"case": "test-overlay", "definition": "lava", "duration": "0.00", "extra": {"from": "inline", "name": "bootrr", "path": "inline/bootrr.yaml", "uuid": "179325_1.1.3.5"}, "level": "1.1.3.6", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:13:56.204873", "lvl": "debug", "msg": "start: 1.1.3.7 test-install-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.206189", "lvl": "debug", "msg": "end: 1.1.3.7 test-install-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.206340", "lvl": "results", "msg": {"case": "test-install-overlay", "definition": "lava", "duration": "0.00", "extra": {"from": "inline", "name": "bootrr", "path": "inline/bootrr.yaml", "skipped test-install-overlay": "179325_1.1.3.5", "uuid": "179325_1.1.3.5"}, "level": "1.1.3.7", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:13:56.206663", "lvl": "debug", "msg": "start: 1.1.3.8 test-runscript-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.207900", "lvl": "debug", "msg": "runner path: /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/1/tests/1_bootrr test_uuid 179325_1.1.3.5"}
+- {"dt": "2023-03-17T14:13:56.208184", "lvl": "debug", "msg": "end: 1.1.3.8 test-runscript-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.208330", "lvl": "results", "msg": {"case": "test-runscript-overlay", "definition": "lava", "duration": "0.00", "extra": {"filename": "/var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/1/tests/1_bootrr/run.sh", "from": "inline", "name": "bootrr", "path": "inline/bootrr.yaml", "uuid": "179325_1.1.3.5"}, "level": "1.1.3.8", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:13:56.208618", "lvl": "info", "msg": "Creating lava-test-runner.conf files"}
+- {"dt": "2023-03-17T14:13:56.208740", "lvl": "debug", "msg": "Using lava-test-runner path: /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/0 for stage 0"}
+- {"dt": "2023-03-17T14:13:56.208909", "lvl": "debug", "msg": "- 0_dmesg"}
+- {"dt": "2023-03-17T14:13:56.209062", "lvl": "debug", "msg": "Using lava-test-runner path: /var/lib/lava/dispatcher/tmp/179325/lava-overlay-bt_avi5l/lava-179325/1 for stage 1"}
+- {"dt": "2023-03-17T14:13:56.209232", "lvl": "debug", "msg": "- 1_bootrr"}
+- {"dt": "2023-03-17T14:13:56.209410", "lvl": "debug", "msg": "end: 1.1.3 test-definition (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.209572", "lvl": "debug", "msg": "start: 1.1.4 compress-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.225696", "lvl": "debug", "msg": "end: 1.1.4 compress-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.225895", "lvl": "debug", "msg": "start: 1.1.5 persistent-nfs-overlay (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.226055", "lvl": "debug", "msg": "end: 1.1.5 persistent-nfs-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.226219", "lvl": "debug", "msg": "end: 1.1 lava-overlay (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.226379", "lvl": "debug", "msg": "start: 1.2 apply-overlay-guest (timeout 00:03:00) [common]"}
+- {"dt": "2023-03-17T14:13:56.226518", "lvl": "debug", "msg": "Overlay: /var/lib/lava/dispatcher/tmp/179325/compress-overlay-8t0fi0ly/overlay-1.1.4.tar.gz"}
+- {"dt": "2023-03-17T14:14:06.200942", "lvl": "debug", "msg": "end: 1.2 apply-overlay-guest (duration 00:00:10) [common]"}
+- {"dt": "2023-03-17T14:14:06.201361", "lvl": "results", "msg": {"case": "apply-overlay-guest", "definition": "lava", "duration": "9.97", "extra": {"success": "8ef87015-3cfc-485e-b214-ceb50ecf9c8d"}, "level": "1.2", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:14:06.201714", "lvl": "debug", "msg": "start: 1.3 deploy-device-env (timeout 00:02:50) [common]"}
+- {"dt": "2023-03-17T14:14:06.201889", "lvl": "debug", "msg": "end: 1.3 deploy-device-env (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:14:06.202056", "lvl": "debug", "msg": "start: 1.4 download-retry (timeout 00:02:50) [common]"}
+- {"dt": "2023-03-17T14:14:06.202226", "lvl": "debug", "msg": "start: 1.4.1 http-download (timeout 00:02:50) [common]"}
+- {"dt": "2023-03-17T14:14:06.202511", "lvl": "info", "msg": "downloading https://builds.sirena.org.uk/d0be868c5a6e0dafb53d0ee9f0b9d66e40d963f6/x86_64/defconfig/bzImage"}
+- {"dt": "2023-03-17T14:14:06.202653", "lvl": "debug", "msg": "saving as /var/lib/lava/dispatcher/tmp/179325/deployimages-5lsl556a/kernel/bzImage"}
+- {"dt": "2023-03-17T14:14:06.202778", "lvl": "debug", "msg": "total size: 12518528 (11MB)"}
+- {"dt": "2023-03-17T14:14:06.202901", "lvl": "debug", "msg": "No compression specified"}
+- {"dt": "2023-03-17T14:14:06.492594", "lvl": "debug", "msg": "progress   0% (0MB)"}
+- {"dt": "2023-03-17T14:14:06.630034", "lvl": "debug", "msg": "progress   5% (0MB)"}
+- {"dt": "2023-03-17T14:14:06.667024", "lvl": "debug", "msg": "progress  10% (1MB)"}
+- {"dt": "2023-03-17T14:14:06.689087", "lvl": "debug", "msg": "progress  15% (1MB)"}
+- {"dt": "2023-03-17T14:14:06.705314", "lvl": "debug", "msg": "progress  20% (2MB)"}
+- {"dt": "2023-03-17T14:14:06.718494", "lvl": "debug", "msg": "progress  25% (3MB)"}
+- {"dt": "2023-03-17T14:14:06.728183", "lvl": "debug", "msg": "progress  30% (3MB)"}
+- {"dt": "2023-03-17T14:14:06.736517", "lvl": "debug", "msg": "progress  35% (4MB)"}
+- {"dt": "2023-03-17T14:14:06.744321", "lvl": "debug", "msg": "progress  40% (4MB)"}
+- {"dt": "2023-03-17T14:14:06.751286", "lvl": "debug", "msg": "progress  45% (5MB)"}
+- {"dt": "2023-03-17T14:14:06.758491", "lvl": "debug", "msg": "progress  50% (6MB)"}
+- {"dt": "2023-03-17T14:14:06.768036", "lvl": "debug", "msg": "progress  55% (6MB)"}
+- {"dt": "2023-03-17T14:14:06.776756", "lvl": "debug", "msg": "progress  60% (7MB)"}
+- {"dt": "2023-03-17T14:14:06.784268", "lvl": "debug", "msg": "progress  65% (7MB)"}
+- {"dt": "2023-03-17T14:14:06.791129", "lvl": "debug", "msg": "progress  70% (8MB)"}
+- {"dt": "2023-03-17T14:14:06.798163", "lvl": "debug", "msg": "progress  75% (8MB)"}
+- {"dt": "2023-03-17T14:14:06.807856", "lvl": "debug", "msg": "progress  80% (9MB)"}
+- {"dt": "2023-03-17T14:14:06.816279", "lvl": "debug", "msg": "progress  85% (10MB)"}
+- {"dt": "2023-03-17T14:14:06.823771", "lvl": "debug", "msg": "progress  90% (10MB)"}
+- {"dt": "2023-03-17T14:14:06.830726", "lvl": "debug", "msg": "progress  95% (11MB)"}
+- {"dt": "2023-03-17T14:14:06.837710", "lvl": "debug", "msg": "progress 100% (11MB)"}
+- {"dt": "2023-03-17T14:14:06.837915", "lvl": "info", "msg": "11MB downloaded in 0.64s (18.80MB/s)"}
+- {"dt": "2023-03-17T14:14:06.838184", "lvl": "debug", "msg": "end: 1.4.1 http-download (duration 00:00:01) [common]"}
+- {"dt": "2023-03-17T14:14:06.838337", "lvl": "results", "msg": {"case": "http-download", "definition": "lava", "duration": "0.64", "extra": {"label": "kernel", "md5sum": "988a312c06ce8c1e3f18d6d865809418", "sha256sum": "0aa1f41f23cf17314a621630f8db7142ffb5a43af0d7f4492e6e9ad5101f186e", "sha512sum": "49a7e8be543cf65f469c3c7da39e3ed232420e044e758d3685d0115e7d9c3f998e6e394ee6879c8e5de7210e97a7894e8828f704e8546b442738202afdc2fdda", "size": ! "12518528"}, "level": "1.4.1", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:14:06.838676", "lvl": "debug", "msg": "end: 1.4 download-retry (duration 00:00:01) [common]"}
+- {"dt": "2023-03-17T14:14:06.838836", "lvl": "debug", "msg": "start: 1.5 download-retry (timeout 00:02:49) [common]"}
+- {"dt": "2023-03-17T14:14:06.838993", "lvl": "debug", "msg": "start: 1.5.1 http-download (timeout 00:02:49) [common]"}
+- {"dt": "2023-03-17T14:14:06.839216", "lvl": "debug", "msg": "Not decompressing ramdisk as can be used compressed."}
+- {"dt": "2023-03-17T14:14:06.839375", "lvl": "info", "msg": "downloading https://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz"}
+- {"dt": "2023-03-17T14:14:06.839496", "lvl": "debug", "msg": "saving as /var/lib/lava/dispatcher/tmp/179325/deployimages-5lsl556a/ramdisk/rootfs.cpio.gz"}
+- {"dt": "2023-03-17T14:14:06.839614", "lvl": "debug", "msg": "total size: 8423992 (8MB)"}
+- {"dt": "2023-03-17T14:14:06.839731", "lvl": "debug", "msg": "No compression specified"}
+- {"dt": "2023-03-17T14:14:07.370191", "lvl": "debug", "msg": "progress   0% (0MB)"}
+- {"dt": "2023-03-17T14:14:07.767255", "lvl": "debug", "msg": "progress   5% (0MB)"}
+- {"dt": "2023-03-17T14:14:07.943665", "lvl": "debug", "msg": "progress  10% (0MB)"}
+- {"dt": "2023-03-17T14:14:08.079144", "lvl": "debug", "msg": "progress  15% (1MB)"}
+- {"dt": "2023-03-17T14:14:08.120330", "lvl": "debug", "msg": "progress  20% (1MB)"}
+- {"dt": "2023-03-17T14:14:08.254825", "lvl": "debug", "msg": "progress  25% (2MB)"}
+- {"dt": "2023-03-17T14:14:08.259271", "lvl": "debug", "msg": "progress  30% (2MB)"}
+- {"dt": "2023-03-17T14:14:08.263150", "lvl": "debug", "msg": "progress  35% (2MB)"}
+- {"dt": "2023-03-17T14:14:08.296796", "lvl": "debug", "msg": "progress  40% (3MB)"}
+- {"dt": "2023-03-17T14:14:08.429265", "lvl": "debug", "msg": "progress  45% (3MB)"}
+- {"dt": "2023-03-17T14:14:08.433402", "lvl": "debug", "msg": "progress  50% (4MB)"}
+- {"dt": "2023-03-17T14:14:08.437501", "lvl": "debug", "msg": "progress  55% (4MB)"}
+- {"dt": "2023-03-17T14:14:08.441587", "lvl": "debug", "msg": "progress  60% (4MB)"}
+- {"dt": "2023-03-17T14:14:08.620328", "lvl": "debug", "msg": "progress  65% (5MB)"}
+- {"dt": "2023-03-17T14:14:08.623987", "lvl": "debug", "msg": "progress  70% (5MB)"}
+- {"dt": "2023-03-17T14:14:08.627626", "lvl": "debug", "msg": "progress  75% (6MB)"}
+- {"dt": "2023-03-17T14:14:08.631322", "lvl": "debug", "msg": "progress  80% (6MB)"}
+- {"dt": "2023-03-17T14:14:08.634984", "lvl": "debug", "msg": "progress  85% (6MB)"}
+- {"dt": "2023-03-17T14:14:08.638603", "lvl": "debug", "msg": "progress  90% (7MB)"}
+- {"dt": "2023-03-17T14:14:08.642278", "lvl": "debug", "msg": "progress  95% (7MB)"}
+- {"dt": "2023-03-17T14:14:08.801352", "lvl": "debug", "msg": "progress 100% (8MB)"}
+- {"dt": "2023-03-17T14:14:08.801569", "lvl": "info", "msg": "8MB downloaded in 1.96s (4.09MB/s)"}
+- {"dt": "2023-03-17T14:14:08.801843", "lvl": "debug", "msg": "end: 1.5.1 http-download (duration 00:00:02) [common]"}
+- {"dt": "2023-03-17T14:14:08.801986", "lvl": "results", "msg": {"case": "http-download", "definition": "lava", "duration": "1.96", "extra": {"label": "ramdisk", "md5sum": "6b39d4c819fb355517232c3aff70c1d7", "sha256sum": "281aafe97509a46947c196a7adea851393ad323f88efd1f8ef375095e366ddb1", "sha512sum": "eae9da69c87903010fda8fa525f8dd8ed7486e522ff7a6cd459506a4a7b10d7c3acf040d2568e39187da2bc222656a4510c059dd0ea068bf26440868297e8a3c", "size": ! "8423992"}, "level": "1.5.1", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:14:08.802313", "lvl": "debug", "msg": "end: 1.5 download-retry (duration 00:00:02) [common]"}
+- {"dt": "2023-03-17T14:14:08.802478", "lvl": "info", "msg": "end: 1 deployimages (duration 00:00:13) [common]"}
+- {"dt": "2023-03-17T14:14:08.802637", "lvl": "info", "msg": "start: 2 boot-image-retry (timeout 00:05:00) [common]"}
+- {"dt": "2023-03-17T14:14:08.802793", "lvl": "debug", "msg": "start: 2.1 boot-qemu-image (timeout 00:05:00) [common]"}
+- {"dt": "2023-03-17T14:14:08.802953", "lvl": "debug", "msg": "start: 2.1.1 execute-qemu (timeout 00:05:00) [common]"}
+- {"dt": "2023-03-17T14:14:08.803293", "lvl": "info", "msg": "Extending command line for qcow2 test overlay"}
+- {"dt": "2023-03-17T14:14:08.803546", "lvl": "info", "msg": "Boot command: /usr/bin/qemu-system-x86_64 -nographic -net nic,model=virtio,macaddr=52:54:00:12:34:58 -net user -m 512 -monitor none -kernel /var/lib/lava/dispatcher/tmp/179325/deployimages-5lsl556a/kernel/bzImage -append \"console=ttyS0,115200 root=/dev/ram0 debug verbose console_msg_format=syslog earlycon\" -initrd /var/lib/lava/dispatcher/tmp/179325/deployimages-5lsl556a/ramdisk/rootfs.cpio.gz -drive format=qcow2,file=/var/lib/lava/dispatcher/tmp/179325/apply-overlay-guest-ivovzein/lava-guest.qcow2,media=disk,if=ide,id=lavatest"}
+- {"dt": "2023-03-17T14:14:08.946925", "lvl": "debug", "msg": "started a shell command"}
+- {"dt": "2023-03-17T14:14:08.947449", "lvl": "debug", "msg": "end: 2.1.1 execute-qemu (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:14:08.947606", "lvl": "results", "msg": {"case": "execute-qemu", "definition": "lava", "duration": "0.14", "extra": {"host_arch": "amd64", "job_arch": "x86_64", "qemu_version": "1:7.2+dfsg-1~bpo11+2"}, "level": "2.1.1", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:14:08.947929", "lvl": "debug", "msg": "end: 2.1 boot-qemu-image (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:14:08.948097", "lvl": "debug", "msg": "start: 2.2 auto-login-action (timeout 00:05:00) [common]"}
+- {"dt": "2023-03-17T14:14:08.948273", "lvl": "debug", "msg": "Setting prompt string to ['Linux version [0-9]']"}
+- {"dt": "2023-03-17T14:14:08.948410", "lvl": "debug", "msg": "auto-login-action: Wait for prompt ['Linux version [0-9]'] (timeout 00:05:00)"}
+- {"dt": "2023-03-17T14:14:09.056934", "lvl": "target", "msg": "c[?7l[2J[0mSeaBIOS (version 1.14.0-2)"}
+- {"dt": "2023-03-17T14:14:09.057192", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:09.057318", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:09.065684", "lvl": "target", "msg": "iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+1FF8F360+1FECF360 CA00"}
+- {"dt": "2023-03-17T14:14:09.082612", "lvl": "target", "msg": "Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               "}
+- {"dt": "2023-03-17T14:14:09.082810", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:09.082968", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:09.091161", "lvl": "target", "msg": "Booting from ROM..."}
+- {"dt": "2023-03-17T14:14:09.824482", "lvl": "debug", "msg": "start: 2.2.1 login-action (timeout 00:04:59) [common]"}
+- {"dt": "2023-03-17T14:14:09.824760", "lvl": "warning", "msg": "The string '/ #' does not look like a typical prompt and could match status messages instead. Please check the job log files and use a prompt string which matches the actual prompt string more closely."}
+- {"dt": "2023-03-17T14:14:09.824939", "lvl": "debug", "msg": "Setting prompt string to ['-\\\\[ cut here \\\\]', 'Unhandled fault', 'BUG: KCSAN:', 'BUG: KASAN:', 'BUG: KFENCE:', 'Oops(?: -|:)', 'WARNING:', '(kernel BUG at|BUG:)', 'invalid opcode:', 'Kernel panic - not syncing']"}
+- {"dt": "2023-03-17T14:14:09.825095", "lvl": "debug", "msg": "Using line separator: #'\\n'#"}
+- {"dt": "2023-03-17T14:14:09.825217", "lvl": "debug", "msg": "No login prompt set."}
+- {"dt": "2023-03-17T14:14:09.825343", "lvl": "info", "msg": "Parsing kernel messages"}
+- {"dt": "2023-03-17T14:14:09.825459", "lvl": "debug", "msg": ["-\\[ cut here \\]", "Unhandled fault", "BUG: KCSAN:", "BUG: KASAN:", "BUG: KFENCE:", "Oops(?: -|:)", "WARNING:", "(kernel BUG at|BUG:)", "invalid opcode:", "Kernel panic - not syncing", "/ #", "Login timed out", "Login incorrect"]}
+- {"dt": "2023-03-17T14:14:09.825699", "lvl": "debug", "msg": "[login-action] Waiting for messages, (timeout 00:04:59)"}
+- {"dt": "2023-03-17T14:14:09.826955", "lvl": "target", "msg": "early console in setup codc[?7l[2J<5>[    0.000000] Linux version 6.3.0-rc2-00167-gd0be868c5a6e (tuxmake@tuxmake) (x86_64-linux-gnu-gcc (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #3 SMP PREEMPT_DYNAMIC @1679058356"}
+- {"dt": "2023-03-17T14:14:09.827106", "lvl": "target", "msg": "<6>[    0.000000] Command line: console=ttyS0,115200 root=/dev/ram0 debug verbose console_msg_format=syslog earlycon"}
+- {"dt": "2023-03-17T14:14:09.827235", "lvl": "target", "msg": "<6>[    0.000000] x86/fpu: x87 FPU will use FXSAVE"}
+- {"dt": "2023-03-17T14:14:09.827354", "lvl": "target", "msg": "<6>[    0.000000] signal: max sigframe size: 1440"}
+- {"dt": "2023-03-17T14:14:09.827471", "lvl": "target", "msg": "<6>[    0.000000] BIOS-provided physical RAM map:"}
+- {"dt": "2023-03-17T14:14:09.827589", "lvl": "target", "msg": "<6>[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable"}
+- {"dt": "2023-03-17T14:14:09.827707", "lvl": "target", "msg": "<6>[    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved"}
+- {"dt": "2023-03-17T14:14:09.827823", "lvl": "target", "msg": "<6>[    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved"}
+- {"dt": "2023-03-17T14:14:09.827938", "lvl": "target", "msg": "<6>[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000001ffdffff] usable"}
+- {"dt": "2023-03-17T14:14:09.828053", "lvl": "target", "msg": "<6>[    0.000000] BIOS-e820: [mem 0x000000001ffe0000-0x000000001fffffff] reserved"}
+- {"dt": "2023-03-17T14:14:09.828168", "lvl": "target", "msg": "<6>[    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved"}
+- {"dt": "2023-03-17T14:14:09.828284", "lvl": "target", "msg": "<6>[    0.000000] BIOS-e820: [mem 0x000000fd00000000-0x000000ffffffffff] reserved"}
+- {"dt": "2023-03-17T14:14:09.828400", "lvl": "target", "msg": "<5>[    0.000000] random: crng init done"}
+- {"dt": "2023-03-17T14:14:09.828516", "lvl": "target", "msg": "<6>[    0.000000] NX (Execute Disable) protection: active"}
+- {"dt": "2023-03-17T14:14:09.828634", "lvl": "target", "msg": "<7>[    0.000000] e820: update [mem 0x00cec880-0x00cec88f] usable ==> usable"}
+- {"dt": "2023-03-17T14:14:09.828751", "lvl": "target", "msg": "<7>[    0.000000] e820: update [mem 0x00cec880-0x00cec88f] usable ==> usable"}
+- {"dt": "2023-03-17T14:14:09.828866", "lvl": "target", "msg": "<6>[    0.000000] extended physical RAM map:"}
+- {"dt": "2023-03-17T14:14:09.828981", "lvl": "target", "msg": "<6>[    0.000000] reserve setup_data: [mem 0x0000000000000000-0x000000000009fbff] usable"}
+- {"dt": "2023-03-17T14:14:09.829096", "lvl": "target", "msg": "<6>[    0.000000] reserve setup_data: [mem 0x000000000009fc00-0x000000000009ffff] reserved"}
+- {"dt": "2023-03-17T14:14:09.829212", "lvl": "target", "msg": "<6>[    0.000000] reserve setup_data: [mem 0x00000000000f0000-0x00000000000fffff] reserved"}
+- {"dt": "2023-03-17T14:14:09.829329", "lvl": "target", "msg": "<6>[    0.000000] reserve setup_data: [mem 0x0000000000100000-0x0000000000cec87f] usable"}
+- {"dt": "2023-03-17T14:14:09.829470", "lvl": "target", "msg": "<6>[    0.000000] reserve setup_data: [mem 0x0000000000cec880-0x0000000000cec88f] usable"}
+- {"dt": "2023-03-17T14:14:09.829595", "lvl": "target", "msg": "<6>[    0.000000] reserve setup_data: [mem 0x0000000000cec890-0x000000001ffdffff] usable"}
+- {"dt": "2023-03-17T14:14:09.829721", "lvl": "target", "msg": "<6>[    0.000000] reserve setup_data: [mem 0x000000001ffe0000-0x000000001fffffff] reserved"}
+- {"dt": "2023-03-17T14:14:09.829839", "lvl": "target", "msg": "<6>[    0.000000] reserve setup_data: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved"}
+- {"dt": "2023-03-17T14:14:09.830194", "lvl": "target", "msg": "<6>[    0.000000] reserve setup_data: [mem 0x000000fd00000000-0x000000ffffffffff] reserved"}
+- {"dt": "2023-03-17T14:14:09.830325", "lvl": "target", "msg": "<6>[    0.000000] SMBIOS 2.8 present."}
+- {"dt": "2023-03-17T14:14:09.830442", "lvl": "target", "msg": "<6>[    0.000000] DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.14.0-2 04/01/2014"}
+- {"dt": "2023-03-17T14:14:09.830559", "lvl": "target", "msg": "<6>[    0.000000] tsc: Fast TSC calibration using PIT"}
+- {"dt": "2023-03-17T14:14:09.830675", "lvl": "target", "msg": "<6>[    0.000000] tsc: Detected 3593.202 MHz processor"}
+- {"dt": "2023-03-17T14:14:09.830791", "lvl": "target", "msg": "<7>[    0.001000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved"}
+- {"dt": "2023-03-17T14:14:09.830907", "lvl": "target", "msg": "<7>[    0.001000] e820: remove [mem 0x000a0000-0x000fffff] usable"}
+- {"dt": "2023-03-17T14:14:09.831023", "lvl": "target", "msg": "<6>[    0.001000] last_pfn = 0x1ffe0 max_arch_pfn = 0x400000000"}
+- {"dt": "2023-03-17T14:14:09.831138", "lvl": "target", "msg": "<6>[    0.001000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  "}
+- {"dt": "2023-03-17T14:14:09.831255", "lvl": "target", "msg": "<6>[    0.001000] found SMP MP-table at [mem 0x000f5ce0-0x000f5cef]"}
+- {"dt": "2023-03-17T14:14:09.831370", "lvl": "target", "msg": "<6>[    0.001000] RAMDISK: [mem 0x1f7d7000-0x1ffdffff]"}
+- {"dt": "2023-03-17T14:14:09.831485", "lvl": "target", "msg": "<6>[    0.001000] ACPI: Early table checksum verification disabled"}
+- {"dt": "2023-03-17T14:14:09.831601", "lvl": "target", "msg": "<6>[    0.001000] ACPI: RSDP 0x00000000000F5B20 000014 (v00 BOCHS )"}
+- {"dt": "2023-03-17T14:14:09.831716", "lvl": "target", "msg": "<6>[    0.001000] ACPI: RSDT 0x000000001FFE1AC6 000034 (v01 BOCHS  BXPC     00000001 BXPC 00000001)"}
+- {"dt": "2023-03-17T14:14:09.831833", "lvl": "target", "msg": "<6>[    0.001000] ACPI: FACP 0x000000001FFE197A 000074 (v01 BOCHS  BXPC     00000001 BXPC 00000001)"}
+- {"dt": "2023-03-17T14:14:09.831950", "lvl": "target", "msg": "<6>[    0.001000] ACPI: DSDT 0x000000001FFE0040 00193A (v01 BOCHS  BXPC     00000001 BXPC 00000001)"}
+- {"dt": "2023-03-17T14:14:09.832065", "lvl": "target", "msg": "<6>[    0.001000] ACPI: FACS 0x000000001FFE0000 000040"}
+- {"dt": "2023-03-17T14:14:09.832180", "lvl": "target", "msg": "<6>[    0.001000] ACPI: APIC 0x000000001FFE19EE 000078 (v01 BOCHS  BXPC     00000001 BXPC 00000001)"}
+- {"dt": "2023-03-17T14:14:09.832295", "lvl": "target", "msg": "<6>[    0.001000] ACPI: HPET 0x000000001FFE1A66 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)"}
+- {"dt": "2023-03-17T14:14:09.832437", "lvl": "target", "msg": "<6>[    0.001000] ACPI: WAET 0x000000001FFE1A9E 000028 (v01 BOCHS  BXPC     00000001 BXPC 00000001)"}
+- {"dt": "2023-03-17T14:14:09.832558", "lvl": "target", "msg": "<6>[    0.001000] ACPI: Reserving FACP table memory at [mem 0x1ffe197a-0x1ffe19ed]"}
+- {"dt": "2023-03-17T14:14:09.832679", "lvl": "target", "msg": "<6>[    0.001000] ACPI: Reserving DSDT table memory at [mem 0x1ffe0040-0x1ffe1979]"}
+- {"dt": "2023-03-17T14:14:09.832795", "lvl": "target", "msg": "<6>[    0.001000] ACPI: Reserving FACS table memory at [mem 0x1ffe0000-0x1ffe003f]"}
+- {"dt": "2023-03-17T14:14:09.832911", "lvl": "target", "msg": "<6>[    0.001000] ACPI: Reserving APIC table memory at [mem 0x1ffe19ee-0x1ffe1a65]"}
+- {"dt": "2023-03-17T14:14:09.833026", "lvl": "target", "msg": "<6>[    0.001000] ACPI: Reserving HPET table memory at [mem 0x1ffe1a66-0x1ffe1a9d]"}
+- {"dt": "2023-03-17T14:14:09.833142", "lvl": "target", "msg": "<6>[    0.001000] ACPI: Reserving WAET table memory at [mem 0x1ffe1a9e-0x1ffe1ac5]"}
+- {"dt": "2023-03-17T14:14:09.833535", "lvl": "target", "msg": "<6>[    0.001000] No NUMA configuration found"}
+- {"dt": "2023-03-17T14:14:09.833670", "lvl": "target", "msg": "<6>[    0.001000] Faking a node at [mem 0x0000000000000000-0x000000001ffdffff]"}
+- {"dt": "2023-03-17T14:14:09.833789", "lvl": "target", "msg": "<6>[    0.001000] NODE_DATA(0) allocated [mem 0x1f7d3000-0x1f7d6fff]"}
+- {"dt": "2023-03-17T14:14:09.833905", "lvl": "target", "msg": "<6>[    0.001000] Zone ranges:"}
+- {"dt": "2023-03-17T14:14:09.834021", "lvl": "target", "msg": "<6>[    0.001000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]"}
+- {"dt": "2023-03-17T14:14:09.834138", "lvl": "target", "msg": "<6>[    0.001000]   DMA32    [mem 0x0000000001000000-0x000000001ffdffff]"}
+- {"dt": "2023-03-17T14:14:09.834253", "lvl": "target", "msg": "<6>[    0.001000]   Normal   empty"}
+- {"dt": "2023-03-17T14:14:09.834367", "lvl": "target", "msg": "<6>[    0.001000] Movable zone start for each node"}
+- {"dt": "2023-03-17T14:14:09.834484", "lvl": "target", "msg": "<6>[    0.001000] Early memory node ranges"}
+- {"dt": "2023-03-17T14:14:09.834599", "lvl": "target", "msg": "<6>[    0.001000]   node   0: [mem 0x0000000000001000-0x000000000009efff]"}
+- {"dt": "2023-03-17T14:14:09.834714", "lvl": "target", "msg": "<6>[    0.001000]   node   0: [mem 0x0000000000100000-0x000000001ffdffff]"}
+- {"dt": "2023-03-17T14:14:09.834830", "lvl": "target", "msg": "<6>[    0.001000] Initmem setup node 0 [mem 0x0000000000001000-0x000000001ffdffff]"}
+- {"dt": "2023-03-17T14:14:09.834945", "lvl": "target", "msg": "<6>[    0.001000] On node 0, zone DMA: 1 pages in unavailable ranges"}
+- {"dt": "2023-03-17T14:14:09.835061", "lvl": "target", "msg": "<6>[    0.001000] On node 0, zone DMA: 97 pages in unavailable ranges"}
+- {"dt": "2023-03-17T14:14:09.835176", "lvl": "target", "msg": "<6>[    0.001000] On node 0, zone DMA32: 32 pages in unavailable ranges"}
+- {"dt": "2023-03-17T14:14:09.835291", "lvl": "target", "msg": "<6>[    0.001000] ACPI: PM-Timer IO Port: 0x608"}
+- {"dt": "2023-03-17T14:14:09.835406", "lvl": "target", "msg": "<6>[    0.001000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])"}
+- {"dt": "2023-03-17T14:14:09.835521", "lvl": "target", "msg": "<6>[    0.001000] IOAPIC[0]: apic_id 0, version 32, address 0xfec00000, GSI 0-23"}
+- {"dt": "2023-03-17T14:14:09.835639", "lvl": "target", "msg": "<6>[    0.001000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)"}
+- {"dt": "2023-03-17T14:14:09.835755", "lvl": "target", "msg": "<6>[    0.001000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)"}
+- {"dt": "2023-03-17T14:14:09.835870", "lvl": "target", "msg": "<6>[    0.001000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)"}
+- {"dt": "2023-03-17T14:14:09.836013", "lvl": "target", "msg": "<6>[    0.001000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)"}
+- {"dt": "2023-03-17T14:14:09.836134", "lvl": "target", "msg": "<6>[    0.001000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)"}
+- {"dt": "2023-03-17T14:14:09.836249", "lvl": "target", "msg": "<6>[    0.001000] ACPI: Using ACPI (MADT) for SMP configuration information"}
+- {"dt": "2023-03-17T14:14:09.836365", "lvl": "target", "msg": "<6>[    0.001000] ACPI: HPET id: 0x8086a201 base: 0xfed00000"}
+- {"dt": "2023-03-17T14:14:09.836480", "lvl": "target", "msg": "<6>[    0.001000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs"}
+- {"dt": "2023-03-17T14:14:09.836595", "lvl": "target", "msg": "<6>[    0.001000] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]"}
+- {"dt": "2023-03-17T14:14:09.836711", "lvl": "target", "msg": "<6>[    0.001000] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]"}
+- {"dt": "2023-03-17T14:14:09.837105", "lvl": "target", "msg": "<6>[    0.001000] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]"}
+- {"dt": "2023-03-17T14:14:09.837235", "lvl": "target", "msg": "<6>[    0.001000] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]"}
+- {"dt": "2023-03-17T14:14:09.837352", "lvl": "target", "msg": "<6>[    0.001000] PM: hibernation: Registered nosave memory: [mem 0x00cec000-0x00cecfff]"}
+- {"dt": "2023-03-17T14:14:09.837473", "lvl": "target", "msg": "<6>[    0.001000] PM: hibernation: Registered nosave memory: [mem 0x00cec000-0x00cecfff]"}
+- {"dt": "2023-03-17T14:14:09.837665", "lvl": "target", "msg": "<6>[    0.001000] [mem 0x20000000-0xfffbffff] available for PCI devices"}
+- {"dt": "2023-03-17T14:14:09.837816", "lvl": "target", "msg": "<6>[    0.001000] Booting paravirtualized kernel on bare hardware"}
+- {"dt": "2023-03-17T14:14:09.837961", "lvl": "target", "msg": "<6>[    0.001000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns"}
+- {"dt": "2023-03-17T14:14:09.838107", "lvl": "target", "msg": "<6>[    0.001000] setup_percpu: NR_CPUS:64 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1"}
+- {"dt": "2023-03-17T14:14:09.838250", "lvl": "target", "msg": "<6>[    0.001000] percpu: Embedded 54 pages/cpu s182248 r8192 d30744 u2097152"}
+- {"dt": "2023-03-17T14:14:09.838396", "lvl": "target", "msg": "<7>[    0.001000] pcpu-alloc: s182248 r8192 d30744 u2097152 alloc=1*2097152"}
+- {"dt": "2023-03-17T14:14:09.838539", "lvl": "target", "msg": "<7>[    0.001000] pcpu-alloc: [0] 0 "}
+- {"dt": "2023-03-17T14:14:09.838682", "lvl": "target", "msg": "<6>[    0.001000] Fallback order for Node 0: 0 "}
+- {"dt": "2023-03-17T14:14:09.838827", "lvl": "target", "msg": "<6>[    0.001000] Built 1 zonelists, mobility grouping on.  Total pages: 128735"}
+- {"dt": "2023-03-17T14:14:09.838971", "lvl": "target", "msg": "<6>[    0.001000] Policy zone: DMA32"}
+- {"dt": "2023-03-17T14:14:09.839115", "lvl": "target", "msg": "<5>[    0.001000] Kernel command line: console=ttyS0,115200 root=/dev/ram0 debug verbose console_msg_format=syslog earlycon"}
+- {"dt": "2023-03-17T14:14:09.839259", "lvl": "target", "msg": "<5>[    0.001000] Unknown kernel command line parameters \\\"verbose\\\", will be passed to user space."}
+- {"dt": "2023-03-17T14:14:09.839406", "lvl": "target", "msg": "<6>[    0.001000] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:09.839552", "lvl": "target", "msg": "<6>[    0.001000] Inode-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:09.839695", "lvl": "target", "msg": "<6>[    0.001000] mem auto-init: stack:all(zero), heap alloc:off, heap free:off"}
+- {"dt": "2023-03-17T14:14:09.839875", "lvl": "target", "msg": "<6>[    0.001000] Memory: 466424K/523768K available (18432K kernel code, 2717K rwdata, 6260K rodata, 2572K init, 1696K bss, 57084K reserved, 0K cma-reserved)"}
+- {"dt": "2023-03-17T14:14:09.840016", "lvl": "target", "msg": "<6>[    0.001000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1"}
+- {"dt": "2023-03-17T14:14:09.840163", "lvl": "target", "msg": "<6>[    0.001000] Dynamic Preempt: voluntary"}
+- {"dt": "2023-03-17T14:14:09.840306", "lvl": "target", "msg": "<6>[    0.001000] rcu: Preemptible hierarchical RCU implementation."}
+- {"dt": "2023-03-17T14:14:09.840451", "lvl": "target", "msg": "<6>[    0.001000] rcu: \tRCU event tracing is enabled."}
+- {"dt": "2023-03-17T14:14:09.840867", "lvl": "target", "msg": "<6>[    0.001000] rcu: \tRCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=1."}
+- {"dt": "2023-03-17T14:14:09.841011", "lvl": "target", "msg": "<6>[    0.001000] \tTrampoline variant of Tasks RCU enabled."}
+- {"dt": "2023-03-17T14:14:09.841160", "lvl": "target", "msg": "<6>[    0.001000] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies."}
+- {"dt": "2023-03-17T14:14:09.841306", "lvl": "target", "msg": "<6>[    0.001000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1"}
+- {"dt": "2023-03-17T14:14:09.841450", "lvl": "target", "msg": "<6>[    0.001000] NR_IRQS: 4352, nr_irqs: 256, preallocated irqs: 16"}
+- {"dt": "2023-03-17T14:14:09.841594", "lvl": "target", "msg": "<6>[    0.001000] rcu: srcu_init: Setting srcu_struct sizes based on contention."}
+- {"dt": "2023-03-17T14:14:09.841762", "lvl": "target", "msg": "<6>[    0.001000] Console: colour VGA+ 80x25"}
+- {"dt": "2023-03-17T14:14:09.841913", "lvl": "target", "msg": "<6>[    0.001000] printk: console [ttyS0] enabled"}
+- {"dt": "2023-03-17T14:14:09.842057", "lvl": "target", "msg": "<6>[    0.001000] ACPI: Core revision 20221020"}
+- {"dt": "2023-03-17T14:14:09.844184", "lvl": "target", "msg": "<6>[    0.001000] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns"}
+- {"dt": "2023-03-17T14:14:09.848685", "lvl": "target", "msg": "<6>[    0.001000] APIC: Switch to symmetric I/O mode setup"}
+- {"dt": "2023-03-17T14:14:09.851831", "lvl": "target", "msg": "<6>[    0.001000] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1"}
+- {"dt": "2023-03-17T14:14:09.857346", "lvl": "target", "msg": "<6>[    0.001000] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x33cb3d05594, max_idle_ns: 440795211682 ns"}
+- {"dt": "2023-03-17T14:14:09.857855", "lvl": "target", "msg": "<6>[    0.138155] Calibrating delay loop (skipped), value calculated using timer frequency.. 7186.40 BogoMIPS (lpj=3593202)"}
+- {"dt": "2023-03-17T14:14:09.858260", "lvl": "target", "msg": "<6>[    0.139145] pid_max: default: 32768 minimum: 301"}
+- {"dt": "2023-03-17T14:14:09.859326", "lvl": "target", "msg": "<6>[    0.140165] LSM: initializing lsm=capability,integrity,selinux"}
+- {"dt": "2023-03-17T14:14:09.859489", "lvl": "target", "msg": "<6>[    0.140552] SELinux:  Initializing."}
+- {"dt": "2023-03-17T14:14:09.860941", "lvl": "target", "msg": "<6>[    0.141820] Mount-cache hash table entries: 1024 (order: 1, 8192 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:09.861106", "lvl": "target", "msg": "<6>[    0.142013] Mountpoint-cache hash table entries: 1024 (order: 1, 8192 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:09.875540", "lvl": "target", "msg": "<6>[    0.156432] process: using AMD E400 aware idle routine"}
+- {"dt": "2023-03-17T14:14:09.875705", "lvl": "target", "msg": "<6>[    0.156689] Last level iTLB entries: 4KB 512, 2MB 255, 4MB 127"}
+- {"dt": "2023-03-17T14:14:09.875877", "lvl": "target", "msg": "<6>[    0.156829] Last level dTLB entries: 4KB 512, 2MB 255, 4MB 127, 1GB 0"}
+- {"dt": "2023-03-17T14:14:09.876172", "lvl": "target", "msg": "<6>[    0.157153] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization"}
+- {"dt": "2023-03-17T14:14:09.876367", "lvl": "target", "msg": "<6>[    0.157419] Spectre V2 : Mitigation: Retpolines"}
+- {"dt": "2023-03-17T14:14:09.876529", "lvl": "target", "msg": "<6>[    0.157521] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch"}
+- {"dt": "2023-03-17T14:14:09.876700", "lvl": "target", "msg": "<6>[    0.157698] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT"}
+- {"dt": "2023-03-17T14:14:10.202777", "lvl": "target", "msg": "<6>[    0.483132] Freeing SMP alternatives memory: 48K"}
+- {"dt": "2023-03-17T14:14:10.316268", "lvl": "target", "msg": "<6>[    0.596919] smpboot: CPU0: AMD QEMU Virtual CPU version 2.5+ (family: 0xf, model: 0x6b, stepping: 0x1)"}
+- {"dt": "2023-03-17T14:14:10.321684", "lvl": "target", "msg": "<6>[    0.601624] cblist_init_generic: Setting adjustable number of callback queues."}
+- {"dt": "2023-03-17T14:14:10.321885", "lvl": "target", "msg": "<6>[    0.602003] cblist_init_generic: Setting shift to 0 and lim to 1."}
+- {"dt": "2023-03-17T14:14:10.322591", "lvl": "target", "msg": "<6>[    0.602389] Performance Events: PMU not available due to virtualization, using software events only."}
+- {"dt": "2023-03-17T14:14:10.324175", "lvl": "target", "msg": "<6>[    0.604255] rcu: Hierarchical SRCU implementation."}
+- {"dt": "2023-03-17T14:14:10.324347", "lvl": "target", "msg": "<6>[    0.604378] rcu: \tMax phase no-delay instances is 400."}
+- {"dt": "2023-03-17T14:14:10.329313", "lvl": "target", "msg": "<6>[    0.609403] smp: Bringing up secondary CPUs ..."}
+- {"dt": "2023-03-17T14:14:10.329492", "lvl": "target", "msg": "<6>[    0.609572] smp: Brought up 1 node, 1 CPU"}
+- {"dt": "2023-03-17T14:14:10.329698", "lvl": "target", "msg": "<6>[    0.609678] smpboot: Max logical packages: 1"}
+- {"dt": "2023-03-17T14:14:10.329843", "lvl": "target", "msg": "<6>[    0.609835] smpboot: Total of 1 processors activated (7186.40 BogoMIPS)"}
+- {"dt": "2023-03-17T14:14:10.340726", "lvl": "target", "msg": "<6>[    0.620813] devtmpfs: initialized"}
+- {"dt": "2023-03-17T14:14:10.347421", "lvl": "target", "msg": "<6>[    0.627456] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns"}
+- {"dt": "2023-03-17T14:14:10.347625", "lvl": "target", "msg": "<6>[    0.627820] futex hash table entries: 256 (order: 2, 16384 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:10.350362", "lvl": "target", "msg": "<6>[    0.630189] PM: RTC time: 14:14:09, date: 2023-03-17"}
+- {"dt": "2023-03-17T14:14:10.353850", "lvl": "target", "msg": "<6>[    0.633921] NET: Registered PF_NETLINK/PF_ROUTE protocol family"}
+- {"dt": "2023-03-17T14:14:10.356954", "lvl": "target", "msg": "<6>[    0.637044] audit: initializing netlink subsys (disabled)"}
+- {"dt": "2023-03-17T14:14:10.361270", "lvl": "target", "msg": "<5>[    0.641328] audit: type=2000 audit(1679062448.510:1): state=initialized audit_enabled=0 res=1"}
+- {"dt": "2023-03-17T14:14:10.361717", "lvl": "target", "msg": "<6>[    0.641917] thermal_sys: Registered thermal governor 'step_wise'"}
+- {"dt": "2023-03-17T14:14:10.363708", "lvl": "target", "msg": "<6>[    0.641990] thermal_sys: Registered thermal governor 'user_space'"}
+- {"dt": "2023-03-17T14:14:10.363897", "lvl": "target", "msg": "<6>[    0.643790] cpuidle: using governor menu"}
+- {"dt": "2023-03-17T14:14:10.366804", "lvl": "target", "msg": "<6>[    0.646934] PCI: Using configuration type 1 for base access"}
+- {"dt": "2023-03-17T14:14:10.369441", "lvl": "target", "msg": "<6>[    0.649578] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible."}
+- {"dt": "2023-03-17T14:14:11.085108", "lvl": "target", "msg": "<6>[    1.365177] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages"}
+- {"dt": "2023-03-17T14:14:11.085295", "lvl": "target", "msg": "<6>[    1.365335] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page"}
+- {"dt": "2023-03-17T14:14:11.090158", "lvl": "target", "msg": "<6>[    1.370241] ACPI: Added _OSI(Module Device)"}
+- {"dt": "2023-03-17T14:14:11.090333", "lvl": "target", "msg": "<6>[    1.370350] ACPI: Added _OSI(Processor Device)"}
+- {"dt": "2023-03-17T14:14:11.090498", "lvl": "target", "msg": "<6>[    1.370447] ACPI: Added _OSI(3.0 _SCP Extensions)"}
+- {"dt": "2023-03-17T14:14:11.090683", "lvl": "target", "msg": "<6>[    1.370549] ACPI: Added _OSI(Processor Aggregator Device)"}
+- {"dt": "2023-03-17T14:14:11.102594", "lvl": "target", "msg": "<6>[    1.382663] ACPI: 1 ACPI AML tables successfully acquired and loaded"}
+- {"dt": "2023-03-17T14:14:11.114514", "lvl": "target", "msg": "<6>[    1.394602] ACPI: Interpreter enabled"}
+- {"dt": "2023-03-17T14:14:11.115492", "lvl": "target", "msg": "<6>[    1.395562] ACPI: PM: (supports S0 S3 S4 S5)"}
+- {"dt": "2023-03-17T14:14:11.115664", "lvl": "target", "msg": "<6>[    1.395676] ACPI: Using IOAPIC for interrupt routing"}
+- {"dt": "2023-03-17T14:14:11.115859", "lvl": "target", "msg": "<6>[    1.396099] PCI: Using host bridge windows from ACPI; if necessary, use \\\"pci=nocrs\\\" and report a bug"}
+- {"dt": "2023-03-17T14:14:11.116031", "lvl": "target", "msg": "<6>[    1.396278] PCI: Using E820 reservations for host bridge windows"}
+- {"dt": "2023-03-17T14:14:11.117277", "lvl": "target", "msg": "<6>[    1.397359] ACPI: Enabled 2 GPEs in block 00 to 0F"}
+- {"dt": "2023-03-17T14:14:11.141177", "lvl": "target", "msg": "<6>[    1.421036] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])"}
+- {"dt": "2023-03-17T14:14:11.141632", "lvl": "target", "msg": "<6>[    1.421717] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]"}
+- {"dt": "2023-03-17T14:14:11.141870", "lvl": "target", "msg": "<6>[    1.422091] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]"}
+- {"dt": "2023-03-17T14:14:11.142930", "lvl": "target", "msg": "<4>[    1.423013] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge"}
+- {"dt": "2023-03-17T14:14:11.145681", "lvl": "target", "msg": "<6>[    1.425763] PCI host bridge to bus 0000:00"}
+- {"dt": "2023-03-17T14:14:11.145882", "lvl": "target", "msg": "<6>[    1.426008] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]"}
+- {"dt": "2023-03-17T14:14:11.146074", "lvl": "target", "msg": "<6>[    1.426239] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]"}
+- {"dt": "2023-03-17T14:14:11.146250", "lvl": "target", "msg": "<6>[    1.426388] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]"}
+- {"dt": "2023-03-17T14:14:11.146420", "lvl": "target", "msg": "<6>[    1.426574] pci_bus 0000:00: root bus resource [mem 0x20000000-0xfebfffff window]"}
+- {"dt": "2023-03-17T14:14:11.146588", "lvl": "target", "msg": "<6>[    1.426709] pci_bus 0000:00: root bus resource [mem 0x100000000-0x17fffffff window]"}
+- {"dt": "2023-03-17T14:14:11.146754", "lvl": "target", "msg": "<6>[    1.427011] pci_bus 0000:00: root bus resource [bus 00-ff]"}
+- {"dt": "2023-03-17T14:14:11.148219", "lvl": "target", "msg": "<6>[    1.428354] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000"}
+- {"dt": "2023-03-17T14:14:11.154666", "lvl": "target", "msg": "<6>[    1.434749] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100"}
+- {"dt": "2023-03-17T14:14:11.157273", "lvl": "target", "msg": "<6>[    1.437359] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180"}
+- {"dt": "2023-03-17T14:14:11.158856", "lvl": "target", "msg": "<6>[    1.438856] pci 0000:00:01.1: reg 0x20: [io  0xc020-0xc02f]"}
+- {"dt": "2023-03-17T14:14:11.159406", "lvl": "target", "msg": "<6>[    1.439531] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]"}
+- {"dt": "2023-03-17T14:14:11.159583", "lvl": "target", "msg": "<6>[    1.439707] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]"}
+- {"dt": "2023-03-17T14:14:11.159773", "lvl": "target", "msg": "<6>[    1.440016] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]"}
+- {"dt": "2023-03-17T14:14:11.159938", "lvl": "target", "msg": "<6>[    1.440158] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]"}
+- {"dt": "2023-03-17T14:14:11.160346", "lvl": "target", "msg": "<6>[    1.440620] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000"}
+- {"dt": "2023-03-17T14:14:11.160782", "lvl": "target", "msg": "<6>[    1.441058] pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI"}
+- {"dt": "2023-03-17T14:14:11.160945", "lvl": "target", "msg": "<6>[    1.441223] pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB"}
+- {"dt": "2023-03-17T14:14:11.161364", "lvl": "target", "msg": "<6>[    1.441623] pci 0000:00:02.0: [1234:1111] type 00 class 0x030000"}
+- {"dt": "2023-03-17T14:14:11.162177", "lvl": "target", "msg": "<6>[    1.442232] pci 0000:00:02.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]"}
+- {"dt": "2023-03-17T14:14:11.163235", "lvl": "target", "msg": "<6>[    1.443217] pci 0000:00:02.0: reg 0x18: [mem 0xfebd0000-0xfebd0fff]"}
+- {"dt": "2023-03-17T14:14:11.165166", "lvl": "target", "msg": "<6>[    1.445209] pci 0000:00:02.0: reg 0x30: [mem 0xfebc0000-0xfebcffff pref]"}
+- {"dt": "2023-03-17T14:14:11.165347", "lvl": "target", "msg": "<6>[    1.445518] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]"}
+- {"dt": "2023-03-17T14:14:11.169409", "lvl": "target", "msg": "<6>[    1.449488] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000"}
+- {"dt": "2023-03-17T14:14:11.170113", "lvl": "target", "msg": "<6>[    1.450002] pci 0000:00:03.0: reg 0x10: [io  0xc000-0xc01f]"}
+- {"dt": "2023-03-17T14:14:11.170796", "lvl": "target", "msg": "<6>[    1.450628] pci 0000:00:03.0: reg 0x14: [mem 0xfebd1000-0xfebd1fff]"}
+- {"dt": "2023-03-17T14:14:11.172555", "lvl": "target", "msg": "<6>[    1.452581] pci 0000:00:03.0: reg 0x20: [mem 0xfe000000-0xfe003fff 64bit pref]"}
+- {"dt": "2023-03-17T14:14:11.173334", "lvl": "target", "msg": "<6>[    1.453294] pci 0000:00:03.0: reg 0x30: [mem 0xfeb80000-0xfebbffff pref]"}
+- {"dt": "2023-03-17T14:14:11.178728", "lvl": "target", "msg": "<6>[    1.458867] ACPI: PCI: Interrupt link LNKA configured for IRQ 10"}
+- {"dt": "2023-03-17T14:14:11.179150", "lvl": "target", "msg": "<6>[    1.459421] ACPI: PCI: Interrupt link LNKB configured for IRQ 10"}
+- {"dt": "2023-03-17T14:14:11.179557", "lvl": "target", "msg": "<6>[    1.459837] ACPI: PCI: Interrupt link LNKC configured for IRQ 11"}
+- {"dt": "2023-03-17T14:14:11.180991", "lvl": "target", "msg": "<6>[    1.461132] ACPI: PCI: Interrupt link LNKD configured for IRQ 11"}
+- {"dt": "2023-03-17T14:14:11.181153", "lvl": "target", "msg": "<6>[    1.461406] ACPI: PCI: Interrupt link LNKS configured for IRQ 9"}
+- {"dt": "2023-03-17T14:14:11.183485", "lvl": "target", "msg": "<6>[    1.463608] iommu: Default domain type: Translated "}
+- {"dt": "2023-03-17T14:14:11.183627", "lvl": "target", "msg": "<6>[    1.463739] iommu: DMA domain TLB invalidation policy: lazy mode "}
+- {"dt": "2023-03-17T14:14:11.184750", "lvl": "target", "msg": "<5>[    1.464881] SCSI subsystem initialized"}
+- {"dt": "2023-03-17T14:14:11.185512", "lvl": "target", "msg": "<7>[    1.465616] libata version 3.00 loaded."}
+- {"dt": "2023-03-17T14:14:11.186187", "lvl": "target", "msg": "<6>[    1.466306] ACPI: bus type USB registered"}
+- {"dt": "2023-03-17T14:14:11.186350", "lvl": "target", "msg": "<6>[    1.466613] usbcore: registered new interface driver usbfs"}
+- {"dt": "2023-03-17T14:14:11.186766", "lvl": "target", "msg": "<6>[    1.466909] usbcore: registered new interface driver hub"}
+- {"dt": "2023-03-17T14:14:11.186927", "lvl": "target", "msg": "<6>[    1.467106] usbcore: registered new device driver usb"}
+- {"dt": "2023-03-17T14:14:11.187337", "lvl": "target", "msg": "<6>[    1.467512] pps_core: LinuxPPS API ver. 1 registered"}
+- {"dt": "2023-03-17T14:14:11.187499", "lvl": "target", "msg": "<6>[    1.467610] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>"}
+- {"dt": "2023-03-17T14:14:11.187667", "lvl": "target", "msg": "<6>[    1.467847] PTP clock support registered"}
+- {"dt": "2023-03-17T14:14:11.189173", "lvl": "target", "msg": "<6>[    1.469306] Advanced Linux Sound Architecture Driver Initialized."}
+- {"dt": "2023-03-17T14:14:11.197861", "lvl": "target", "msg": "<6>[    1.477967] NetLabel: Initializing"}
+- {"dt": "2023-03-17T14:14:11.198002", "lvl": "target", "msg": "<6>[    1.478065] NetLabel:  domain hash size = 128"}
+- {"dt": "2023-03-17T14:14:11.198150", "lvl": "target", "msg": "<6>[    1.478148] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO"}
+- {"dt": "2023-03-17T14:14:11.198927", "lvl": "target", "msg": "<6>[    1.479065] NetLabel:  unlabeled traffic allowed by default"}
+- {"dt": "2023-03-17T14:14:11.202407", "lvl": "target", "msg": "<6>[    1.482552] PCI: Using ACPI for IRQ routing"}
+- {"dt": "2023-03-17T14:14:11.202570", "lvl": "target", "msg": "<7>[    1.482741] PCI: pci_cache_line_size set to 64 bytes"}
+- {"dt": "2023-03-17T14:14:11.202970", "lvl": "target", "msg": "<7>[    1.483175] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]"}
+- {"dt": "2023-03-17T14:14:11.203171", "lvl": "target", "msg": "<7>[    1.483446] e820: reserve RAM buffer [mem 0x00cec880-0x00cfffff]"}
+- {"dt": "2023-03-17T14:14:11.203328", "lvl": "target", "msg": "<7>[    1.483589] e820: reserve RAM buffer [mem 0x1ffe0000-0x1fffffff]"}
+- {"dt": "2023-03-17T14:14:11.204238", "lvl": "target", "msg": "<6>[    1.484371] pci 0000:00:02.0: vgaarb: setting as boot VGA device"}
+- {"dt": "2023-03-17T14:14:11.204402", "lvl": "target", "msg": "<6>[    1.484538] pci 0000:00:02.0: vgaarb: bridge control possible"}
+- {"dt": "2023-03-17T14:14:11.204572", "lvl": "target", "msg": "<6>[    1.484702] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none"}
+- {"dt": "2023-03-17T14:14:11.204712", "lvl": "target", "msg": "<6>[    1.484869] vgaarb: loaded"}
+- {"dt": "2023-03-17T14:14:11.205541", "lvl": "target", "msg": "<6>[    1.485682] hpet: 3 channels of 0 reserved for per-cpu timers"}
+- {"dt": "2023-03-17T14:14:11.205796", "lvl": "target", "msg": "<6>[    1.486012] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0"}
+- {"dt": "2023-03-17T14:14:11.205958", "lvl": "target", "msg": "<6>[    1.486211] hpet0: 3 comparators, 64-bit 100.000000 MHz counter"}
+- {"dt": "2023-03-17T14:14:11.210219", "lvl": "target", "msg": "<6>[    1.490357] clocksource: Switched to clocksource tsc-early"}
+- {"dt": "2023-03-17T14:14:11.285378", "lvl": "target", "msg": "<5>[    1.565254] VFS: Disk quotas dquot_6.6.0"}
+- {"dt": "2023-03-17T14:14:11.285643", "lvl": "target", "msg": "<6>[    1.565499] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)"}
+- {"dt": "2023-03-17T14:14:11.287190", "lvl": "target", "msg": "<6>[    1.567176] pnp: PnP ACPI init"}
+- {"dt": "2023-03-17T14:14:11.290576", "lvl": "target", "msg": "<7>[    1.570516] pnp 00:02: [dma 2]"}
+- {"dt": "2023-03-17T14:14:11.291958", "lvl": "target", "msg": "<6>[    1.571947] pnp: PnP ACPI: found 6 devices"}
+- {"dt": "2023-03-17T14:14:11.306672", "lvl": "target", "msg": "<6>[    1.586648] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns"}
+- {"dt": "2023-03-17T14:14:11.307066", "lvl": "target", "msg": "<6>[    1.587217] NET: Registered PF_INET protocol family"}
+- {"dt": "2023-03-17T14:14:11.308207", "lvl": "target", "msg": "<6>[    1.588194] IP idents hash table entries: 8192 (order: 4, 65536 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:11.313608", "lvl": "target", "msg": "<6>[    1.593588] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:11.313798", "lvl": "target", "msg": "<6>[    1.593866] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:11.314016", "lvl": "target", "msg": "<6>[    1.594110] TCP established hash table entries: 4096 (order: 3, 32768 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:11.314415", "lvl": "target", "msg": "<6>[    1.594417] TCP bind hash table entries: 4096 (order: 5, 131072 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:11.314837", "lvl": "target", "msg": "<6>[    1.594949] TCP: Hash tables configured (established 4096 bind 4096)"}
+- {"dt": "2023-03-17T14:14:11.315842", "lvl": "target", "msg": "<6>[    1.595830] UDP hash table entries: 256 (order: 1, 8192 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:11.316236", "lvl": "target", "msg": "<6>[    1.596327] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes, linear)"}
+- {"dt": "2023-03-17T14:14:11.317494", "lvl": "target", "msg": "<6>[    1.597484] NET: Registered PF_UNIX/PF_LOCAL protocol family"}
+- {"dt": "2023-03-17T14:14:11.319149", "lvl": "target", "msg": "<6>[    1.599136] RPC: Registered named UNIX socket transport module."}
+- {"dt": "2023-03-17T14:14:11.319315", "lvl": "target", "msg": "<6>[    1.599308] RPC: Registered udp transport module."}
+- {"dt": "2023-03-17T14:14:11.319458", "lvl": "target", "msg": "<6>[    1.599417] RPC: Registered tcp transport module."}
+- {"dt": "2023-03-17T14:14:11.319633", "lvl": "target", "msg": "<6>[    1.599521] RPC: Registered tcp NFSv4.1 backchannel transport module."}
+- {"dt": "2023-03-17T14:14:11.322779", "lvl": "target", "msg": "<6>[    1.602757] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]"}
+- {"dt": "2023-03-17T14:14:11.322943", "lvl": "target", "msg": "<6>[    1.602912] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]"}
+- {"dt": "2023-03-17T14:14:11.323114", "lvl": "target", "msg": "<6>[    1.603114] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]"}
+- {"dt": "2023-03-17T14:14:11.323283", "lvl": "target", "msg": "<6>[    1.603246] pci_bus 0000:00: resource 7 [mem 0x20000000-0xfebfffff window]"}
+- {"dt": "2023-03-17T14:14:11.323423", "lvl": "target", "msg": "<6>[    1.603383] pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]"}
+- {"dt": "2023-03-17T14:14:11.323834", "lvl": "target", "msg": "<6>[    1.603936] pci 0000:00:01.0: PIIX3: Enabling Passive Release"}
+- {"dt": "2023-03-17T14:14:11.324029", "lvl": "target", "msg": "<6>[    1.604177] pci 0000:00:00.0: Limiting direct PCI/PCI transfers"}
+- {"dt": "2023-03-17T14:14:11.324192", "lvl": "target", "msg": "<6>[    1.604357] PCI: CLS 0 bytes, default 64"}
+- {"dt": "2023-03-17T14:14:11.328085", "lvl": "target", "msg": "<6>[    1.608067] Unpacking initramfs..."}
+- {"dt": "2023-03-17T14:14:11.336939", "lvl": "target", "msg": "<5>[    1.616923] Initialise system trusted keyrings"}
+- {"dt": "2023-03-17T14:14:11.343639", "lvl": "target", "msg": "<6>[    1.623623] workingset: timestamp_bits=56 max_order=17 bucket_order=0"}
+- {"dt": "2023-03-17T14:14:11.346045", "lvl": "target", "msg": "<5>[    1.625976] NFS: Registering the id_resolver key type"}
+- {"dt": "2023-03-17T14:14:11.346273", "lvl": "target", "msg": "<5>[    1.626358] Key type id_resolver registered"}
+- {"dt": "2023-03-17T14:14:11.346445", "lvl": "target", "msg": "<5>[    1.626491] Key type id_legacy registered"}
+- {"dt": "2023-03-17T14:14:11.346909", "lvl": "target", "msg": "<6>[    1.627063] 9p: Installing v9fs 9p2000 file system support"}
+- {"dt": "2023-03-17T14:14:11.416115", "lvl": "target", "msg": "<5>[    1.696042] Key type asymmetric registered"}
+- {"dt": "2023-03-17T14:14:11.416297", "lvl": "target", "msg": "<5>[    1.696183] Asymmetric key parser 'x509' registered"}
+- {"dt": "2023-03-17T14:14:11.416442", "lvl": "target", "msg": "<6>[    1.696467] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)"}
+- {"dt": "2023-03-17T14:14:11.416817", "lvl": "target", "msg": "<6>[    1.696916] io scheduler mq-deadline registered"}
+- {"dt": "2023-03-17T14:14:11.416961", "lvl": "target", "msg": "<6>[    1.697096] io scheduler kyber registered"}
+- {"dt": "2023-03-17T14:14:11.419702", "lvl": "target", "msg": "<6>[    1.699681] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0"}
+- {"dt": "2023-03-17T14:14:11.428197", "lvl": "target", "msg": "<6>[    1.708177] ACPI: button: Power Button [PWRF]"}
+- {"dt": "2023-03-17T14:14:11.731363", "lvl": "target", "msg": "<6>[    2.011440] ACPI: \\_SB_.LNKC: Enabled at IRQ 11"}
+- {"dt": "2023-03-17T14:14:11.738758", "lvl": "target", "msg": "<6>[    2.018738] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled"}
+- {"dt": "2023-03-17T14:14:11.740793", "lvl": "target", "msg": "<6>[    2.020688] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A"}
+- {"dt": "2023-03-17T14:14:11.748676", "lvl": "target", "msg": "<6>[    2.028620] Non-volatile memory driver v1.3"}
+- {"dt": "2023-03-17T14:14:11.748858", "lvl": "target", "msg": "<6>[    2.028756] Linux agpgart interface v0.103"}
+- {"dt": "2023-03-17T14:14:11.749862", "lvl": "target", "msg": "<6>[    2.029835] ACPI: bus type drm_connector registered"}
+- {"dt": "2023-03-17T14:14:11.780611", "lvl": "target", "msg": "<6>[    2.060786] loop: module loaded"}
+- {"dt": "2023-03-17T14:14:11.781747", "lvl": "target", "msg": "<7>[    2.061736] ata_piix 0000:00:01.1: version 2.13"}
+- {"dt": "2023-03-17T14:14:11.794065", "lvl": "target", "msg": "<6>[    2.074240] scsi host0: ata_piix"}
+- {"dt": "2023-03-17T14:14:11.798029", "lvl": "target", "msg": "<6>[    2.078136] scsi host1: ata_piix"}
+- {"dt": "2023-03-17T14:14:11.798479", "lvl": "target", "msg": "<6>[    2.078502] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc020 irq 14"}
+- {"dt": "2023-03-17T14:14:11.798665", "lvl": "target", "msg": "<6>[    2.078686] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc028 irq 15"}
+- {"dt": "2023-03-17T14:14:11.824406", "lvl": "target", "msg": "<6>[    2.104282] e100: Intel(R) PRO/100 Network Driver"}
+- {"dt": "2023-03-17T14:14:11.824619", "lvl": "target", "msg": "<6>[    2.104393] e100: Copyright(c) 1999-2006 Intel Corporation"}
+- {"dt": "2023-03-17T14:14:11.824790", "lvl": "target", "msg": "<6>[    2.104537] e1000: Intel(R) PRO/1000 Network Driver"}
+- {"dt": "2023-03-17T14:14:11.824959", "lvl": "target", "msg": "<6>[    2.104641] e1000: Copyright (c) 1999-2006 Intel Corporation."}
+- {"dt": "2023-03-17T14:14:11.825099", "lvl": "target", "msg": "<6>[    2.104808] e1000e: Intel(R) PRO/1000 Network Driver"}
+- {"dt": "2023-03-17T14:14:11.825221", "lvl": "target", "msg": "<6>[    2.104908] e1000e: Copyright(c) 1999 - 2015 Intel Corporation."}
+- {"dt": "2023-03-17T14:14:11.825362", "lvl": "target", "msg": "<6>[    2.105144] sky2: driver version 1.30"}
+- {"dt": "2023-03-17T14:14:11.829404", "lvl": "target", "msg": "<6>[    2.109328] usbcore: registered new interface driver usblp"}
+- {"dt": "2023-03-17T14:14:11.829548", "lvl": "target", "msg": "<6>[    2.109532] usbcore: registered new interface driver usb-storage"}
+- {"dt": "2023-03-17T14:14:11.830345", "lvl": "target", "msg": "<6>[    2.110318] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12"}
+- {"dt": "2023-03-17T14:14:11.832886", "lvl": "target", "msg": "<6>[    2.112867] serio: i8042 KBD port at 0x60,0x64 irq 1"}
+- {"dt": "2023-03-17T14:14:11.840246", "lvl": "target", "msg": "<6>[    2.120223] serio: i8042 AUX port at 0x60,0x64 irq 12"}
+- {"dt": "2023-03-17T14:14:11.843349", "lvl": "target", "msg": "<6>[    2.123324] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1"}
+- {"dt": "2023-03-17T14:14:11.845282", "lvl": "target", "msg": "<6>[    2.125252] rtc_cmos 00:05: RTC can wake from S4"}
+- {"dt": "2023-03-17T14:14:11.849923", "lvl": "target", "msg": "<6>[    2.129886] rtc_cmos 00:05: registered as rtc0"}
+- {"dt": "2023-03-17T14:14:11.850601", "lvl": "target", "msg": "<6>[    2.130576] rtc_cmos 00:05: alarms up to one day, y3k, 242 bytes nvram, hpet irqs"}
+- {"dt": "2023-03-17T14:14:11.856374", "lvl": "target", "msg": "<3>[    2.130959] fail to initialize ptp_kvm"}
+- {"dt": "2023-03-17T14:14:11.856513", "lvl": "target", "msg": "<6>[    2.136326] device-mapper: ioctl: 4.47.0-ioctl (2022-07-28) initialised: dm-devel@redhat.com"}
+- {"dt": "2023-03-17T14:14:11.856890", "lvl": "target", "msg": "<6>[    2.136931] hid: raw HID events driver (C) Jiri Kosina"}
+- {"dt": "2023-03-17T14:14:11.858100", "lvl": "target", "msg": "<6>[    2.138074] usbcore: registered new interface driver usbhid"}
+- {"dt": "2023-03-17T14:14:11.858240", "lvl": "target", "msg": "<6>[    2.138194] usbhid: USB HID core driver"}
+- {"dt": "2023-03-17T14:14:11.871571", "lvl": "target", "msg": "<6>[    2.151543] Initializing XFRM netlink socket"}
+- {"dt": "2023-03-17T14:14:11.871772", "lvl": "target", "msg": "<6>[    2.151914] NET: Registered PF_INET6 protocol family"}
+- {"dt": "2023-03-17T14:14:11.884839", "lvl": "target", "msg": "<6>[    2.164799] Segment Routing with IPv6"}
+- {"dt": "2023-03-17T14:14:11.885008", "lvl": "target", "msg": "<6>[    2.164999] In-situ OAM (IOAM) with IPv6"}
+- {"dt": "2023-03-17T14:14:11.885919", "lvl": "target", "msg": "<6>[    2.165889] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver"}
+- {"dt": "2023-03-17T14:14:11.891343", "lvl": "target", "msg": "<6>[    2.171318] NET: Registered PF_PACKET protocol family"}
+- {"dt": "2023-03-17T14:14:11.892372", "lvl": "target", "msg": "<6>[    2.172361] 9pnet: Installing 9P2000 support"}
+- {"dt": "2023-03-17T14:14:11.893601", "lvl": "target", "msg": "<5>[    2.173582] Key type dns_resolver registered"}
+- {"dt": "2023-03-17T14:14:11.897226", "lvl": "target", "msg": "<6>[    2.177189] IPI shorthand broadcast: enabled"}
+- {"dt": "2023-03-17T14:14:11.930313", "lvl": "target", "msg": "<6>[    2.210261] sched_clock: Marking stable (2084027398, 125984601)->(2210348032, -336033)"}
+- {"dt": "2023-03-17T14:14:11.932574", "lvl": "target", "msg": "<6>[    2.212531] registered taskstats version 1"}
+- {"dt": "2023-03-17T14:14:11.932719", "lvl": "target", "msg": "<5>[    2.212657] Loading compiled-in X.509 certificates"}
+- {"dt": "2023-03-17T14:14:11.957284", "lvl": "target", "msg": "<6>[    2.237246] PM:   Magic number: 15:909:232"}
+- {"dt": "2023-03-17T14:14:11.957698", "lvl": "target", "msg": "<6>[    2.237834] printk: console [netcon0] enabled"}
+- {"dt": "2023-03-17T14:14:11.957868", "lvl": "target", "msg": "<6>[    2.237977] netconsole: network logging started"}
+- {"dt": "2023-03-17T14:14:11.959466", "lvl": "target", "msg": "<6>[    2.239443] ata2: found unknown device (class 0)"}
+- {"dt": "2023-03-17T14:14:11.961776", "lvl": "target", "msg": "<6>[    2.241745] ata1: found unknown device (class 0)"}
+- {"dt": "2023-03-17T14:14:11.963583", "lvl": "target", "msg": "<6>[    2.243554] ata1.00: ATA-7: QEMU HARDDISK, 2.5+, max UDMA/100"}
+- {"dt": "2023-03-17T14:14:11.963752", "lvl": "target", "msg": "<6>[    2.243736] ata1.00: 1048576 sectors, multi 16: LBA48 "}
+- {"dt": "2023-03-17T14:14:11.965108", "lvl": "target", "msg": "<6>[    2.245086] ata2.00: ATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100"}
+- {"dt": "2023-03-17T14:14:11.973943", "lvl": "target", "msg": "<5>[    2.253909] cfg80211: Loading compiled-in X.509 certificates for regulatory database"}
+- {"dt": "2023-03-17T14:14:11.977971", "lvl": "target", "msg": "<5>[    2.257943] scsi 0:0:0:0: Direct-Access     ATA      QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5"}
+- {"dt": "2023-03-17T14:14:11.987295", "lvl": "target", "msg": "<5>[    2.267269] scsi 0:0:0:0: Attached scsi generic sg0 type 0"}
+- {"dt": "2023-03-17T14:14:11.989342", "lvl": "target", "msg": "<5>[    2.269319] sd 0:0:0:0: [sda] 1048576 512-byte logical blocks: (537 MB/512 MiB)"}
+- {"dt": "2023-03-17T14:14:11.989855", "lvl": "target", "msg": "<5>[    2.269987] sd 0:0:0:0: [sda] Write Protect is off"}
+- {"dt": "2023-03-17T14:14:11.990022", "lvl": "target", "msg": "<7>[    2.270183] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00"}
+- {"dt": "2023-03-17T14:14:11.990488", "lvl": "target", "msg": "<5>[    2.270578] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA"}
+- {"dt": "2023-03-17T14:14:11.991196", "lvl": "target", "msg": "<6>[    2.271184] sd 0:0:0:0: [sda] Preferred minimum I/O size 512 bytes"}
+- {"dt": "2023-03-17T14:14:11.993395", "lvl": "target", "msg": "<5>[    2.273374] scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5"}
+- {"dt": "2023-03-17T14:14:12.003128", "lvl": "target", "msg": "<6>[    2.283098] sr 1:0:0:0: [sr0] scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray"}
+- {"dt": "2023-03-17T14:14:12.003293", "lvl": "target", "msg": "<6>[    2.283420] cdrom: Uniform CD-ROM driver Revision: 3.20"}
+- {"dt": "2023-03-17T14:14:12.007374", "lvl": "target", "msg": "<7>[    2.287347] sr 1:0:0:0: Attached scsi CD-ROM sr0"}
+- {"dt": "2023-03-17T14:14:12.007846", "lvl": "target", "msg": "<5>[    2.287986] sr 1:0:0:0: Attached scsi generic sg1 type 5"}
+- {"dt": "2023-03-17T14:14:12.017463", "lvl": "target", "msg": "<5>[    2.297432] sd 0:0:0:0: [sda] Attached SCSI disk"}
+- {"dt": "2023-03-17T14:14:12.130331", "lvl": "target", "msg": "<6>[    2.410196] Freeing initrd memory: 8228K"}
+- {"dt": "2023-03-17T14:14:12.209789", "lvl": "target", "msg": "<6>[    2.489646] modprobe (45) used greatest stack depth: 13448 bytes left"}
+- {"dt": "2023-03-17T14:14:12.226020", "lvl": "target", "msg": "<5>[    2.505936] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'"}
+- {"dt": "2023-03-17T14:14:12.227446", "lvl": "target", "msg": "<4>[    2.507419] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2"}
+- {"dt": "2023-03-17T14:14:12.227611", "lvl": "target", "msg": "<6>[    2.507777] cfg80211: failed to load regulatory.db"}
+- {"dt": "2023-03-17T14:14:12.228890", "lvl": "target", "msg": "<6>[    2.508880] ALSA device list:"}
+- {"dt": "2023-03-17T14:14:12.229049", "lvl": "target", "msg": "<6>[    2.509193]   No soundcards found."}
+- {"dt": "2023-03-17T14:14:12.281888", "lvl": "target", "msg": "<6>[    2.561744] Freeing unused kernel image (initmem) memory: 2572K"}
+- {"dt": "2023-03-17T14:14:12.284414", "lvl": "target", "msg": "<6>[    2.564397] Write protecting the kernel read-only data: 26624k"}
+- {"dt": "2023-03-17T14:14:12.287525", "lvl": "target", "msg": "<6>[    2.567498] Freeing unused kernel image (rodata/data gap) memory: 1932K"}
+- {"dt": "2023-03-17T14:14:12.495682", "lvl": "target", "msg": "<6>[    2.775579] x86/mm: Checked W+X mappings: passed, no W+X pages found."}
+- {"dt": "2023-03-17T14:14:12.495913", "lvl": "target", "msg": "<6>[    2.775897] tsc: Refined TSC clocksource calibration: 3593.182 MHz"}
+- {"dt": "2023-03-17T14:14:12.496122", "lvl": "target", "msg": "<6>[    2.776190] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x33cb2aaecf5, max_idle_ns: 440795376048 ns"}
+- {"dt": "2023-03-17T14:14:12.497495", "lvl": "target", "msg": "<6>[    2.777484] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3"}
+- {"dt": "2023-03-17T14:14:12.498168", "lvl": "target", "msg": "<6>[    2.778153] clocksource: Switched to clocksource tsc"}
+- {"dt": "2023-03-17T14:14:12.498357", "lvl": "target", "msg": "<6>[    2.778552] Run /init as init process"}
+- {"dt": "2023-03-17T14:14:12.498501", "lvl": "target", "msg": "<7>[    2.778630]   with arguments:"}
+- {"dt": "2023-03-17T14:14:12.498622", "lvl": "target", "msg": "<7>[    2.778700]     /init"}
+- {"dt": "2023-03-17T14:14:12.498769", "lvl": "target", "msg": "<7>[    2.778762]     verbose"}
+- {"dt": "2023-03-17T14:14:12.498890", "lvl": "target", "msg": "<7>[    2.778820]   with environment:"}
+- {"dt": "2023-03-17T14:14:12.499006", "lvl": "target", "msg": "<7>[    2.778894]     HOME=/"}
+- {"dt": "2023-03-17T14:14:12.499142", "lvl": "target", "msg": "<7>[    2.778961]     TERM=linux"}
+- {"dt": "2023-03-17T14:14:12.627691", "lvl": "target", "msg": "Starting syslogd: OK"}
+- {"dt": "2023-03-17T14:14:12.647253", "lvl": "target", "msg": "Starting klogd: OK"}
+- {"dt": "2023-03-17T14:14:12.723570", "lvl": "target", "msg": "Running sysctl: OK"}
+- {"dt": "2023-03-17T14:14:12.787836", "lvl": "target", "msg": "Populating /dev using udev: <30>[    3.067712] udevd[79]: starting version 3.2.9"}
+- {"dt": "2023-03-17T14:14:12.815992", "lvl": "target", "msg": "<27>[    3.095882] udevd[79]: specified user 'tss' unknown"}
+- {"dt": "2023-03-17T14:14:12.816462", "lvl": "target", "msg": "<27>[    3.096476] udevd[79]: specified group 'tss' unknown"}
+- {"dt": "2023-03-17T14:14:12.824818", "lvl": "target", "msg": "<30>[    3.104785] udevd[80]: starting eudev-3.2.9"}
+- {"dt": "2023-03-17T14:14:12.893462", "lvl": "target", "msg": "<27>[    3.173341] udevd[80]: specified user 'tss' unknown"}
+- {"dt": "2023-03-17T14:14:12.893712", "lvl": "target", "msg": "<27>[    3.173630] udevd[80]: specified group 'tss' unknown"}
+- {"dt": "2023-03-17T14:14:13.722217", "lvl": "target", "msg": "done"}
+- {"dt": "2023-03-17T14:14:13.747965", "lvl": "target", "msg": "Saving random seed: OK"}
+- {"dt": "2023-03-17T14:14:13.808768", "lvl": "target", "msg": "Starting network: OK"}
+- {"dt": "2023-03-17T14:14:13.871459", "lvl": "target", "msg": "Starting dropbear sshd: <6>[    4.151358] dropbear (118) used greatest stack depth: 13384 bytes left"}
+- {"dt": "2023-03-17T14:14:13.872157", "lvl": "target", "msg": "OK"}
+- {"dt": "2023-03-17T14:14:13.890971", "lvl": "target", "msg": "/bin/sh: can't access tty; job control turned off"}
+- {"dt": "2023-03-17T14:14:13.894120", "lvl": "debug", "msg": "Matched prompt #10: / #"}
+- {"dt": "2023-03-17T14:14:13.894271", "lvl": "results", "msg": {"case": "kernel-messages", "definition": "lava", "duration": "4.07", "extra": {"extra": []}, "level": "2.2.1", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:14:13.894479", "lvl": "debug", "msg": "Setting prompt string to ['/ #']"}
+- {"dt": "2023-03-17T14:14:13.894588", "lvl": "debug", "msg": "end: 2.2.1 login-action (duration 00:00:04) [common]"}
+- {"dt": "2023-03-17T14:14:13.894661", "lvl": "results", "msg": {"case": "login-action", "definition": "lava", "duration": "4.07", "extra": {"success": "No kernel warnings or errors detected."}, "level": "2.2.1", "namespace": "common", "result": "pass"}}
+- {"dt": "2023-03-17T14:14:13.894838", "lvl": "debug", "msg": "end: 2.2 auto-login-action (duration 00:00:05) [common]"}
+- {"dt": "2023-03-17T14:14:13.894934", "lvl": "debug", "msg": "start: 2.3 expect-shell-connection (timeout 00:04:55) [common]"}
+- {"dt": "2023-03-17T14:14:13.895008", "lvl": "debug", "msg": "Setting prompt string to ['/ #']"}
+- {"dt": "2023-03-17T14:14:13.895070", "lvl": "debug", "msg": "Forcing a shell prompt, looking for ['/ #']"}
+- {"dt": "2023-03-17T14:14:13.895138", "lvl": "input", "msg": "\n"}
+- {"dt": "2023-03-17T14:14:13.945469", "lvl": "target", "msg": "/ # "}
+- {"dt": "2023-03-17T14:14:13.945582", "lvl": "debug", "msg": "expect-shell-connection: Wait for prompt ['/ #'] (timeout 00:05:00)"}
+- {"dt": "2023-03-17T14:14:13.945674", "lvl": "debug", "msg": "Waiting using forced prompt support (timeout 00:02:30)"}
+- {"dt": "2023-03-17T14:14:13.947803", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:13.948475", "lvl": "debug", "msg": "end: 2.3 expect-shell-connection (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:14:13.948664", "lvl": "debug", "msg": "start: 2.4 export-device-env (timeout 00:04:55) [common]"}
+- {"dt": "2023-03-17T14:14:13.948880", "lvl": "debug", "msg": "end: 2.4 export-device-env (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:14:13.949103", "lvl": "info", "msg": "end: 2 boot-image-retry (duration 00:00:05) [common]"}
+- {"dt": "2023-03-17T14:14:13.949278", "lvl": "info", "msg": "start: 3 lava-test-retry (timeout 00:01:00) [common]"}
+- {"dt": "2023-03-17T14:14:13.949443", "lvl": "debug", "msg": "start: 3.1 lava-test-shell (timeout 00:01:00) [common]"}
+- {"dt": "2023-03-17T14:14:13.949585", "lvl": "debug", "msg": "Using namespace: common"}
+- {"dt": "2023-03-17T14:14:13.949741", "lvl": "input", "msg": "#\n"}
+- {"dt": "2023-03-17T14:14:14.050482", "lvl": "target", "msg": "/ # #"}
+- {"dt": "2023-03-17T14:14:14.050768", "lvl": "debug", "msg": "lava-test-shell: Wait for prompt ['/ #'] (timeout 00:01:00)"}
+- {"dt": "2023-03-17T14:14:14.051487", "lvl": "target", "msg": "#"}
+- {"dt": "2023-03-17T14:14:14.052890", "lvl": "input", "msg": "mkdir /lava-179325\n"}
+- {"dt": "2023-03-17T14:14:14.153612", "lvl": "target", "msg": "/ # mkdir /lava-179325"}
+- {"dt": "2023-03-17T14:14:14.154489", "lvl": "target", "msg": "mkdir /lava-179325"}
+- {"dt": "2023-03-17T14:14:14.164386", "lvl": "input", "msg": "mount /dev/disk/by-uuid/8ef87015-3cfc-485e-b214-ceb50ecf9c8d -t ext2 /lava-179325\n"}
+- {"dt": "2023-03-17T14:14:14.265173", "lvl": "target", "msg": "/ # mount /dev/disk/by-uuid/8ef87015-3cfc-485e-b214-ceb50ecf9c8d -t ext2 /lava-179325"}
+- {"dt": "2023-03-17T14:14:14.265407", "lvl": "target", "msg": "mount /dev/disk/by-uuid/8ef87015-3cfc-485e-b214-ceb50ecf9c8d -t ext2 /lava-1"}
+- {"dt": "2023-03-17T14:14:14.265981", "lvl": "target", "msg": "79325"}
+- {"dt": "2023-03-17T14:14:14.279081", "lvl": "target", "msg": "<6>[    4.558950] EXT4-fs (sda): mounting ext2 file system using the ext4 subsystem"}
+- {"dt": "2023-03-17T14:14:14.310199", "lvl": "target", "msg": "<6>[    4.589721] EXT4-fs (sda): mounted filesystem 8ef87015-3cfc-485e-b214-ceb50ecf9c8d without journal. Quota mode: none."}
+- {"dt": "2023-03-17T14:14:14.313362", "lvl": "input", "msg": "ls -la /lava-179325/bin/lava-test-runner\n"}
+- {"dt": "2023-03-17T14:14:14.414096", "lvl": "target", "msg": "/ # ls -la /lava-179325/bin/lava-test-runner"}
+- {"dt": "2023-03-17T14:14:14.414901", "lvl": "target", "msg": "ls -la /lava-179325/bin/lava-test-runner"}
+- {"dt": "2023-03-17T14:14:14.434963", "lvl": "target", "msg": "-rwxr-xr-x    1 root     root          1039 Mar 17 14:13 [1;32m/lava-179325/bin/lava-test-runner[m"}
+- {"dt": "2023-03-17T14:14:14.437193", "lvl": "debug", "msg": "Using /lava-179325"}
+- {"dt": "2023-03-17T14:14:14.437357", "lvl": "input", "msg": "export SHELL=/bin/sh\n"}
+- {"dt": "2023-03-17T14:14:14.538047", "lvl": "target", "msg": "/ # export SHELL=/bin/sh"}
+- {"dt": "2023-03-17T14:14:14.538898", "lvl": "target", "msg": "export SHELL=/bin/sh"}
+- {"dt": "2023-03-17T14:14:14.539917", "lvl": "input", "msg": ". /lava-179325/environment\n"}
+- {"dt": "2023-03-17T14:14:14.640651", "lvl": "target", "msg": "/ # . /lava-179325/environment"}
+- {"dt": "2023-03-17T14:14:14.641518", "lvl": "target", "msg": ". /lava-179325/environment"}
+- {"dt": "2023-03-17T14:14:14.647801", "lvl": "input", "msg": "/lava-179325/bin/lava-test-runner /lava-179325/0\n"}
+- {"dt": "2023-03-17T14:14:14.748534", "lvl": "target", "msg": "/ # /lava-179325/bin/lava-test-runner /lava-179325/0"}
+- {"dt": "2023-03-17T14:14:14.748709", "lvl": "info", "msg": "Test shell timeout: 10s (minimum of the action and connection timeout)"}
+- {"dt": "2023-03-17T14:14:14.749438", "lvl": "target", "msg": "/lava-179325/bin/lava-test-runner /lava-179325/0"}
+- {"dt": "2023-03-17T14:14:14.855201", "lvl": "target", "msg": "+ export 'TESTRUN_ID=0_dmesg'"}
+- {"dt": "2023-03-17T14:14:14.855486", "lvl": "target", "msg": "+ cd /lava-179325/0/tests/0_dmesg"}
+- {"dt": "2023-03-17T14:14:14.857121", "lvl": "target", "msg": "+ cat uuid"}
+- {"dt": "2023-03-17T14:14:14.861858", "lvl": "target", "msg": "+ UUID=179325_1.1.3.1"}
+- {"dt": "2023-03-17T14:14:14.862057", "lvl": "target", "msg": "+ set +x"}
+- {"dt": "2023-03-17T14:14:14.862393", "lvl": "target", "msg": "<8>[    5.142506] <LAVA_SIGNAL_STARTRUN 0_dmesg 179325_1.1.3.1>"}
+- {"dt": "2023-03-17T14:14:14.862735", "lvl": "debug", "msg": "Received signal: <STARTRUN> 0_dmesg 179325_1.1.3.1"}
+- {"dt": "2023-03-17T14:14:14.862878", "lvl": "info", "msg": "Starting test lava.0_dmesg (179325_1.1.3.1)"}
+- {"dt": "2023-03-17T14:14:14.863035", "lvl": "info", "msg": "Skipping test definition patterns."}
+- {"dt": "2023-03-17T14:14:14.863229", "lvl": "target", "msg": "+ KERNELCI_LAVA=y /bin/sh /opt/kernelci/dmesg.sh"}
+- {"dt": "2023-03-17T14:14:14.910411", "lvl": "target", "msg": "<8>[    5.190356] <LAVA_SIGNAL_TESTCASE TEST_CASE_ID=crit RESULT=pass UNITS=lines MEASUREMENT=0>"}
+- {"dt": "2023-03-17T14:14:14.910878", "lvl": "debug", "msg": "Received signal: <TESTCASE> TEST_CASE_ID=crit RESULT=pass UNITS=lines MEASUREMENT=0"}
+- {"dt": "2023-03-17T14:14:14.911134", "lvl": "results", "msg": {"case": "crit", "definition": "0_dmesg", "endtc": ! "624", "measurement": ! "0.0", "result": "pass", "starttc": ! "624", "units": "lines"}}
+- {"dt": "2023-03-17T14:14:14.946246", "lvl": "target", "msg": "<8>[    5.226175] <LAVA_SIGNAL_TESTCASE TEST_CASE_ID=alert RESULT=pass UNITS=lines MEASUREMENT=0>"}
+- {"dt": "2023-03-17T14:14:14.946705", "lvl": "debug", "msg": "Received signal: <TESTCASE> TEST_CASE_ID=alert RESULT=pass UNITS=lines MEASUREMENT=0"}
+- {"dt": "2023-03-17T14:14:14.946887", "lvl": "results", "msg": {"case": "alert", "definition": "0_dmesg", "endtc": ! "627", "measurement": ! "0.0", "result": "pass", "starttc": ! "627", "units": "lines"}}
+- {"dt": "2023-03-17T14:14:14.983428", "lvl": "target", "msg": "<8>[    5.263393] <LAVA_SIGNAL_TESTCASE TEST_CASE_ID=emerg RESULT=pass UNITS=lines MEASUREMENT=0>"}
+- {"dt": "2023-03-17T14:14:14.983799", "lvl": "debug", "msg": "Received signal: <TESTCASE> TEST_CASE_ID=emerg RESULT=pass UNITS=lines MEASUREMENT=0"}
+- {"dt": "2023-03-17T14:14:14.983901", "lvl": "results", "msg": {"case": "emerg", "definition": "0_dmesg", "endtc": ! "630", "measurement": ! "0.0", "result": "pass", "starttc": ! "630", "units": "lines"}}
+- {"dt": "2023-03-17T14:14:14.985457", "lvl": "target", "msg": "+ set +x"}
+- {"dt": "2023-03-17T14:14:14.985741", "lvl": "target", "msg": "<8>[    5.265807] <LAVA_SIGNAL_ENDRUN 0_dmesg 179325_1.1.3.1>"}
+- {"dt": "2023-03-17T14:14:14.986070", "lvl": "debug", "msg": "Received signal: <ENDRUN> 0_dmesg 179325_1.1.3.1"}
+- {"dt": "2023-03-17T14:14:14.986220", "lvl": "info", "msg": "Ending use of test pattern."}
+- {"dt": "2023-03-17T14:14:14.986343", "lvl": "info", "msg": "Ending test lava.0_dmesg (179325_1.1.3.1), duration 0.12"}
+- {"dt": "2023-03-17T14:14:14.986537", "lvl": "results", "msg": {"case": "0_dmesg", "definition": "lava", "duration": "0.12", "namespace": "common", "path": "inline/dmesg.yaml", "repository": {"metadata": {"description": "baseline test plan", "environment": ["lava-test-shell"], "format": "Lava-Test Test Definition 1.0", "name": "baseline", "os": ["debian"], "scope": ["functional"]}, "run": {"steps": ["KERNELCI_LAVA=y /bin/sh /opt/kernelci/dmesg.sh"]}}, "result": "pass", "revision": "unspecified", "uuid": "179325_1.1.3.1"}}
+- {"dt": "2023-03-17T14:14:14.987664", "lvl": "target", "msg": "<LAVA_TEST_RUNNER EXIT>"}
+- {"dt": "2023-03-17T14:14:14.988021", "lvl": "info", "msg": "ok: lava_test_shell seems to have completed"}
+- {"dt": "2023-03-17T14:14:14.988296", "lvl": "debug", "msg": "alert: pass\ncrit: pass\nemerg: pass\n"}
+- {"dt": "2023-03-17T14:14:14.988474", "lvl": "debug", "msg": "end: 3.1 lava-test-shell (duration 00:00:01) [common]"}
+- {"dt": "2023-03-17T14:14:14.988641", "lvl": "info", "msg": "end: 3 lava-test-retry (duration 00:00:01) [common]"}
+- {"dt": "2023-03-17T14:14:14.988856", "lvl": "info", "msg": "start: 4 lava-test-retry (timeout 00:01:00) [common]"}
+- {"dt": "2023-03-17T14:14:14.989032", "lvl": "debug", "msg": "start: 4.1 lava-test-shell (timeout 00:01:00) [common]"}
+- {"dt": "2023-03-17T14:14:14.989168", "lvl": "debug", "msg": "Using namespace: common"}
+- {"dt": "2023-03-17T14:14:14.989312", "lvl": "input", "msg": "#\n"}
+- {"dt": "2023-03-17T14:14:15.090039", "lvl": "target", "msg": "#"}
+- {"dt": "2023-03-17T14:14:15.090337", "lvl": "debug", "msg": "lava-test-shell: Wait for prompt ['/ #'] (timeout 00:01:00)"}
+- {"dt": "2023-03-17T14:14:15.090779", "lvl": "input", "msg": "mkdir /lava-179325\n"}
+- {"dt": "2023-03-17T14:14:15.191549", "lvl": "target", "msg": "/ # #mkdir /lava-179325"}
+- {"dt": "2023-03-17T14:14:15.191909", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:15.192236", "lvl": "input", "msg": "mount /dev/disk/by-uuid/8ef87015-3cfc-485e-b214-ceb50ecf9c8d -t ext2 /lava-179325\n"}
+- {"dt": "2023-03-17T14:14:15.292953", "lvl": "target", "msg": "/ # mkdir /lava-179325mount /dev/disk/by-uuid/8ef87015-3cfc-485e-b214-ceb50ecf9c8d -t ext2 /lava-179325"}
+- {"dt": "2023-03-17T14:14:15.293287", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:15.293427", "lvl": "target", "msg": "mkdir: can't create directory '/lava-179325': File exists"}
+- {"dt": "2023-03-17T14:14:15.293550", "lvl": "target", "msg": "/ # mount /dev/disk/by-uuid/8ef87015-3cfc-485e-b214-ceb50ecf9c8d -t ext2 /lava-1"}
+- {"dt": "2023-03-17T14:14:15.293884", "lvl": "input", "msg": "ls -la /lava-179325/bin/lava-test-runner\n"}
+- {"dt": "2023-03-17T14:14:15.394672", "lvl": "target", "msg": "79325ls -la /lava-179325/bin/lava-test-runner"}
+- {"dt": "2023-03-17T14:14:15.395185", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:15.395406", "lvl": "target", "msg": "mount: mounting /dev/disk/by-uuid/8ef87015-3cfc-485e-b214-ceb50ecf9c8d on /lava-179325 failed: Device or resource busy"}
+- {"dt": "2023-03-17T14:14:15.395817", "lvl": "debug", "msg": "Using /lava-179325"}
+- {"dt": "2023-03-17T14:14:15.396026", "lvl": "input", "msg": "export SHELL=/bin/sh\n"}
+- {"dt": "2023-03-17T14:14:15.496826", "lvl": "target", "msg": "/ # ls -la /lava-179325/bin/lava-test-runnerexport SHELL=/bin/sh"}
+- {"dt": "2023-03-17T14:14:15.497173", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:15.497317", "lvl": "target", "msg": "-rwxr-xr-x    1 root     root          1039 Mar 17 14:13 [1;32m/lava-179325/bin/lava-test-runner[m"}
+- {"dt": "2023-03-17T14:14:15.497636", "lvl": "input", "msg": ". /lava-179325/environment\n"}
+- {"dt": "2023-03-17T14:14:15.598402", "lvl": "target", "msg": "/ # export SHELL=/bin/sh. /lava-179325/environment"}
+- {"dt": "2023-03-17T14:14:15.598706", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:15.598994", "lvl": "input", "msg": "/lava-179325/bin/lava-test-runner /lava-179325/1\n"}
+- {"dt": "2023-03-17T14:14:15.699693", "lvl": "target", "msg": "/ # . /lava-179325/environment/lava-179325/bin/lava-test-runner /lava-179325/1"}
+- {"dt": "2023-03-17T14:14:15.699937", "lvl": "info", "msg": "Test shell timeout: 10s (minimum of the action and connection timeout)"}
+- {"dt": "2023-03-17T14:14:15.700086", "lvl": "target", "msg": ""}
+- {"dt": "2023-03-17T14:14:15.700526", "lvl": "target", "msg": "/ # /lava-179325/bin/lava-test-runner /lava-179325/1"}
+- {"dt": "2023-03-17T14:14:15.788476", "lvl": "target", "msg": "+ export 'TESTRUN_ID=1_bootrr'"}
+- {"dt": "2023-03-17T14:14:15.788807", "lvl": "target", "msg": "+ cd /lava-179325/1/tests/1_bootrr"}
+- {"dt": "2023-03-17T14:14:15.789912", "lvl": "target", "msg": "+ cat uuid"}
+- {"dt": "2023-03-17T14:14:15.794548", "lvl": "target", "msg": "+ UUID=179325_1.1.3.5"}
+- {"dt": "2023-03-17T14:14:15.794804", "lvl": "target", "msg": "+ set +x"}
+- {"dt": "2023-03-17T14:14:15.795041", "lvl": "target", "msg": "<8>[    6.075183] <LAVA_SIGNAL_STARTRUN 1_bootrr 179325_1.1.3.5>"}
+- {"dt": "2023-03-17T14:14:15.795422", "lvl": "debug", "msg": "Received signal: <STARTRUN> 1_bootrr 179325_1.1.3.5"}
+- {"dt": "2023-03-17T14:14:15.795571", "lvl": "info", "msg": "Starting test lava.1_bootrr (179325_1.1.3.5)"}
+- {"dt": "2023-03-17T14:14:15.795763", "lvl": "info", "msg": "Skipping test definition patterns."}
+- {"dt": "2023-03-17T14:14:15.795983", "lvl": "target", "msg": "+ export 'PATH=/opt/bootrr/libexec/bootrr/helpers:/lava-179325/1/../bin:/sbin:/usr/sbin:/bin:/usr/bin'"}
+- {"dt": "2023-03-17T14:14:15.796126", "lvl": "target", "msg": "+ cd /opt/bootrr"}
+- {"dt": "2023-03-17T14:14:15.796507", "lvl": "target", "msg": "+ sh libexec/bootrr/helpers/bootrr-auto"}
+- {"dt": "2023-03-17T14:14:15.804036", "lvl": "target", "msg": "libexec/bootrr/helpers/bootrr-auto: line 3: /opt/bootrr/helpers/bootrr-generic-tests: not found"}
+- {"dt": "2023-03-17T14:14:15.834548", "lvl": "target", "msg": "+ set +x"}
+- {"dt": "2023-03-17T14:14:15.834859", "lvl": "target", "msg": "<8>[    6.114881] <LAVA_SIGNAL_ENDRUN 1_bootrr 179325_1.1.3.5>"}
+- {"dt": "2023-03-17T14:14:15.835243", "lvl": "debug", "msg": "Received signal: <ENDRUN> 1_bootrr 179325_1.1.3.5"}
+- {"dt": "2023-03-17T14:14:15.835406", "lvl": "info", "msg": "Ending use of test pattern."}
+- {"dt": "2023-03-17T14:14:15.835551", "lvl": "info", "msg": "Ending test lava.1_bootrr (179325_1.1.3.5), duration 0.04"}
+- {"dt": "2023-03-17T14:14:15.835780", "lvl": "results", "msg": {"case": "1_bootrr", "definition": "lava", "duration": "0.04", "namespace": "common", "path": "inline/bootrr.yaml", "repository": {"metadata": {"description": "baseline test plan", "environment": ["lava-test-shell"], "format": "Lava-Test Test Definition 1.0", "name": "baseline", "os": ["debian"], "scope": ["functional"]}, "run": {"steps": ["export PATH=/opt/bootrr/libexec/bootrr/helpers:$PATH", "cd /opt/bootrr && sh libexec/bootrr/helpers/bootrr-auto"]}}, "result": "pass", "revision": "unspecified", "uuid": "179325_1.1.3.5"}}
+- {"dt": "2023-03-17T14:14:15.836819", "lvl": "target", "msg": "<LAVA_TEST_RUNNER EXIT>"}
+- {"dt": "2023-03-17T14:14:15.837154", "lvl": "info", "msg": "ok: lava_test_shell seems to have completed"}
+- {"dt": "2023-03-17T14:14:15.837359", "lvl": "debug", "msg": "end: 4.1 lava-test-shell (duration 00:00:01) [common]"}
+- {"dt": "2023-03-17T14:14:15.837541", "lvl": "info", "msg": "end: 4 lava-test-retry (duration 00:00:01) [common]"}
+- {"dt": "2023-03-17T14:14:15.837763", "lvl": "info", "msg": "start: 5 finalize (timeout 00:09:40) [common]"}
+- {"dt": "2023-03-17T14:14:15.837961", "lvl": "debug", "msg": "start: 5.1 power-off (timeout 00:00:30) [common]"}
+- {"dt": "2023-03-17T14:14:15.838144", "lvl": "debug", "msg": "end: 5.1 power-off (duration 00:00:00) [common]"}
+- {"dt": "2023-03-17T14:14:15.838325", "lvl": "debug", "msg": "start: 5.2 read-feedback (timeout 00:09:40) [common]"}
+- {"dt": "2023-03-17T14:14:15.838636", "lvl": "debug", "msg": "Listened to connection for namespace 'common' for up to 1s"}
+- {"dt": "2023-03-17T14:14:15.839022", "lvl": "debug", "msg": "Listened to connection for namespace 'common' for up to 1s"}
+- {"dt": "2023-03-17T14:14:16.841758", "lvl": "info", "msg": "Finalising connection for namespace 'common'"}
+- {"dt": "2023-03-17T14:14:16.842026", "lvl": "input", "msg": "poweroff\n"}
+- {"dt": "2023-03-17T14:14:16.942775", "lvl": "target", "msg": "/ # poweroff"}
+- {"dt": "2023-03-17T14:14:16.943417", "lvl": "debug", "msg": "Already disconnected"}
+- {"dt": "2023-03-17T14:14:16.943562", "lvl": "target", "msg": "poweroff"}
+- {"dt": "2023-03-17T14:14:17.044395", "lvl": "debug", "msg": "end: 5.2 read-feedback (duration 00:00:01) [common]"}
+- {"dt": "2023-03-17T14:14:17.044631", "lvl": "debug", "msg": "Already disconnected"}
+- {"dt": "2023-03-17T14:14:17.044763", "lvl": "info", "msg": "end: 5 finalize (duration 00:00:01) [common]"}
+- {"dt": "2023-03-17T14:14:17.044897", "lvl": "info", "msg": "Cleaning after the job"}
+- {"dt": "2023-03-17T14:14:17.045055", "lvl": "debug", "msg": "Cleaning up download directory: /var/lib/lava/dispatcher/tmp/179325/deployimages-5lsl556a/kernel"}
+- {"dt": "2023-03-17T14:14:17.047103", "lvl": "debug", "msg": "Cleaning up download directory: /var/lib/lava/dispatcher/tmp/179325/deployimages-5lsl556a/ramdisk"}
+- {"dt": "2023-03-17T14:14:17.048398", "lvl": "info", "msg": "Root tmp directory removed at /var/lib/lava/dispatcher/tmp/179325"}
+- {"dt": "2023-03-17T14:14:17.049919", "lvl": "info", "msg": "Job finished correctly"}
+- {"dt": "2023-03-17T14:14:17.050035", "lvl": "results", "msg": {"case": "job", "definition": "lava", "result": "pass"}}

@@ -3,7 +3,6 @@ import requests
 import json
 import sys
 import hashlib
-import time
 import fcntl
 
 CACHE_DIRECTORY = "/home/abhishek/Documents/proto/Prototype/target"
@@ -49,7 +48,6 @@ def update_mapping(url, cache_path):
         # Load the existing mapping if the file exists and is not empty
         if os.path.getsize(MAP_FILE_PATH) > 0:
             mapping = json.load(file)
-        time.sleep(3)
         # Add the new mapping entry
         mapping[url] = cache_path
 
