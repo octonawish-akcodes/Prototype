@@ -1,0 +1,1738 @@
+{
+  "tests": [
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:1b4af65fd5b64c3395795a6180a3a3f1",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:45.106212+00:00",
+      "status": "PASS",
+      "path": "dmesg.deferred-probe-empty"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:cd14c5467efd440d9bdf52fc3c5c9b35",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088264+00:00",
+      "status": "PASS",
+      "path": "dmesg.all-cpus-are-online"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:26e2f45c9bba4699aa4453f6e9b28641",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088354+00:00",
+      "status": "PASS",
+      "path": "dmesg.dw-apb-uart-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:b375245e50ca4917a4f34742624993cd",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088389+00:00",
+      "status": "PASS",
+      "path": "dmesg.ttyS0-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:3ce529ef5ab7454f8ad3597ae1f8e905",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088423+00:00",
+      "status": "PASS",
+      "path": "dmesg.sunxi-mmc-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:92262ea90c1141a88372df9249f986da",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088457+00:00",
+      "status": "PASS",
+      "path": "dmesg.mmc0-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:755043dbc8fb4acf85e7b1cde895e889",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088490+00:00",
+      "status": "PASS",
+      "path": "dmesg.mmc2-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:6407b61924d042e199f8d9f4ea892e34",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088524+00:00",
+      "status": "PASS",
+      "path": "dmesg.dwmac-sun8i-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:01db50245c594c7ebc19ca85bcb0042e",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088556+00:00",
+      "status": "PASS",
+      "path": "dmesg.eth0-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:ec885e58ffc34236a8664783c3131ab5",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088590+00:00",
+      "status": "PASS",
+      "path": "dmesg.ehci-platform-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:a6be03e49327430989d9349fcadd119e",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088623+00:00",
+      "status": "PASS",
+      "path": "dmesg.usb0-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:daf6405bf75649289ed58bfe7ba39c75",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088656+00:00",
+      "status": "PASS",
+      "path": "dmesg.usb1-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:6ef920e9295e48d999fa8f8c07f84423",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088689+00:00",
+      "status": "PASS",
+      "path": "dmesg.usb2-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:cb2c1e9fd0f5412c80021b5da60cbfe1",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088722+00:00",
+      "status": "PASS",
+      "path": "dmesg.usb3-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:eadc632cd92e48b8bffc2ab582b8f3ef",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088755+00:00",
+      "status": "PASS",
+      "path": "dmesg.musb-sunxi-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f48054c5e2a0410db0e94673a185d32f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088788+00:00",
+      "status": "PASS",
+      "path": "dmesg.usbotg-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:5fb88a43843948f58b9e297266ffc29f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088820+00:00",
+      "status": "PASS",
+      "path": "dmesg.sun4i-usb-phy-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:42cf7bb295bf4160aba045e07d30e4bc",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088854+00:00",
+      "status": "PASS",
+      "path": "dmesg.usbotg-phy-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f936fabec0ab450ba53396348b143f25",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088886+00:00",
+      "status": "PASS",
+      "path": "dmesg.eeprom-sunxi-sid-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:effc2e5b3d564881b3cbfdcad3362ec5",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088919+00:00",
+      "status": "PASS",
+      "path": "dmesg.sid-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:de0cf8dbbc574895a4899943d702e056",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088951+00:00",
+      "status": "PASS",
+      "path": "dmesg.sunxi-wdt-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:2ad46513b27b4cdd9fc766caebddd7ac",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.088984+00:00",
+      "status": "PASS",
+      "path": "dmesg.watchdog-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:8ba8d31519f34b65a58761487f678b33",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.089017+00:00",
+      "status": "PASS",
+      "path": "dmesg.sun6i-rtc-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:3655fff4c8ff403cb70ecdd49dee1013",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:50.089049+00:00",
+      "status": "PASS",
+      "path": "dmesg.rtc-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:05d8693ff1374721856b9daf6793e11c",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586010+00:00",
+      "status": "PASS",
+      "path": "dmesg.sunxi-ir-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:e6492b3234264d20a4c551b962b04d76",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586064+00:00",
+      "status": "PASS",
+      "path": "dmesg.ir-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:e4ddcf22d0cf432486b7a8794d9e492f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586101+00:00",
+      "status": "PASS",
+      "path": "dmesg.sun8i-ce-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:cf27bab15bb745fa86b06396dd44136f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586135+00:00",
+      "status": "PASS",
+      "path": "dmesg.crypto-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:2bb1a5bb63864a8a9e3f9f2e0b9e6ac1",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586169+00:00",
+      "status": "PASS",
+      "path": "dmesg.sun8-codec-analog-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f9e99f09638c49e7a976da7d4ed6b921",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586202+00:00",
+      "status": "PASS",
+      "path": "dmesg.analog-audio-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:26cac198d3904f4f8a2772912ffa0fe1",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586236+00:00",
+      "status": "PASS",
+      "path": "dmesg.sun8i-mixer-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:d53ade04709a4a0bab92c99e32cddb24",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586269+00:00",
+      "status": "PASS",
+      "path": "dmesg.sun8i-mixer-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:bfa5cfaaa6194609b184af204353c5d5",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586302+00:00",
+      "status": "PASS",
+      "path": "dmesg.sun8i-dw-hdmi-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:3fbfde5e7d924b51a2f51a4cc6ee58cc",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586335+00:00",
+      "status": "PASS",
+      "path": "dmesg.hdmi-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:73bac09d3a3947c6a470ab0dbad4fa5b",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586369+00:00",
+      "status": "PASS",
+      "path": "dmesg.sun8i-hdmi-phy-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:9487ddac52e843eaa681379985083bdd",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586402+00:00",
+      "status": "PASS",
+      "path": "dmesg.hdmi-phy-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:8fb107951a5447cd8997addff751e0ef",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586435+00:00",
+      "status": "PASS",
+      "path": "dmesg.lima-driver-present"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:44305efdae294cb7b3f15387f2331519",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:56:59.586468+00:00",
+      "status": "PASS",
+      "path": "dmesg.lima-probed"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:5d12ca9350c44af3a069af52d31be484",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:58:42.563776+00:00",
+      "status": "PASS",
+      "path": "kselftest.alsa.alsa_mixer-test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:0dfad4d108b047e2b17f2956fdb47d28",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T15:58:42.563813+00:00",
+      "status": "PASS",
+      "path": "kselftest.alsa.alsa_pcm-test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:e732d0dfbfc144b3bba158034617d1a2",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:18.270918+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_tags_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:1b7e6efb820d49aa9faa5492103e81a3",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:18.270949+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_run_tags_test_sh"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:26b419b7e7244d96ab60ecf3d31c3044",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:18.270981+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fake_sigreturn_bad_magic"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:cd3be5cc58d04754bc6688231d9a6eb7",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:18.271013+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fake_sigreturn_bad_size"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:9423b115ac6d4dd8accca8cef2c6f35d",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:18.271044+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fake_sigreturn_bad_size_for_magic0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:e01ff2749fdb46f7840e0ccb494142cb",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:18.271074+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fake_sigreturn_duplicated_fpsimd"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:af5aa60666ce475687e4c2b2f99bd97b",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:18.271106+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fake_sigreturn_misaligned_sp"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:98b7858824fb4d62a624a7a9395f2d91",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:18.271137+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fake_sigreturn_missing_fpsimd"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:50433d236e9441b1b2852c0a9edbd90c",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:23.313056+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_mangle_pstate_invalid_compat_toggle"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:84a060d7d31c4c8887c2c67c52a78de1",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:23.313091+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_mangle_pstate_invalid_daif_bits"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:85fb49f9a92e42249ddebd66ecebb1c8",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:23.313124+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_mangle_pstate_invalid_mode_el1h"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:10b33553f49048e8ae050d65a23aca7e",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:23.313155+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_mangle_pstate_invalid_mode_el1t"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:b50720de4cf941b1943fab72c912ee53",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:23.313189+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_mangle_pstate_invalid_mode_el2h"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:281b55cf344843e7bb88a2090631c85f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:23.313221+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_mangle_pstate_invalid_mode_el2t"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f328ce551abe4963b89b45950025310d",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:23.313253+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_mangle_pstate_invalid_mode_el3h"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:c87aecc4ec4343aabd261e451f28dc40",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:23.313284+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_mangle_pstate_invalid_mode_el3t"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:153c26fb21d74e58ae9e590edb89a854",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:23.313378+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_sme_trap_za"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:1e2cd88ab3b24bb995fbf6b1f7a7afdf",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:28.389263+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_tpidr2_siginfo"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:4a78b8d1c2fd47f0830b91f2f05d00d1",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:28.389661+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_pac"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:9522c75ecd6142dcbdad0a41d481b72e",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:28.389695+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fp-stress_FPSIMD-0-0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:a96af747c20b4373be59f34413254f03",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:28.389727+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fp-stress_FPSIMD-0-1"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:8e4d4d41cb1b4467bfcda0b0972a648d",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:33.476618+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fp-stress_FPSIMD-1-0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:7399ef988aaf40c38345887872b0aa88",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:33.476666+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fp-stress_FPSIMD-1-1"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:034ba6464a324b6397ef7f0d31439501",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:33.476701+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fp-stress_FPSIMD-2-0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:1850befd24ae4d78a19d500a33005aa6",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:33.476734+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fp-stress_FPSIMD-2-1"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:4e0d25f48c254a0e80cd7f5cabc4b63b",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:33.476766+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fp-stress_FPSIMD-3-0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:13f3ad4166fc457dad9bc9497c6911ef",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:33.476798+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fp-stress_FPSIMD-3-1"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:3e3e0154500c41a0b5150ce5db8d1079",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:33.476830+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_fp-stress"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:b1bedde3fbe74709afaca60ca7b5ba9c",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.972665+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_vec-syscfg"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:9a940e0e0c134f79bef05f17df28c353",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.972696+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_za-fork_skipped"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:5f497eb3f4f4468a9e4121eb9bc3d4cb",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.972727+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_za-fork"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:7b8b357905864fb082800ae1253d8d78",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.972976+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_check_prctl_check_basic_read"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:696191d72b1443e699eb9a479ebd98b1",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973008+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_check_prctl_NONE"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:ff866d3fff67452d9b9803d7687003da",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973132+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_check_prctl"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:5daf57aae1b84c5eb2c47ef15225496b",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973225+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_nohint_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:1dcf883e37cc416aaa9dda2b668e9c04",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973257+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_nohint_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:84ff97eda89a47ccbfed99601278f79f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973288+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_nohint_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:bee02c922a3a4fdb93ad3b2d1ad549e5",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973319+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_none_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:5433f769e4a646b0b6d6b0066461ffc3",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973350+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_none_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:9a610a1c9ce6459c93d3df7d9613bbeb",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973381+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_none_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:62fe36a283cc46bd9b895a36302260d1",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973412+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_c_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:77ba62e391b24a80b2b661904014aa81",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973443+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_c_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:fd95f46360894254afc00b5297257025",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973475+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_c_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:7f474968333e4479914cbcbaa4926133",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973506+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_j_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:dbcc44da258c4a34bdf8d13cd8865c4c",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973537+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_j_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:1906b334a13b4bfcae4dbe3bcfda21c5",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973568+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_j_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:c3a841913dff4310acb2a745ff56a995",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973599+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_jc_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:86c80980e3984e1482d45f71f059cf91",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973631+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_jc_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f18d29c6488c462792454216926395eb",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973672+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_bti_jc_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f691573c94e44c7c901117f55537b80f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973704+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_paciasp_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:d5c6e3010c9e4a9f876b2e3d8b1ef383",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973735+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_paciasp_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:8946af4f0e35456eb29d30114a7e9d82",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973766+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest_paciasp_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:ca87e47d38264bb792bed934946e18e5",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:38.973797+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_btitest"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f6ed84724d304ee9ac7a83642fc31e6d",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963621+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_nohint_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:5ac8474a89314b94b53ea460850b557e",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963672+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_nohint_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:e4f7a620af994c4ab015df7e6e5df7a0",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963708+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_nohint_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:538a68692f9e44d9abb4dfd1dc4f06d2",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963742+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_none_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:ab3bdc22bbbb467780f0e8d2eb39d8ef",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963774+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_none_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:c5495ae2cb3e4566b4eb91c2e5721207",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963808+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_none_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:b08399bcd32446798b96e24206a83694",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963841+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_c_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:b9831d422fa04e53bd85d398415456fe",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963874+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_c_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:645b9e9f59d040eb8f9f0976f043f32f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963906+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_c_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:1371d166c18e456fbc979caf927e7136",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963939+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_j_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:1b0bde775f7a42e3bb400858a8d47bd4",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.963971+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_j_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:2140d312268a4e9d8325ae0d87363038",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964003+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_j_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f0d55ddaa0d0446fa60a68f82a2a4e2e",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964035+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_jc_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:8b147b44ab1a4606a16db6230ff1f599",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964068+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_jc_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:fd379c1f783d4d55a0da5e2076a3477a",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964100+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_bti_jc_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:a176b49531e64763ae2afaaab817b20a",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964132+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_paciasp_func_call_using_br_x0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:3df00e7d9dfb489b9cb468d3e79c589d",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964164+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_paciasp_func_call_using_br_x16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:b3b0e8a88c1c433fa6723ee6da0cd7b2",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964196+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest_paciasp_func_call_using_blr"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:a1d7d0c4b3794fcebabc06e2d07685a6",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964229+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_nobtitest"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:34f229c6d37c4a179e509dcb05be0274",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964261+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_CSSC"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:95d0b36a685a4d8faa070298de092cc9",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964325+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_RNG"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:7cc41842bb964fa9a0734ce081e87a8d",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964388+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_RPRFM"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:2377ae6b18d241cd9ea56e2c677ffe00",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964452+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SME"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:9b07a9675cd54855bde861f79fd91423",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964484+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_sigill_SME"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:9caa0c79db3a473e85f152955609cf01",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964515+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SME2"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:0cb2154695014f41b1539b94c283b71e",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964547+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_sigill_SME2"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:8d5d49e5403f404a82ffedea690af11c",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964579+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SME_2_1"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:29dda3498bd04ae1930f5af3137384ef",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964643+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SME_I16I32"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:9b03aa9337f347d795a1ca6e0562b0f2",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964707+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SME_BI32I32"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:0f449482a0214f39aeb630356caa6a92",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:43.964770+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SME_B16B16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:3ad0c6cda8504326b6acf8db75c966c2",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073275+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SME_F16F16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:d0c6ba38418547f3a33dae7ee62f4ff9",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073326+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:e07886f7e64746208b6f12608270c836",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073342+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_sigill_SVE"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:7db8ff87aada428783ecd96c40e25b45",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073358+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE_2"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:3258b38bb40c47c9b5b9a6746fff4cf1",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073391+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE_2_1"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:12d0421ef3cc4c789e715fe360695231",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073424+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE_AES"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:87317d972cc54e41ab522e614652d63c",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073456+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE2_PMULL"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:b9cbd830401240ca9508e650794be3e2",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073488+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE2_BITPERM"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:e2771ec31e9d40269eb76c0377e00626",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073519+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE2_SHA3"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:da7cb15c9362485c90e02bfd99e9a143",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073551+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE2_SM4"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:7514f0ad634f46d18a259684bd92f905",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073583+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE2_I8MM"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:12771c376364409490ec2c22c5d8ea31",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073615+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE2_F32MM"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f2639ab91bd145909130faa8551fc88b",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073655+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE2_F64MM"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:4840e4c22d60451ea5cee9d8e745d466",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073688+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE2_BF16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:89c96311a19640559bf99d6502aaa144",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073720+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap_cpuinfo_match_SVE2_EBF16"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:e315d4dec3584e0e88efe366ee38f266",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073751+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_hwcap"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:8768ed6d5b0c44de98a0a2d64b561a9d",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073767+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_ptrace_read_tpidr_one"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:e810b8688ff6457ca8acfac019508244",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073783+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_ptrace_write_tpidr_one"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f19206194bc64e44bb2a5ab2782c5add",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073799+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_ptrace_verify_tpidr_one"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:b8ee3c7ee08a4b45a54c723106c43ce9",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073815+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_ptrace_count_tpidrs"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:461e985324c542fa9941d96e85c1350f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073831+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_ptrace_tpidr2_write"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:b6bfe76d9a8e4b6fbea97142f3b7f923",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073846+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_ptrace_tpidr2_read"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:a10d3520afbd428f9edd927bd80e788c",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073862+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_ptrace_write_tpidr_only"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:9fcd817a685a44c1a7d24f8389dd15df",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073878+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_ptrace"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:5dda939c3e69495db29bc8707cb5e8e3",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073894+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_syscall-abi_getpid_FPSIMD"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:31d3311de888417b819a5de2b698523e",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073910+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_syscall-abi_sched_yield_FPSIMD"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:09599fd3b8784df0b502894c07b6dc43",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073925+00:00",
+      "status": "PASS",
+      "path": "kselftest.arm64.arm64_syscall-abi"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:b7654129f8464aae99a0214e9435b52f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:00:49.073941+00:00",
+      "status": "FAIL",
+      "path": "kselftest.arm64.arm64_tpidr2"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:d5cec914c28543fa84be5b35776f4216",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754814+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_rseq_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:aba512a6f2744eef804825760217bb75",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754848+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_set_memory_region_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:741450a96908478ca438e47206b2d1ab",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754278+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_debug-exceptions"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:771160c8c6cc4e20b47b90480ea22439",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754313+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_get-reg-list"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:5cd2d53f0ce7402b9968c52fb05ab439",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754346+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_hypercalls"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:49bfbac08aad4655a95a02c9a31c2549",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754380+00:00",
+      "status": "FAIL",
+      "path": "kselftest.kvm.kvm_page_fault_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:73c4ac6e4dde4560946e356657c0217d",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754413+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_psci_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:3ce792c97dd1427690d6fc5a8043be05",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754447+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_vcpu_width_config"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:cf8b683b57524559a680aa137105fe96",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754481+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_vgic_init"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:93f2e50ad288497689e634cbb3dad5ad",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754581+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_demand_paging_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:f74654eafc70478088debe5a1cef717a",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754614+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_dirty_log_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:ee8c99aa6c3a4b1ea2aa498b34fd4d2b",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754647+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_dirty_log_perf_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:5e1c2e983bba4f82a356bea24a72e325",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754681+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_kvm_create_max_vcpus"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:9bc68c1738454d4589c2ded984421007",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754714+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_kvm_page_table_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:57dda8f14535422c9fccff10c49c9584",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754747+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_memslot_modification_stress_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:ef73716e7c3d442c88b97d6a33996bde",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754781+00:00",
+      "status": "FAIL",
+      "path": "kselftest.kvm.kvm_memslot_perf_test"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:fd825d76f4b5443f9c40e5207693ce00",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754882+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_steal_time"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:11b7b031034c46eb87f486eba34639e8",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754915+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_kvm_binary_stats_test_vm0"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:8767824616c24cac88f9aeb72b86bdee",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754948+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_kvm_binary_stats_test_vm1"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:02aa10aea01e47c9a0c243ade697b7af",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.754982+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_kvm_binary_stats_test_vm2"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:cdff08a0767b4508942db562554c4e05",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.755015+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_kvm_binary_stats_test_vm3"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:47df94faa5e3775510177cdc0909e397300cc791-arm64-defconfig",
+      "id": "broonie:e83cf060f71c41848567bb542a616bb7",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180051/log_file/plain",
+      "start_time": "2023-03-17T16:07:54.755048+00:00",
+      "status": "PASS",
+      "path": "kselftest.kvm.kvm_kvm_binary_stats_test"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

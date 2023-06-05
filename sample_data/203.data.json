@@ -1,0 +1,47 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "kselftest-timers",
+        "plan_variant": "kselftest-timers_riscv_qemu"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-kselftest/20230310.0/riscv64/rootfs.cpio.gz",
+          "instance": "qemu-heliopause-02",
+          "device": "qemu_riscv64"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-timers-qemu_riscv64.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-timers-qemu_riscv64.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:53:21.148000+00:00",
+      "path": "kselftest-timers.login",
+      "id": "kernelci:kernelci.org:64148cf172f0bdf0508c8665",
+      "build_id": "kernelci:kernelci.org:64147c0a9e0a5e176c8c8638",
+      "origin": "kernelci",
+      "comment": "kselftest-timers on qemu_riscv64 in lab-broonie"
+    }
+  ]
+}

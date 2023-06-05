@@ -1,0 +1,203 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "sleep",
+        "plan_variant": "sleep"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "tegra",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/armhf/rootfs.cpio.gz",
+          "instance": "tegra124-nyan-big-cbg-0",
+          "device": "tegra124-nyan-big"
+        },
+        "comment": "tegra124-nyan-big in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/sleep-tegra124-nyan-big.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/sleep-tegra124-nyan-big.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-tegra124-nyan-big.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:40.954000+00:00",
+      "path": "sleep.login",
+      "id": "kernelci:kernelci.org:64148c8cf0b06962058c86d7",
+      "build_id": "kernelci:kernelci.org:64144d1de38dbed35c8c8642",
+      "origin": "kernelci",
+      "comment": "sleep on tegra124-nyan-big in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "sleep",
+        "plan_variant": "sleep"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "tegra",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/armhf/rootfs.cpio.gz",
+          "instance": "tegra124-nyan-big-cbg-0",
+          "device": "tegra124-nyan-big"
+        },
+        "comment": "tegra124-nyan-big in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/sleep-tegra124-nyan-big.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/sleep-tegra124-nyan-big.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-tegra124-nyan-big.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:40.992000+00:00",
+      "path": "sleep.rtcwake-mem-3",
+      "id": "kernelci:kernelci.org:64148c8cf0b06962058c86d8",
+      "build_id": "kernelci:kernelci.org:64144d1de38dbed35c8c8642",
+      "origin": "kernelci",
+      "comment": "sleep on tegra124-nyan-big in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "sleep",
+        "plan_variant": "sleep"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "tegra",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/armhf/rootfs.cpio.gz",
+          "instance": "tegra124-nyan-big-cbg-0",
+          "device": "tegra124-nyan-big"
+        },
+        "comment": "tegra124-nyan-big in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/sleep-tegra124-nyan-big.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/sleep-tegra124-nyan-big.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-tegra124-nyan-big.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:40.998000+00:00",
+      "path": "sleep.rtcwake-mem-2",
+      "id": "kernelci:kernelci.org:64148c8cf0b06962058c86d9",
+      "build_id": "kernelci:kernelci.org:64144d1de38dbed35c8c8642",
+      "origin": "kernelci",
+      "comment": "sleep on tegra124-nyan-big in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "sleep",
+        "plan_variant": "sleep"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "tegra",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/armhf/rootfs.cpio.gz",
+          "instance": "tegra124-nyan-big-cbg-0",
+          "device": "tegra124-nyan-big"
+        },
+        "comment": "tegra124-nyan-big in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/sleep-tegra124-nyan-big.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/sleep-tegra124-nyan-big.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-tegra124-nyan-big.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:41+00:00",
+      "path": "sleep.rtc-wakeup-enabled",
+      "id": "kernelci:kernelci.org:64148c8df0b06962058c86da",
+      "build_id": "kernelci:kernelci.org:64144d1de38dbed35c8c8642",
+      "origin": "kernelci",
+      "comment": "sleep on tegra124-nyan-big in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "sleep",
+        "plan_variant": "sleep"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "tegra",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/armhf/rootfs.cpio.gz",
+          "instance": "tegra124-nyan-big-cbg-0",
+          "device": "tegra124-nyan-big"
+        },
+        "comment": "tegra124-nyan-big in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/sleep-tegra124-nyan-big.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/sleep-tegra124-nyan-big.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.4.y/v5.4.237/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-tegra124-nyan-big.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:41.002000+00:00",
+      "path": "sleep.rtc-exist",
+      "id": "kernelci:kernelci.org:64148c8df0b06962058c86db",
+      "build_id": "kernelci:kernelci.org:64144d1de38dbed35c8c8642",
+      "origin": "kernelci",
+      "comment": "sleep on tegra124-nyan-big in lab-collabora"
+    }
+  ]
+}

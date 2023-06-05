@@ -1,0 +1,1412 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.339000+00:00",
+      "path": "ltp-timers.login",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8630",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.346000+00:00",
+      "path": "ltp-timers.clock_getcpuclockid_5-1",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8631",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.348000+00:00",
+      "path": "ltp-timers.nanosleep",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8632",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.428000+00:00",
+      "path": "ltp-timers.speculative",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8633",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.400000+00:00",
+      "path": "ltp-timers.clock_settime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8634",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.356000+00:00",
+      "path": "ltp-timers.clock_nanosleep",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8635",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.402000+00:00",
+      "path": "ltp-timers.clock_gettime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8636",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.362000+00:00",
+      "path": "ltp-timers.clock_getres",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8637",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.365000+00:00",
+      "path": "ltp-timers.clock_getcpuclockid",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8638",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.367000+00:00",
+      "path": "ltp-timers.clock",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8639",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.428000+00:00",
+      "path": "ltp-timers.speculative",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8633",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.409000+00:00",
+      "path": "ltp-timers.timer_settime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c863a",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.428000+00:00",
+      "path": "ltp-timers.speculative",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8633",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.414000+00:00",
+      "path": "ltp-timers.timer_gettime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c863b",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.434000+00:00",
+      "path": "ltp-timers.time",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c863c",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.380000+00:00",
+      "path": "ltp-timers.strftime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c863d",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.382000+00:00",
+      "path": "ltp-timers.mktime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c863e",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.390000+00:00",
+      "path": "ltp-timers.localtime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c863f",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.392000+00:00",
+      "path": "ltp-timers.gmtime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8640",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.394000+00:00",
+      "path": "ltp-timers.difftime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8641",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.396000+00:00",
+      "path": "ltp-timers.ctime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8642",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.428000+00:00",
+      "path": "ltp-timers.speculative",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8633",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.400000+00:00",
+      "path": "ltp-timers.clock_settime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8634",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.402000+00:00",
+      "path": "ltp-timers.clock_gettime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8636",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.405000+00:00",
+      "path": "ltp-timers.asctime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8643",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.428000+00:00",
+      "path": "ltp-timers.speculative",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8633",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.409000+00:00",
+      "path": "ltp-timers.timer_settime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c863a",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.428000+00:00",
+      "path": "ltp-timers.speculative",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8633",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.414000+00:00",
+      "path": "ltp-timers.timer_gettime",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c863b",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.428000+00:00",
+      "path": "ltp-timers.speculative",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8633",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.419000+00:00",
+      "path": "ltp-timers.timer_getoverrun",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8644",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.428000+00:00",
+      "path": "ltp-timers.speculative",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8633",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.424000+00:00",
+      "path": "ltp-timers.timer_delete",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8645",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.428000+00:00",
+      "path": "ltp-timers.speculative",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8633",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.430000+00:00",
+      "path": "ltp-timers.timer_create",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c8646",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-timers",
+        "plan_variant": "ltp-timers"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "mediatek",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "mt8173-elm-hana-cbg-1",
+          "device": "mt8173-elm-hana"
+        },
+        "comment": "mt8173-elm-hana in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/ltp-timers-mt8173-elm-hana.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/arm64/defconfig/gcc-10/lab-collabora/lava-mt8173-elm-hana.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:54.434000+00:00",
+      "path": "ltp-timers.time",
+      "id": "kernelci:kernelci.org:64148d4e40a66b7ad08c863c",
+      "build_id": "kernelci:kernelci.org:64148300cc6913131a8c8658",
+      "origin": "kernelci",
+      "comment": "ltp-timers on mt8173-elm-hana in lab-collabora"
+    }
+  ]
+}

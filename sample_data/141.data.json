@@ -1,0 +1,1779 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "id": "redhat:koji-98809470",
+      "origin": "redhat",
+      "tree_name": "kernel-eln",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:54:05.374794+00:00",
+      "contacts": [
+        "jforbes@redhat.com"
+      ],
+      "valid": true,
+      "misc": {
+        "iid": 79501,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T16:01:03.520904Z"
+        },
+        "brew_task_id": 98809470,
+        "submitter": "jforbes@redhat.com",
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": true,
+        "kernel_version": "6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810135866",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "redhat:koji-98809470",
+      "origin": "redhat",
+      "tree_name": "kernel-eln",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:48:30.344131+00:00",
+      "contacts": [
+        "jforbes@redhat.com"
+      ],
+      "valid": true,
+      "misc": {
+        "iid": 79501,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T16:01:03.520904Z"
+        },
+        "brew_task_id": 98809470,
+        "submitter": "jforbes@redhat.com",
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": true,
+        "kernel_version": "6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810135866",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "redhat:koji-98809470",
+      "origin": "redhat",
+      "tree_name": "kernel-eln",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:49:45.233619+00:00",
+      "contacts": [
+        "jforbes@redhat.com"
+      ],
+      "valid": true,
+      "misc": {
+        "iid": 79501,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T16:01:03.520904Z"
+        },
+        "brew_task_id": 98809470,
+        "submitter": "jforbes@redhat.com",
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": true,
+        "kernel_version": "6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810135866",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "redhat:koji-98809470",
+      "origin": "redhat",
+      "tree_name": "kernel-eln",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:50:28.648709+00:00",
+      "contacts": [
+        "jforbes@redhat.com"
+      ],
+      "valid": true,
+      "misc": {
+        "iid": 79501,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T16:01:03.520904Z"
+        },
+        "brew_task_id": 98809470,
+        "submitter": "jforbes@redhat.com",
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": true,
+        "kernel_version": "6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810135866",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          }
+        ]
+      }
+    }
+  ],
+  "builds": [
+    {
+      "checkout_id": "redhat:koji-98809470",
+      "id": "redhat:koji-98809470-s390x-kernel",
+      "origin": "redhat",
+      "comment": "Buildsystem task 98809470",
+      "start_time": "2023-03-17T15:54:25.163600+00:00",
+      "duration": 5278,
+      "architecture": "s390x",
+      "output_files": [
+        {
+          "url": "https://s3.upshift.redhat.com/DH-PROD-CKI/internal/810135866/s390x/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.s390x",
+          "name": "beaker_kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20s390x/3956552117/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.s390x/",
+          "name": "kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20s390x/3956552117/artifacts/cki-kernel.repo",
+          "name": "kernel_repofile_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/index.html?prefix=trusted-artifacts/810135866/publish%20s390x/3956552117/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.s390x/",
+          "name": "kernel_browse_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/setup%20s390x/3956552122/artifacts/beaker.xml",
+          "name": "beaker_xml"
+        }
+      ],
+      "config_name": "srpm: kernel-s390x.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/createrepo%20s390x/3956552108/artifacts/kernel-s390x.config",
+      "valid": true,
+      "misc": {
+        "iid": 324125,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T16:01:03.602869Z"
+        },
+        "debug": false,
+        "kpet_tree_name": "eln",
+        "kpet_tree_family": "eln",
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956552108",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "checkout_id": "redhat:koji-98809470",
+      "id": "redhat:koji-98809470-x86_64-kernel",
+      "origin": "redhat",
+      "comment": "Buildsystem task 98809470",
+      "start_time": "2023-03-17T15:48:49.462153+00:00",
+      "duration": 7064,
+      "architecture": "x86_64",
+      "output_files": [
+        {
+          "url": "https://s3.upshift.redhat.com/DH-PROD-CKI/internal/810135866/x86_64/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.x86_64",
+          "name": "beaker_kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20x86_64/3956552110/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.x86_64/",
+          "name": "kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20x86_64/3956552110/artifacts/cki-kernel.repo",
+          "name": "kernel_repofile_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/index.html?prefix=trusted-artifacts/810135866/publish%20x86_64/3956552110/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.x86_64/",
+          "name": "kernel_browse_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/setup%20x86_64/3956552118/artifacts/beaker.xml",
+          "name": "beaker_xml"
+        }
+      ],
+      "config_name": "srpm: kernel-x86_64.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/createrepo%20x86_64/3956552103/artifacts/kernel-x86_64.config",
+      "valid": true,
+      "misc": {
+        "iid": 324122,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T15:58:20.210287Z"
+        },
+        "debug": false,
+        "kpet_tree_name": "eln",
+        "kpet_tree_family": "eln",
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956552103",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "checkout_id": "redhat:koji-98809470",
+      "id": "redhat:koji-98809470-aarch64-kernel",
+      "origin": "redhat",
+      "comment": "Buildsystem task 98809470",
+      "start_time": "2023-03-17T15:50:05.455372+00:00",
+      "duration": 4160,
+      "architecture": "aarch64",
+      "output_files": [
+        {
+          "url": "https://s3.upshift.redhat.com/DH-PROD-CKI/internal/810135866/aarch64/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.aarch64",
+          "name": "beaker_kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20aarch64/3956552116/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.aarch64/",
+          "name": "kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20aarch64/3956552116/artifacts/cki-kernel.repo",
+          "name": "kernel_repofile_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/index.html?prefix=trusted-artifacts/810135866/publish%20aarch64/3956552116/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.aarch64/",
+          "name": "kernel_browse_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/setup%20aarch64/3956552121/artifacts/beaker.xml",
+          "name": "beaker_xml"
+        }
+      ],
+      "config_name": "srpm: kernel-aarch64.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/createrepo%20aarch64/3956552107/artifacts/kernel-aarch64.config",
+      "valid": true,
+      "misc": {
+        "iid": 324123,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T15:58:16.758020Z"
+        },
+        "debug": false,
+        "kpet_tree_name": "eln",
+        "kpet_tree_family": "eln",
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956552107",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "checkout_id": "redhat:koji-98809470",
+      "id": "redhat:koji-98809470-ppc64le-kernel",
+      "origin": "redhat",
+      "comment": "Buildsystem task 98809470",
+      "start_time": "2023-03-17T15:50:48.077508+00:00",
+      "duration": 6866,
+      "architecture": "ppc64le",
+      "output_files": [
+        {
+          "url": "https://s3.upshift.redhat.com/DH-PROD-CKI/internal/810135866/ppc64le/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.ppc64le",
+          "name": "beaker_kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20ppc64le/3956552115/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.ppc64le/",
+          "name": "kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20ppc64le/3956552115/artifacts/cki-kernel.repo",
+          "name": "kernel_repofile_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/index.html?prefix=trusted-artifacts/810135866/publish%20ppc64le/3956552115/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.ppc64le/",
+          "name": "kernel_browse_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/setup%20ppc64le/3956552119/artifacts/beaker.xml",
+          "name": "beaker_xml"
+        }
+      ],
+      "config_name": "srpm: kernel-ppc64le.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/createrepo%20ppc64le/3956552104/artifacts/kernel-ppc64le.config",
+      "valid": true,
+      "misc": {
+        "iid": 324124,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T15:57:03.175725Z"
+        },
+        "debug": false,
+        "kpet_tree_name": "eln",
+        "kpet_tree_family": "eln",
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956552104",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    }
+  ],
+  "tests": [
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_1",
+      "origin": "redhat",
+      "path": "redhat_restraint",
+      "comment": "CKI/restraint",
+      "waived": true,
+      "misc": {
+        "iid": 7469072,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_2",
+      "origin": "redhat",
+      "path": "selinux_custom_module_setup",
+      "comment": "SELinux Custom Module Setup",
+      "waived": true,
+      "misc": {
+        "iid": 7469073,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_3",
+      "origin": "redhat",
+      "path": "machineinfo",
+      "comment": "machineinfo",
+      "waived": true,
+      "misc": {
+        "iid": 7469074,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_4",
+      "origin": "redhat",
+      "path": "boot",
+      "comment": "Boot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469075,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_5",
+      "origin": "redhat",
+      "path": "ltp",
+      "comment": "LTP lite - upstream",
+      "waived": false,
+      "misc": {
+        "iid": 7469076,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Jan Stancek",
+            "email": "jstancek@redhat.com",
+            "gitlab_username": "jstancek"
+          },
+          {
+            "name": "Li Wang",
+            "email": "liwang@redhat.com",
+            "gitlab_username": "liwan1"
+          },
+          {
+            "name": "Memory Management",
+            "email": "mm-qe@redhat.com",
+            "gitlab_username": "mm-qe"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_6",
+      "origin": "redhat",
+      "path": "ltp.openposix",
+      "comment": "LTP: openposix test suite",
+      "waived": false,
+      "misc": {
+        "iid": 7469077,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Jan Stancek",
+            "email": "jstancek@redhat.com",
+            "gitlab_username": "jstancek"
+          },
+          {
+            "name": "Memory Management",
+            "email": "mm-qe@redhat.com",
+            "gitlab_username": "mm-qe"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_7",
+      "origin": "redhat",
+      "path": "kunit",
+      "comment": "KUNIT",
+      "waived": false,
+      "misc": {
+        "iid": 7469078,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Nico Pache",
+            "email": "npache@redhat.com",
+            "gitlab_username": "npache"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_8",
+      "origin": "redhat",
+      "path": "redhat_kdump.kexec_boot",
+      "comment": "kdump - kexec_boot",
+      "waived": false,
+      "misc": {
+        "iid": 7469079,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_9",
+      "origin": "redhat",
+      "path": "redhat_kdump.kexec_file_load",
+      "comment": "kdump - kexec-file-load",
+      "waived": false,
+      "misc": {
+        "iid": 7469080,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_10",
+      "origin": "redhat",
+      "path": "reboot_test",
+      "comment": "Reboot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469081,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_11",
+      "origin": "redhat",
+      "path": "redhat_restraint",
+      "comment": "CKI/restraint",
+      "waived": true,
+      "misc": {
+        "iid": 7469082,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_12",
+      "origin": "redhat",
+      "path": "selinux_custom_module_setup",
+      "comment": "SELinux Custom Module Setup",
+      "waived": true,
+      "misc": {
+        "iid": 7469083,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_13",
+      "origin": "redhat",
+      "path": "machineinfo",
+      "comment": "machineinfo",
+      "waived": true,
+      "misc": {
+        "iid": 7469084,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_14",
+      "origin": "redhat",
+      "path": "boot",
+      "comment": "Boot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469085,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_15",
+      "origin": "redhat",
+      "path": "redhat_kdump.sysrq-c",
+      "comment": "kdump - sysrq-c",
+      "waived": false,
+      "misc": {
+        "iid": 7469086,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_16",
+      "origin": "redhat",
+      "path": "redhat_kdump.file_load",
+      "comment": "kdump - file-load",
+      "waived": false,
+      "misc": {
+        "iid": 7469087,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-s390x-kernel",
+      "id": "redhat:koji-98809470-s390x-kernel_upt_17",
+      "origin": "redhat",
+      "path": "reboot_test",
+      "comment": "Reboot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469088,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_1",
+      "origin": "redhat",
+      "path": "redhat_restraint",
+      "comment": "CKI/restraint",
+      "waived": true,
+      "misc": {
+        "iid": 7469089,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_2",
+      "origin": "redhat",
+      "path": "selinux_custom_module_setup",
+      "comment": "SELinux Custom Module Setup",
+      "waived": true,
+      "misc": {
+        "iid": 7469090,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_3",
+      "origin": "redhat",
+      "path": "machineinfo",
+      "comment": "machineinfo",
+      "waived": true,
+      "misc": {
+        "iid": 7469091,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_4",
+      "origin": "redhat",
+      "path": "boot",
+      "comment": "Boot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469092,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_5",
+      "origin": "redhat",
+      "path": "ltp",
+      "comment": "LTP lite - upstream",
+      "waived": false,
+      "misc": {
+        "iid": 7469093,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Jan Stancek",
+            "email": "jstancek@redhat.com",
+            "gitlab_username": "jstancek"
+          },
+          {
+            "name": "Li Wang",
+            "email": "liwang@redhat.com",
+            "gitlab_username": "liwan1"
+          },
+          {
+            "name": "Memory Management",
+            "email": "mm-qe@redhat.com",
+            "gitlab_username": "mm-qe"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_6",
+      "origin": "redhat",
+      "path": "ltp.openposix",
+      "comment": "LTP: openposix test suite",
+      "waived": false,
+      "misc": {
+        "iid": 7469094,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Jan Stancek",
+            "email": "jstancek@redhat.com",
+            "gitlab_username": "jstancek"
+          },
+          {
+            "name": "Memory Management",
+            "email": "mm-qe@redhat.com",
+            "gitlab_username": "mm-qe"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_7",
+      "origin": "redhat",
+      "path": "kunit",
+      "comment": "KUNIT",
+      "waived": false,
+      "misc": {
+        "iid": 7469095,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Nico Pache",
+            "email": "npache@redhat.com",
+            "gitlab_username": "npache"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_8",
+      "origin": "redhat",
+      "path": "redhat_kdump.kexec_boot",
+      "comment": "kdump - kexec_boot",
+      "waived": false,
+      "misc": {
+        "iid": 7469096,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_9",
+      "origin": "redhat",
+      "path": "redhat_kdump.kexec_file_load",
+      "comment": "kdump - kexec-file-load",
+      "waived": false,
+      "misc": {
+        "iid": 7469097,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_10",
+      "origin": "redhat",
+      "path": "reboot_test",
+      "comment": "Reboot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469098,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_11",
+      "origin": "redhat",
+      "path": "redhat_restraint",
+      "comment": "CKI/restraint",
+      "waived": true,
+      "misc": {
+        "iid": 7469099,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_12",
+      "origin": "redhat",
+      "path": "selinux_custom_module_setup",
+      "comment": "SELinux Custom Module Setup",
+      "waived": true,
+      "misc": {
+        "iid": 7469100,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_13",
+      "origin": "redhat",
+      "path": "machineinfo",
+      "comment": "machineinfo",
+      "waived": true,
+      "misc": {
+        "iid": 7469101,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_14",
+      "origin": "redhat",
+      "path": "boot",
+      "comment": "Boot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469102,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_15",
+      "origin": "redhat",
+      "path": "redhat_kdump.sysrq-c",
+      "comment": "kdump - sysrq-c",
+      "waived": false,
+      "misc": {
+        "iid": 7469103,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_16",
+      "origin": "redhat",
+      "path": "redhat_kdump.file_load",
+      "comment": "kdump - file-load",
+      "waived": false,
+      "misc": {
+        "iid": 7469104,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-x86_64-kernel",
+      "id": "redhat:koji-98809470-x86_64-kernel_upt_17",
+      "origin": "redhat",
+      "path": "reboot_test",
+      "comment": "Reboot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469105,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_1",
+      "origin": "redhat",
+      "path": "redhat_restraint",
+      "comment": "CKI/restraint",
+      "waived": true,
+      "misc": {
+        "iid": 7469106,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_2",
+      "origin": "redhat",
+      "path": "selinux_custom_module_setup",
+      "comment": "SELinux Custom Module Setup",
+      "waived": true,
+      "misc": {
+        "iid": 7469107,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_3",
+      "origin": "redhat",
+      "path": "machineinfo",
+      "comment": "machineinfo",
+      "waived": true,
+      "misc": {
+        "iid": 7469108,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_4",
+      "origin": "redhat",
+      "path": "boot",
+      "comment": "Boot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469109,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_5",
+      "origin": "redhat",
+      "path": "ltp",
+      "comment": "LTP lite - upstream",
+      "waived": false,
+      "misc": {
+        "iid": 7469110,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Jan Stancek",
+            "email": "jstancek@redhat.com",
+            "gitlab_username": "jstancek"
+          },
+          {
+            "name": "Li Wang",
+            "email": "liwang@redhat.com",
+            "gitlab_username": "liwan1"
+          },
+          {
+            "name": "Memory Management",
+            "email": "mm-qe@redhat.com",
+            "gitlab_username": "mm-qe"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_6",
+      "origin": "redhat",
+      "path": "ltp.openposix",
+      "comment": "LTP: openposix test suite",
+      "waived": false,
+      "misc": {
+        "iid": 7469111,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Jan Stancek",
+            "email": "jstancek@redhat.com",
+            "gitlab_username": "jstancek"
+          },
+          {
+            "name": "Memory Management",
+            "email": "mm-qe@redhat.com",
+            "gitlab_username": "mm-qe"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_7",
+      "origin": "redhat",
+      "path": "kunit",
+      "comment": "KUNIT",
+      "waived": false,
+      "misc": {
+        "iid": 7469112,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Nico Pache",
+            "email": "npache@redhat.com",
+            "gitlab_username": "npache"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_8",
+      "origin": "redhat",
+      "path": "redhat_kdump.kexec_boot",
+      "comment": "kdump - kexec_boot",
+      "waived": false,
+      "misc": {
+        "iid": 7469113,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_9",
+      "origin": "redhat",
+      "path": "redhat_kdump.kexec_file_load",
+      "comment": "kdump - kexec-file-load",
+      "waived": false,
+      "misc": {
+        "iid": 7469114,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_10",
+      "origin": "redhat",
+      "path": "reboot_test",
+      "comment": "Reboot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469115,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_11",
+      "origin": "redhat",
+      "path": "redhat_restraint",
+      "comment": "CKI/restraint",
+      "waived": true,
+      "misc": {
+        "iid": 7469116,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_12",
+      "origin": "redhat",
+      "path": "selinux_custom_module_setup",
+      "comment": "SELinux Custom Module Setup",
+      "waived": true,
+      "misc": {
+        "iid": 7469117,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_13",
+      "origin": "redhat",
+      "path": "machineinfo",
+      "comment": "machineinfo",
+      "waived": true,
+      "misc": {
+        "iid": 7469118,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_14",
+      "origin": "redhat",
+      "path": "boot",
+      "comment": "Boot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469119,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_15",
+      "origin": "redhat",
+      "path": "redhat_kdump.sysrq-c",
+      "comment": "kdump - sysrq-c",
+      "waived": false,
+      "misc": {
+        "iid": 7469120,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-aarch64-kernel",
+      "id": "redhat:koji-98809470-aarch64-kernel_upt_16",
+      "origin": "redhat",
+      "path": "reboot_test",
+      "comment": "Reboot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469121,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_1",
+      "origin": "redhat",
+      "path": "redhat_restraint",
+      "comment": "CKI/restraint",
+      "waived": true,
+      "misc": {
+        "iid": 7469122,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_2",
+      "origin": "redhat",
+      "path": "selinux_custom_module_setup",
+      "comment": "SELinux Custom Module Setup",
+      "waived": true,
+      "misc": {
+        "iid": 7469123,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_3",
+      "origin": "redhat",
+      "path": "machineinfo",
+      "comment": "machineinfo",
+      "waived": true,
+      "misc": {
+        "iid": 7469124,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_4",
+      "origin": "redhat",
+      "path": "boot",
+      "comment": "Boot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469125,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_5",
+      "origin": "redhat",
+      "path": "ltp",
+      "comment": "LTP lite - upstream",
+      "waived": false,
+      "misc": {
+        "iid": 7469126,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Jan Stancek",
+            "email": "jstancek@redhat.com",
+            "gitlab_username": "jstancek"
+          },
+          {
+            "name": "Li Wang",
+            "email": "liwang@redhat.com",
+            "gitlab_username": "liwan1"
+          },
+          {
+            "name": "Memory Management",
+            "email": "mm-qe@redhat.com",
+            "gitlab_username": "mm-qe"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_6",
+      "origin": "redhat",
+      "path": "ltp.openposix",
+      "comment": "LTP: openposix test suite",
+      "waived": false,
+      "misc": {
+        "iid": 7469127,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Jan Stancek",
+            "email": "jstancek@redhat.com",
+            "gitlab_username": "jstancek"
+          },
+          {
+            "name": "Memory Management",
+            "email": "mm-qe@redhat.com",
+            "gitlab_username": "mm-qe"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_7",
+      "origin": "redhat",
+      "path": "kunit",
+      "comment": "KUNIT",
+      "waived": false,
+      "misc": {
+        "iid": 7469128,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Nico Pache",
+            "email": "npache@redhat.com",
+            "gitlab_username": "npache"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_8",
+      "origin": "redhat",
+      "path": "reboot_test",
+      "comment": "Reboot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469129,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_9",
+      "origin": "redhat",
+      "path": "redhat_restraint",
+      "comment": "CKI/restraint",
+      "waived": true,
+      "misc": {
+        "iid": 7469130,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_10",
+      "origin": "redhat",
+      "path": "selinux_custom_module_setup",
+      "comment": "SELinux Custom Module Setup",
+      "waived": true,
+      "misc": {
+        "iid": 7469131,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_11",
+      "origin": "redhat",
+      "path": "machineinfo",
+      "comment": "machineinfo",
+      "waived": true,
+      "misc": {
+        "iid": 7469132,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        }
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_12",
+      "origin": "redhat",
+      "path": "boot",
+      "comment": "Boot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469133,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_13",
+      "origin": "redhat",
+      "path": "redhat_kdump.sysrq-c",
+      "comment": "kdump - sysrq-c",
+      "waived": false,
+      "misc": {
+        "iid": 7469134,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_14",
+      "origin": "redhat",
+      "path": "redhat_kdump.file_load",
+      "comment": "kdump - file-load",
+      "waived": false,
+      "misc": {
+        "iid": 7469135,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Baoquan He",
+            "email": "bhe@redhat.com",
+            "gitlab_username": "baoquan_he"
+          },
+          {
+            "name": "Xiaowu Wu",
+            "email": "xiawu@redhat.com",
+            "gitlab_username": "emmawu1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:koji-98809470-ppc64le-kernel",
+      "id": "redhat:koji-98809470-ppc64le-kernel_upt_15",
+      "origin": "redhat",
+      "path": "reboot_test",
+      "comment": "Reboot test",
+      "waived": false,
+      "misc": {
+        "iid": 7469136,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    }
+  ]
+}

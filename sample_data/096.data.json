@@ -1,0 +1,62 @@
+{
+  "builds": [
+    {
+      "architecture": "x86_64",
+      "start_time": "2023-01-26T15:15:10.422000+00:00",
+      "misc": {
+        "vmlinux_data_size": 3905728,
+        "kernel_image_size": null,
+        "build_platform": [
+          "Linux",
+          "build-j923894-x86-64-gcc-10-x86-64-defconfig-kselftest-clwrx",
+          "5.10.147+",
+          "#1 SMP Thu Nov 10 10:14:30 UTC 2022",
+          "x86_64",
+          "Intel(R) Xeon(R) CPU @ 2.20GHz"
+        ],
+        "vmlinux_bss_size": 12546048
+      },
+      "log_url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+kselftest/gcc-10/logs",
+      "config_url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+kselftest/gcc-10/config/kernel.config",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+kselftest/gcc-10/kernel/System.map",
+          "name": "System.map"
+        },
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+kselftest/gcc-10/modules.tar.xz",
+          "name": "modules"
+        },
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+kselftest/gcc-10/kernel/bzImage",
+          "name": "kernel_image"
+        }
+      ],
+      "duration": 827.7100002765656,
+      "compiler": "gcc (Debian 10.2.1-6) 10.2.1 20210110",
+      "valid": true,
+      "config_name": "x86_64_defconfig+kselftest",
+      "id": "kernelci:kernelci.org:63d298fe79e2270760915ed5",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:610b3c408ab575b559aa282627a11130020f5ecc",
+      "comment": "v6.2-rc5-274-g610b3c408ab5"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "master",
+      "valid": true,
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git",
+      "id": "_:kernelci:610b3c408ab575b559aa282627a11130020f5ecc",
+      "origin": "kernelci",
+      "git_commit_hash": "610b3c408ab575b559aa282627a11130020f5ecc",
+      "git_commit_name": "v6.2-rc5-274-g610b3c408ab5",
+      "patchset_hash": "",
+      "start_time": "2023-01-26T15:15:10.422000+00:00"
+    }
+  ]
+}

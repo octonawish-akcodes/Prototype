@@ -1,0 +1,32 @@
+{
+  "revisions": [
+    {
+      "id": "6d796c50f84ca79f1722bb131799e5a5710c4700",
+      "origin": "tuxsuite",
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git",
+      "git_commit_hash": "6d796c50f84ca79f1722bb131799e5a5710c4700",
+      "git_commit_name": "v6.2-rc6",
+      "discovery_time": "2023-01-30T14:42:29+00:00",
+      "valid": true,
+      "git_repository_branch": "master"
+    }
+  ],
+  "builds": [
+    {
+      "id": "tuxsuite:2L3BBNtTYYmVZDQMIEtmb1pFzFx",
+      "revision_id": "6d796c50f84ca79f1722bb131799e5a5710c4700",
+      "origin": "tuxsuite",
+      "architecture": "powerpc",
+      "compiler": "Debian clang version 12.0.1-++20211027092659+fed41342a82f-1~exp1~20211027213207.7",
+      "config_name": "powernv_defconfig",
+      "config_url": "https://storage.tuxsuite.com/public/clangbuiltlinux/continuous-integration2/builds/2L3BBNtTYYmVZDQMIEtmb1pFzFx/config",
+      "log_url": "https://storage.tuxsuite.com/public/clangbuiltlinux/continuous-integration2/builds/2L3BBNtTYYmVZDQMIEtmb1pFzFx/build.log",
+      "start_time": "2023-01-30T14:42:29+00:00",
+      "valid": true
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

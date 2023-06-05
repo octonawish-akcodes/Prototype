@@ -1,0 +1,88 @@
+{
+  "tests": [
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:37ec7ab49f951ef8c38102328b84d3dc7155dc68-arm-multi_v7_defconfig",
+      "id": "broonie:d9e14e2ad0254bca890d2d32714ec2b4",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180054/log_file/plain",
+      "start_time": "2023-03-17T15:57:15.480307+00:00",
+      "status": "PASS",
+      "path": "dmesg.crit"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:37ec7ab49f951ef8c38102328b84d3dc7155dc68-arm-multi_v7_defconfig",
+      "id": "broonie:06aac8808b3a4cdf83240f9394785c14",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180054/log_file/plain",
+      "start_time": "2023-03-17T15:57:15.480348+00:00",
+      "status": "PASS",
+      "path": "dmesg.alert"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:37ec7ab49f951ef8c38102328b84d3dc7155dc68-arm-multi_v7_defconfig",
+      "id": "broonie:470323646c03452d9b39fe9b356a641e",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/180054/log_file/plain",
+      "start_time": "2023-03-17T15:57:15.480387+00:00",
+      "status": "PASS",
+      "path": "dmesg.emerg"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:37ec7ab49f951ef8c38102328b84d3dc7155dc68-arm-multi_v7_defconfig",
+      "id": "broonie:c46d086b5fe649fcbbb7492aea17ec3e",
+      "log_url": "https://validation.linaro.org/scheduler/job/3936480/log_file/plain",
+      "start_time": "2023-03-17T15:52:48.157794+00:00",
+      "status": "PASS",
+      "path": "bootrr.all-cpus-are-online"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:37ec7ab49f951ef8c38102328b84d3dc7155dc68-arm-multi_v7_defconfig",
+      "id": "broonie:cc8140624c3a4e97bc5d727f403fae1d",
+      "log_url": "https://validation.linaro.org/scheduler/job/3936480/log_file/plain",
+      "start_time": "2023-03-17T15:52:48.157723+00:00",
+      "status": "PASS",
+      "path": "bootrr.deferred-probe-empty"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:37ec7ab49f951ef8c38102328b84d3dc7155dc68-arm-multi_v7_defconfig",
+      "id": "broonie:a19e5ab65a68445e986de7df251e383f",
+      "log_url": "https://validation.linaro.org/scheduler/job/3936480/log_file/plain",
+      "start_time": "2023-03-17T15:52:48.157542+00:00",
+      "status": "PASS",
+      "path": "dmesg.emerg"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:37ec7ab49f951ef8c38102328b84d3dc7155dc68-arm-multi_v7_defconfig",
+      "id": "broonie:b5e2daa3aa8040229b977ef115c90386",
+      "log_url": "https://validation.linaro.org/scheduler/job/3936480/log_file/plain",
+      "start_time": "2023-03-17T15:52:48.157431+00:00",
+      "status": "PASS",
+      "path": "dmesg.alert"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:37ec7ab49f951ef8c38102328b84d3dc7155dc68-arm-multi_v7_defconfig",
+      "id": "broonie:c63700c9deef4a668121deb65dd5486b",
+      "log_url": "https://validation.linaro.org/scheduler/job/3936480/log_file/plain",
+      "start_time": "2023-03-17T15:52:48.157293+00:00",
+      "status": "PASS",
+      "path": "dmesg.crit"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

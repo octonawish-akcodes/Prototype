@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "juno-uboot",
+          "mach": "vexpress",
+          "lab": "lab-broonie",
+          "instance": "juno-03"
+        },
+        "comment": "juno-uboot in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/lava-juno-uboot.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:49.503000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e970d976c34d915ecd",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on juno-uboot in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "juno-uboot",
+          "mach": "vexpress",
+          "lab": "lab-broonie",
+          "instance": "juno-03"
+        },
+        "comment": "juno-uboot in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/lava-juno-uboot.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:49.516000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e970d976c34d915ecf",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on juno-uboot in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "juno-uboot",
+          "mach": "vexpress",
+          "lab": "lab-broonie",
+          "instance": "juno-03"
+        },
+        "comment": "juno-uboot in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/lava-juno-uboot.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:49.517000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e970d976c34d915ed0",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on juno-uboot in lab-broonie"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "FAIL",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "juno-uboot",
+          "mach": "vexpress",
+          "lab": "lab-broonie",
+          "instance": "juno-03"
+        },
+        "comment": "juno-uboot in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/lava-juno-uboot.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:49.518000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e970d976c34d915ed1",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on juno-uboot in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "juno-uboot",
+          "mach": "vexpress",
+          "lab": "lab-broonie",
+          "instance": "juno-03"
+        },
+        "comment": "juno-uboot in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/lava-juno-uboot.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:49.526000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e970d976c34d915ed3",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on juno-uboot in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "juno-uboot",
+          "mach": "vexpress",
+          "lab": "lab-broonie",
+          "instance": "juno-03"
+        },
+        "comment": "juno-uboot in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/lava-juno-uboot.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:49.527000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e970d976c34d915ed4",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on juno-uboot in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "juno-uboot",
+          "mach": "vexpress",
+          "lab": "lab-broonie",
+          "instance": "juno-03"
+        },
+        "comment": "juno-uboot in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-juno-uboot.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-broonie/lava-juno-uboot.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:49.528000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e970d976c34d915ed5",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on juno-uboot in lab-broonie"
+    }
+  ]
+}

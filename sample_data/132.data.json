@@ -1,0 +1,100 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "id": "redhat:koji-98809470",
+      "origin": "redhat",
+      "tree_name": "kernel-eln",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:50:28.648709+00:00",
+      "contacts": [
+        "jforbes@redhat.com"
+      ],
+      "valid": true,
+      "misc": {
+        "iid": 79501,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T15:53:03.087612Z"
+        },
+        "brew_task_id": 98809470,
+        "submitter": "jforbes@redhat.com",
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": true,
+        "kernel_version": "6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810135866",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          }
+        ]
+      }
+    }
+  ],
+  "builds": [
+    {
+      "checkout_id": "redhat:koji-98809470",
+      "id": "redhat:koji-98809470-ppc64le-kernel",
+      "origin": "redhat",
+      "comment": "Buildsystem task 98809470",
+      "start_time": "2023-03-17T15:50:48.077508+00:00",
+      "duration": 6866,
+      "architecture": "ppc64le",
+      "output_files": [
+        {
+          "url": "https://s3.upshift.redhat.com/DH-PROD-CKI/internal/810135866/ppc64le/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.ppc64le",
+          "name": "beaker_kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20ppc64le/3956552115/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.ppc64le/",
+          "name": "kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20ppc64le/3956552115/artifacts/cki-kernel.repo",
+          "name": "kernel_repofile_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/index.html?prefix=trusted-artifacts/810135866/publish%20ppc64le/3956552115/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.ppc64le/",
+          "name": "kernel_browse_url"
+        }
+      ],
+      "config_name": "srpm: kernel-ppc64le.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/createrepo%20ppc64le/3956552104/artifacts/kernel-ppc64le.config",
+      "valid": true,
+      "misc": {
+        "iid": 324124,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956552104",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    }
+  ],
+  "tests": []
+}

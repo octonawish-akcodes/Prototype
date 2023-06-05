@@ -1,0 +1,630 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [],
+  "builds": [],
+  "tests": [
+    {
+      "build_id": "redhat:809168774-x86_64-kernel",
+      "id": "redhat:809168774-x86_64-kernel_upt_59",
+      "origin": "redhat",
+      "environment": {
+        "comment": "wsfd-advnetlab149.lab3.eng.bos.redhat.com"
+      },
+      "path": "redhat_vnic_sriov",
+      "comment": "Networking vnic sriov - cntvf_cntvf_vlan - Server",
+      "status": "PASS",
+      "waived": true,
+      "start_time": "2023-03-17T13:55:48.591310+00:00",
+      "duration": 708,
+      "output_files": [
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/console.log/console.log",
+          "name": "console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/logs/harness.log",
+          "name": "harness.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/logs/test_console.log",
+          "name": "test_console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/logs/taskout.log",
+          "name": "taskout.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/logs/journal.xml",
+          "name": "journal.xml"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048906/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048906/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048906/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048907/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048907/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048907/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048908/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048908/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048909/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048909/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/28/results/1679048909/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/809168774/test%20x86_64/3950823691/artifacts/testid59/beaker.xml",
+          "name": "beaker_xml"
+        }
+      ],
+      "misc": {
+        "iid": 7457698,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "provenance": [
+          {
+            "url": "https://beaker.engineering.redhat.com/recipes/13562964",
+            "function": "provisioner",
+            "service_name": "beaker"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3950823691",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ],
+        "maintainers": [
+          {
+            "name": "Zhiqiang Fang",
+            "email": "zfang@redhat.com",
+            "gitlab_username": "zfang1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:809168774-x86_64-kernel",
+      "id": "redhat:809168774-x86_64-kernel_upt_60",
+      "origin": "redhat",
+      "environment": {
+        "comment": "wsfd-advnetlab149.lab3.eng.bos.redhat.com"
+      },
+      "path": "redhat_vnic_sriov",
+      "comment": "Networking vnic sriov - podcntvf_podcntvf - Server",
+      "status": "PASS",
+      "waived": true,
+      "start_time": "2023-03-17T14:07:38.297241+00:00",
+      "duration": 713,
+      "output_files": [
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/console.log/console.log",
+          "name": "console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/logs/harness.log",
+          "name": "harness.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/logs/test_console.log",
+          "name": "test_console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/logs/taskout.log",
+          "name": "taskout.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/logs/journal.xml",
+          "name": "journal.xml"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048914/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048914/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048914/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048916/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048916/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048916/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048915/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048915/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048913/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048913/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/29/results/1679048913/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/809168774/test%20x86_64/3950823691/artifacts/testid60/beaker.xml",
+          "name": "beaker_xml"
+        }
+      ],
+      "misc": {
+        "iid": 7457699,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "provenance": [
+          {
+            "url": "https://beaker.engineering.redhat.com/recipes/13562964",
+            "function": "provisioner",
+            "service_name": "beaker"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3950823691",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ],
+        "maintainers": [
+          {
+            "name": "Zhiqiang Fang",
+            "email": "zfang@redhat.com",
+            "gitlab_username": "zfang1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:809168774-x86_64-kernel",
+      "id": "redhat:809168774-x86_64-kernel_upt_61",
+      "origin": "redhat",
+      "environment": {
+        "comment": "wsfd-advnetlab149.lab3.eng.bos.redhat.com"
+      },
+      "path": "redhat_vnic_sriov",
+      "comment": "Networking vnic sriov - podcntvf1_podcntvf2 - Server",
+      "status": "PASS",
+      "waived": true,
+      "start_time": "2023-03-17T14:19:33.366614+00:00",
+      "duration": 713,
+      "output_files": [
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/console.log/console.log",
+          "name": "console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/logs/harness.log",
+          "name": "harness.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/logs/test_console.log",
+          "name": "test_console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/logs/taskout.log",
+          "name": "taskout.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/logs/journal.xml",
+          "name": "journal.xml"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048921/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048921/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048921/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048920/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048920/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048920/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048923/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048923/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048923/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048922/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/30/results/1679048922/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/809168774/test%20x86_64/3950823691/artifacts/testid61/beaker.xml",
+          "name": "beaker_xml"
+        }
+      ],
+      "misc": {
+        "iid": 7457700,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "provenance": [
+          {
+            "url": "https://beaker.engineering.redhat.com/recipes/13562964",
+            "function": "provisioner",
+            "service_name": "beaker"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3950823691",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ],
+        "maintainers": [
+          {
+            "name": "Zhiqiang Fang",
+            "email": "zfang@redhat.com",
+            "gitlab_username": "zfang1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:809168774-x86_64-kernel",
+      "id": "redhat:809168774-x86_64-kernel_upt_62",
+      "origin": "redhat",
+      "environment": {
+        "comment": "wsfd-advnetlab149.lab3.eng.bos.redhat.com"
+      },
+      "path": "redhat_vnic_sriov",
+      "comment": "Networking vnic sriov - podcntvf_remote - Server",
+      "status": "PASS",
+      "waived": true,
+      "start_time": "2023-03-17T14:31:28.870246+00:00",
+      "duration": 701,
+      "output_files": [
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/console.log/console.log",
+          "name": "console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/logs/harness.log",
+          "name": "harness.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/logs/test_console.log",
+          "name": "test_console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/logs/taskout.log",
+          "name": "taskout.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/logs/journal.xml",
+          "name": "journal.xml"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048930/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048930/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048930/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048927/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048927/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048927/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048929/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048929/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048928/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048928/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/31/results/1679048928/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/809168774/test%20x86_64/3950823691/artifacts/testid62/beaker.xml",
+          "name": "beaker_xml"
+        }
+      ],
+      "misc": {
+        "iid": 7457701,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3950823691",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://beaker.engineering.redhat.com/recipes/13562964",
+            "function": "provisioner",
+            "service_name": "beaker"
+          }
+        ],
+        "maintainers": [
+          {
+            "name": "Zhiqiang Fang",
+            "email": "zfang@redhat.com",
+            "gitlab_username": "zfang1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:809168774-x86_64-kernel",
+      "id": "redhat:809168774-x86_64-kernel_upt_63",
+      "origin": "redhat",
+      "environment": {
+        "comment": "wsfd-advnetlab149.lab3.eng.bos.redhat.com"
+      },
+      "path": "redhat_vnic_sriov",
+      "comment": "Networking vnic sriov - reproduce_2021326_reboot_check - Server",
+      "status": "ERROR",
+      "waived": true,
+      "start_time": "2023-03-17T14:43:11.553771+00:00",
+      "duration": 3707,
+      "output_files": [
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/console.log/console.log",
+          "name": "console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/logs/harness.log",
+          "name": "harness.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/logs/test_console.log",
+          "name": "test_console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/logs/taskout.log",
+          "name": "taskout.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/logs/ps-lwd.log",
+          "name": "ps-lwd.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/logs/journalctl",
+          "name": "journalctl"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/results/1679048935/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/results/1679048935/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/results/1679048935/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/results/1679048936/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/results/1679048934/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/results/1679048934/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/32/results/1679048934/logs/resultoutputfile.log",
+          "name": "resultoutputfile.log"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/809168774/test%20x86_64/3950823691/artifacts/testid63/beaker.xml",
+          "name": "beaker_xml"
+        }
+      ],
+      "misc": {
+        "iid": 7457702,
+        "is_missing_triage": true,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "provenance": [
+          {
+            "url": "https://beaker.engineering.redhat.com/recipes/13562964",
+            "function": "provisioner",
+            "service_name": "beaker"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3950823691",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ],
+        "maintainers": [
+          {
+            "name": "Zhiqiang Fang",
+            "email": "zfang@redhat.com",
+            "gitlab_username": "zfang1"
+          }
+        ]
+      }
+    },
+    {
+      "build_id": "redhat:809168774-x86_64-kernel",
+      "id": "redhat:809168774-x86_64-kernel_upt_64",
+      "origin": "redhat",
+      "environment": {
+        "comment": "wsfd-advnetlab149.lab3.eng.bos.redhat.com"
+      },
+      "path": "reboot_test",
+      "comment": "Reboot test",
+      "status": "FAIL",
+      "waived": false,
+      "start_time": "2023-03-17T15:45:00.529490+00:00",
+      "duration": 272,
+      "output_files": [
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/console.log/console.log",
+          "name": "console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/33/logs/harness.log",
+          "name": "harness.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/33/logs/test_console.log",
+          "name": "test_console.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/33/logs/taskout.log",
+          "name": "taskout.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/33/logs/journalctl.log",
+          "name": "journalctl.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/33/results/1679068153/logs/dmesg.log",
+          "name": "dmesg.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/33/results/1679068153/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/33/results/1679068155/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.us-east-1.amazonaws.com/arr-cki-prod-datawarehouse-public/datawarehouse-public/809168774/3950823691/redhat:809168774/build_x86_64_redhat:809168774-x86_64-kernel/tests/1/results_0002/job.01/recipes/13562964/tasks/33/results/1679068154/logs/avc.log",
+          "name": "avc.log"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/809168774/test%20x86_64/3950823691/artifacts/testid64/beaker.xml",
+          "name": "beaker_xml"
+        }
+      ],
+      "misc": {
+        "iid": 7457703,
+        "is_missing_triage": true,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3950823691",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://beaker.engineering.redhat.com/recipes/13562964",
+            "function": "provisioner",
+            "service_name": "beaker"
+          }
+        ],
+        "maintainers": [
+          {
+            "name": "Bruno Goncalves",
+            "email": "bgoncalv@redhat.com",
+            "gitlab_username": "bgoncalv"
+          }
+        ]
+      }
+    }
+  ]
+}

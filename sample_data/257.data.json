@@ -1,0 +1,2169 @@
+{
+  "revisions": [
+    {
+      "id": "7c4a254d78f83a561080f52bc8a27917471941b5",
+      "description": "v6.3-rc3-6101-g7c4a254d78f8 on next/master",
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git",
+      "git_repository_branch": "master",
+      "git_commit_hash": "7c4a254d78f83a561080f52bc8a27917471941b5",
+      "git_commit_name": "v6.3-rc3-6101-g7c4a254d78f8",
+      "discovery_time": "2023-03-24T04:43:24+00:00",
+      "origin": "arm"
+    },
+    {
+      "id": "9fd6ba5420baa08d98ac8dc8c286d8285420d445",
+      "description": "v6.3-rc3-29-g9fd6ba5420ba on linus/master",
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git",
+      "git_repository_branch": "master",
+      "git_commit_hash": "9fd6ba5420baa08d98ac8dc8c286d8285420d445",
+      "git_commit_name": "v6.3-rc3-29-g9fd6ba5420ba",
+      "discovery_time": "2023-03-24T04:57:27+00:00",
+      "origin": "arm"
+    }
+  ],
+  "builds": [
+    {
+      "id": "arm:2023-03-23:75a7e056b89f73f55270a28d4397ab675249a76c",
+      "revision_id": "7c4a254d78f83a561080f52bc8a27917471941b5",
+      "origin": "arm",
+      "architecture": "arm64",
+      "description": "LTP default on JUNO ACPI 64bit kernel-team",
+      "config_name": "defconfig",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "misc": {
+        "job_number": "514537",
+        "run_date": "2023-03-23",
+        "outcome": "KERNEL_BOOT_FAILURE",
+        "platform": "JUNO",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "tags": [
+          "KERNEL OOPS",
+          "KERNEL PANICS",
+          "CALL TRACE",
+          "IMAGE_NOT_TESTED",
+          "64BIT",
+          "DEBIAN"
+        ],
+        "runlist": "default",
+        "suite": "LTP",
+        "suite_version": "ltp20220527-2-g1073342b3",
+        "tests_total": "0",
+        "tests_passed": "0",
+        "tests_failed": "0",
+        "tests_skipped": "0",
+        "tests_xfailed": "0"
+      },
+      "valid": true
+    },
+    {
+      "id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "revision_id": "9fd6ba5420baa08d98ac8dc8c286d8285420d445",
+      "origin": "arm",
+      "architecture": "arm64",
+      "description": "PERF default on SOFTIRON ACPI 64bit kernel-team",
+      "config_name": "defconfig",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "misc": {
+        "job_number": "514538",
+        "run_date": "2023-03-23",
+        "outcome": "TEST_EXECUTION WITH_FAILURES",
+        "platform": "SOFTIRON",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "tags": [
+          "KERNEL WARNING",
+          "CALL TRACE",
+          "64BIT",
+          "DEBIAN"
+        ],
+        "runlist": "default",
+        "suite": "PERF",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba",
+        "tests_total": "117",
+        "tests_passed": "81",
+        "tests_failed": "3",
+        "tests_skipped": "33",
+        "tests_xfailed": "0"
+      },
+      "valid": true
+    },
+    {
+      "id": "arm:2023-03-23:7471de82ce1b4d5515ad21245261eaf12958c397",
+      "revision_id": "7c4a254d78f83a561080f52bc8a27917471941b5",
+      "origin": "arm",
+      "architecture": "arm64",
+      "description": "LTP default on JUNO ACPI 64bit kernel-team",
+      "config_name": "defconfig",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "misc": {
+        "job_number": "514543",
+        "run_date": "2023-03-23",
+        "outcome": "KERNEL_BOOT_FAILURE",
+        "platform": "JUNO",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "tags": [
+          "KERNEL OOPS",
+          "KERNEL PANICS",
+          "CALL TRACE",
+          "RETRIED",
+          "IMAGE_NOT_TESTED",
+          "64BIT",
+          "DEBIAN"
+        ],
+        "runlist": "default",
+        "suite": "LTP",
+        "suite_version": "ltp20220527-2-g1073342b3",
+        "tests_total": "0",
+        "tests_passed": "0",
+        "tests_failed": "0",
+        "tests_skipped": "0",
+        "tests_xfailed": "0"
+      },
+      "valid": true
+    },
+    {
+      "id": "arm:2023-03-23:48a724b76f2413a0d5b77f78a7e95ff24d3cca65",
+      "revision_id": "7c4a254d78f83a561080f52bc8a27917471941b5",
+      "origin": "arm",
+      "architecture": "arm64",
+      "description": "PERF default on SOFTIRON ACPI 64bit kernel-team",
+      "config_name": "defconfig",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "misc": {
+        "job_number": "514544",
+        "run_date": "2023-03-23",
+        "outcome": "KERNEL_BOOT_FAILURE",
+        "platform": "SOFTIRON",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "tags": [
+          "KERNEL WARNING",
+          "KERNEL OOPS",
+          "KERNEL PANICS",
+          "CALL TRACE",
+          "IMAGE_NOT_TESTED",
+          "64BIT",
+          "DEBIAN"
+        ],
+        "runlist": "default",
+        "suite": "PERF",
+        "suite_version": "",
+        "tests_total": "0",
+        "tests_passed": "0",
+        "tests_failed": "0",
+        "tests_skipped": "0",
+        "tests_xfailed": "0"
+      },
+      "valid": true
+    },
+    {
+      "id": "arm:2023-03-23:388962daa4e3f0779576025994bee926c9b5b1dc",
+      "revision_id": "7c4a254d78f83a561080f52bc8a27917471941b5",
+      "origin": "arm",
+      "architecture": "arm64",
+      "description": "PERF default on SOFTIRON ACPI 64bit kernel-team",
+      "config_name": "defconfig",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "misc": {
+        "job_number": "514569",
+        "run_date": "2023-03-23",
+        "outcome": "KERNEL_BOOT_FAILURE",
+        "platform": "SOFTIRON",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "tags": [
+          "KERNEL WARNING",
+          "KERNEL OOPS",
+          "KERNEL PANICS",
+          "CALL TRACE",
+          "RETRIED",
+          "IMAGE_NOT_TESTED",
+          "64BIT",
+          "DEBIAN"
+        ],
+        "runlist": "default",
+        "suite": "PERF",
+        "suite_version": "",
+        "tests_total": "0",
+        "tests_passed": "0",
+        "tests_failed": "0",
+        "tests_skipped": "0",
+        "tests_xfailed": "0"
+      },
+      "valid": true
+    }
+  ],
+  "tests": [
+    {
+      "id": "arm:boot:81774",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:75a7e056b89f73f55270a28d4397ab675249a76c",
+      "path": "boot",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "Boot - LTP KERNEL-TEAM on JUNO ACPI 64bit",
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "description": "JUNO_next_master_defconfig_ACPI_64bit"
+      },
+      "misc": {
+        "run_date": "2023-03-23",
+        "platform": "JUNO",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "runlist": "default",
+        "suite_version": "ltp20220527-2-g1073342b3"
+      }
+    },
+    {
+      "id": "arm:suite:LTP:81774",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:75a7e056b89f73f55270a28d4397ab675249a76c",
+      "path": "ltp.default.kernel-team",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "KERNEL-TEAM LTP suite results for runlist default",
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "description": "JUNO_next_master_defconfig_ACPI_64bit"
+      },
+      "misc": {
+        "run_date": "2023-03-23",
+        "platform": "JUNO",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "runlist": "default",
+        "suite_version": "ltp20220527-2-g1073342b3"
+      }
+    },
+    {
+      "id": "arm:boot:81776",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "boot",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "Boot - PERF KERNEL-TEAM on SOFTIRON ACPI 64bit",
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "description": "SOFTIRON_linus_master_defconfig_ACPI_64bit"
+      },
+      "misc": {
+        "run_date": "2023-03-23",
+        "platform": "SOFTIRON",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:suite:PERF:81776",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.default.kernel-team",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "KERNEL-TEAM PERF suite results for runlist default",
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "description": "SOFTIRON_linus_master_defconfig_ACPI_64bit"
+      },
+      "misc": {
+        "run_date": "2023-03-23",
+        "platform": "SOFTIRON",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779879",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.import-perf-in-python",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "FAIL",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779921",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.pmu-events-subtest-1",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "FAIL",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779934",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.setup-struct-perf_event_attr",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "FAIL",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779847",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.add-fd-to-a-fdarray-making-it-autogrow",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779849",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.breakpoint-accounting",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779856",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.check-arm64-callgraphs-are-complete-in-fp-mode",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779859",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.convert-perf-time-to-tsc-subtest-1",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779860",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.convert-perf-time-to-tsc-subtest-2",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779866",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.cumulate-child-hist-entries",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779867",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.daemon-operations",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779868",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.demangle-java",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779869",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.demangle-ocaml",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779871",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.dso-data-cache",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779872",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.dso-data-read",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779873",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.dso-data-reopen",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779874",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.event-expansion-for-cgroups",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779876",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.event-times",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779877",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.filter-fds-with-revents-mask-in-a-fdarray",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779878",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.filter-hist-entries",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779880",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.is_printable_array",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779881",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.kernel-lock-contention-analysis-test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779882",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.kmod_path__parse",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779887",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.lookup-mmap-thread",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779888",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.maps__merge_in",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779889",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.match-and-link-multiple-hists",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779890",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.mem2node",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779891",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.merge-cpu-map",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779893",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.number-of-exit-events-of-a-simple-workload",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779894",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.object-code-reading",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779895",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.parse-and-process-metrics",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779896",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.parse-event-definition-strings-subtest-1",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779897",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.parse-event-definition-strings-subtest-6",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779898",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.parse-event-definition-strings-subtest-7",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779899",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.parse-perf-pmu-format",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779900",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.parse-with-no-sample_id_all-bit-set",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779902",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-all-metricgroups-test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779903",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-all-metrics-test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779904",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-all-pmu-test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779905",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-hooks",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779906",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-pipe-recording-and-injection-test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779917",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf_record_-events-perf_sample-fields",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779918",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf_record_test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779908",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-record-tests",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779919",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf_report_test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779909",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-script-task-analyzer-tests",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779912",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-stat-csv-output-linter",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779913",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-stat-csv-summary-test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779914",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-stat-json-output-linter",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779915",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-stat-metrics-shadow-stat-test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779920",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf_stat_test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779916",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-stat-tests",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779922",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.pmu-events-subtest-2",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779923",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.pmu-events-subtest-3",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779924",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.pmu-events-subtest-4",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779925",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.print-bitmap",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779926",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.print-cpu-map",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779930",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.remove-thread-map",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779931",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.roundtrip-evsel-",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779932",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.sample-parsing",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779933",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.session-topology",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779935",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.share-thread-maps",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779937",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.simple-expression-parser",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779938",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.software-clock-events-period-values",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779939",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.sort-output-of-hist-entries",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779940",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.symbols",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779941",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.synthesize-attr-update",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779942",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.synthesize-cpu-map",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779943",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.synthesize-stat",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779944",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.synthesize-stat-config",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779945",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.synthesize-stat-round",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779946",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.synthesize-thread-map",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779947",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.test-api-io",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779948",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.test-data-source-output",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779950",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.test-dwarf-unwind",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779952",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.test-jit_write_elf",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779953",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.thread-map",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779954",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.time-utils",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779955",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.unit_number__scnprintf",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779956",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.use-a-dummy-software-event-to-keep-tracking",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779959",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.watchpoint-subtest-1",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779960",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.watchpoint-subtest-2",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779961",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.watchpoint-subtest-3",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779962",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.watchpoint-subtest-4",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779963",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.zstd-perf.data-compressiondecompression",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "PASS",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779848",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.add-vfs_getname-probe-to-get-syscall-args-filenames",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779850",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.breakpoint-overflow-sampling",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779851",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.breakpoint-overflow-signal-handler",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779852",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.build-id-cache-operations",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779853",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.check-arm-coresight-trace-data-recording-and-synthesized-samples",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779854",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.check-arm-spe-doesnt-hang-when-there-are-forks",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779855",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.check-arm-spe-trace-data-recording-and-synthesized-samples",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779857",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.check-branch-stack-sampling",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779858",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.check-open-filename-arg-using-perf-trace--vfs_getname",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779861",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.coresight--asm-pure-loop",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779862",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.coresight--memcpy-16k-10-threads",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779863",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.coresight--thread-loop-10-threads---check-tid",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779864",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.coresight--thread-loop-2-threads---check-tid",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779865",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.coresight--unroll-loop-thread-10",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779870",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.dlfilter-c-api",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779875",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.event-groups",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779883",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.llvm-search-and-compile-subtest-1",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779884",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.llvm-search-and-compile-subtest-2",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779885",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.llvm-search-and-compile-subtest-3",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779886",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.llvm-search-and-compile-subtest-4",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779892",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.miscellaneous-intel-pt-testing",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779901",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.pe-file-support",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779907",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-record-offcpu-profiling-tests",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779910",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-stat---bpf-counters---for-each-cgroup-test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779911",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.perf-stat---bpf-counters-test",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779927",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.probe-libcs-inet_pton-backtrace-it-with-ping",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779928",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.probe-sdt-events",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779929",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.read-backward-ring-buffer",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779936",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.sigtrap",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779949",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.test-data-symbol",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779951",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.test-java-symbol",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779957",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.use-vfs_getname-probe-to-get-syscall-args-filenames",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:PERF:48779958",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:4351fc56d664a1f52217bf3fc174b1d3b4362c0f",
+      "path": "perftool.vmlinux-symtab-matches-kallsyms",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "PERF results for runlist: default",
+      "status": "SKIP",
+      "waived": false,
+      "misc": {
+        "test_duration": "0:00:00",
+        "runlist": "default",
+        "suite_version": "6.3.rc3.g9fd6ba5420ba"
+      }
+    },
+    {
+      "id": "arm:boot:81777",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:7471de82ce1b4d5515ad21245261eaf12958c397",
+      "path": "boot",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "Boot - LTP KERNEL-TEAM on JUNO ACPI 64bit",
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "description": "JUNO_next_master_defconfig_ACPI_64bit"
+      },
+      "misc": {
+        "run_date": "2023-03-23",
+        "platform": "JUNO",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "runlist": "default",
+        "suite_version": "ltp20220527-2-g1073342b3"
+      }
+    },
+    {
+      "id": "arm:suite:LTP:81777",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:7471de82ce1b4d5515ad21245261eaf12958c397",
+      "path": "ltp.default.kernel-team",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "KERNEL-TEAM LTP suite results for runlist default",
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "description": "JUNO_next_master_defconfig_ACPI_64bit"
+      },
+      "misc": {
+        "run_date": "2023-03-23",
+        "platform": "JUNO",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "runlist": "default",
+        "suite_version": "ltp20220527-2-g1073342b3"
+      }
+    },
+    {
+      "id": "arm:boot:81778",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:48a724b76f2413a0d5b77f78a7e95ff24d3cca65",
+      "path": "boot",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "Boot - PERF KERNEL-TEAM on SOFTIRON ACPI 64bit",
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "description": "SOFTIRON_next_master_defconfig_ACPI_64bit"
+      },
+      "misc": {
+        "run_date": "2023-03-23",
+        "platform": "SOFTIRON",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "runlist": "default",
+        "suite_version": ""
+      }
+    },
+    {
+      "id": "arm:suite:PERF:81778",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:48a724b76f2413a0d5b77f78a7e95ff24d3cca65",
+      "path": "perftool.default.kernel-team",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "KERNEL-TEAM PERF suite results for runlist default",
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "description": "SOFTIRON_next_master_defconfig_ACPI_64bit"
+      },
+      "misc": {
+        "run_date": "2023-03-23",
+        "platform": "SOFTIRON",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "runlist": "default",
+        "suite_version": ""
+      }
+    },
+    {
+      "id": "arm:boot:81779",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:388962daa4e3f0779576025994bee926c9b5b1dc",
+      "path": "boot",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "Boot - PERF KERNEL-TEAM on SOFTIRON ACPI 64bit",
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "description": "SOFTIRON_next_master_defconfig_ACPI_64bit"
+      },
+      "misc": {
+        "run_date": "2023-03-23",
+        "platform": "SOFTIRON",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "runlist": "default",
+        "suite_version": ""
+      }
+    },
+    {
+      "id": "arm:suite:PERF:81779",
+      "origin": "arm",
+      "build_id": "arm:2023-03-23:388962daa4e3f0779576025994bee926c9b5b1dc",
+      "path": "perftool.default.kernel-team",
+      "start_time": "2023-03-23T00:00:00.000000+00:00",
+      "description": "KERNEL-TEAM PERF suite results for runlist default",
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "description": "SOFTIRON_next_master_defconfig_ACPI_64bit"
+      },
+      "misc": {
+        "run_date": "2023-03-23",
+        "platform": "SOFTIRON",
+        "hwdesc": "ACPI",
+        "rootfs": "64bit",
+        "runlist": "default",
+        "suite_version": ""
+      }
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx7d-sdb",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx7d-sdb-2"
+        },
+        "comment": "imx7d-sdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/lava-imx7d-sdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.692000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eedf925465ef915ec9",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx7d-sdb in lab-nxp"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "FAIL",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx7d-sdb",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx7d-sdb-2"
+        },
+        "comment": "imx7d-sdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/lava-imx7d-sdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.696000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eedf925465ef915ecb",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx7d-sdb in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx7d-sdb",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx7d-sdb-2"
+        },
+        "comment": "imx7d-sdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/lava-imx7d-sdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.697000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eedf925465ef915ecc",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx7d-sdb in lab-nxp"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx7d-sdb",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx7d-sdb-2"
+        },
+        "comment": "imx7d-sdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/lava-imx7d-sdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.698000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eedf925465ef915ecd",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx7d-sdb in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx7d-sdb",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx7d-sdb-2"
+        },
+        "comment": "imx7d-sdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/lava-imx7d-sdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.701000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eedf925465ef915ecf",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx7d-sdb in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx7d-sdb",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx7d-sdb-2"
+        },
+        "comment": "imx7d-sdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/lava-imx7d-sdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.703000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eedf925465ef915ed0",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx7d-sdb in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx7d-sdb",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx7d-sdb-2"
+        },
+        "comment": "imx7d-sdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/baseline-imx7d-sdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-nxp/lava-imx7d-sdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.704000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eedf925465ef915ed1",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx7d-sdb in lab-nxp"
+    }
+  ]
+}

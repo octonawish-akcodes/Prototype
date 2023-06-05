@@ -1,0 +1,710 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "PASS",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.016000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f1b",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_ec_extcon_usbc_abi",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.018000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f1c",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_ec_rtc_abi",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.020000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f1d",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_ec_usbpd_charger_abi",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.022000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f1e",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "PASS",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_ec_battery_abi",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.024000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f1f",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_ec_pwm_backlight",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.026000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f20",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_tp_hello",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.028000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f21",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_tp_abi",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.029000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f22",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_pd_hello",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.031000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f23",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_pd_abi",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.033000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f24",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_fp_reboot",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.034000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f25",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_fp_hello",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.035000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f26",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "SKIP",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_fp_abi",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.037000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f27",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "PASS",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_ec_hello",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.038000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f28",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "PASS",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_ec_chardev",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.040000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f29",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "PASS",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_ec_abi",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.041000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f2a",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "PASS",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_ec_gyro_iio_abi",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.043000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f2b",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "cros-ec",
+        "kernelci_status": "PASS",
+        "plan_variant": "cros-ec"
+      },
+      "path": "cros-ec.test_cros_ec_accel_iio_abi",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-cros-ec/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-14"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/cros-ec-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:19.045000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2988f88665023b1915f2c",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "cros-ec on asus-cx9400-volteer in lab-collabora"
+    }
+  ]
+}

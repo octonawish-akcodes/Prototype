@@ -1,0 +1,47 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "ltp-mm",
+        "plan_variant": "ltp-mm"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "qcom",
+          "lab": "lab-linaro-lkft",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "qcom-qdf2400-01",
+          "device": "qcom-qdf2400"
+        },
+        "comment": "qcom-qdf2400 in lab-linaro-lkft"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc2-423-g0e8bb497921e/arm64/allmodconfig/gcc-10/lab-linaro-lkft/ltp-mm-qcom-qdf2400.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc2-423-g0e8bb497921e/arm64/allmodconfig/gcc-10/lab-linaro-lkft/ltp-mm-qcom-qdf2400.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc2-423-g0e8bb497921e/arm64/allmodconfig/gcc-10/lab-linaro-lkft/lava-qcom-qdf2400.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:48.375000+00:00",
+      "path": "ltp-mm.login",
+      "id": "kernelci:kernelci.org:64148c94f0b06962058c86e0",
+      "build_id": "kernelci:kernelci.org:6413ea46f8ea6c6eaf8c864b",
+      "origin": "kernelci",
+      "comment": "ltp-mm on qcom-qdf2400 in lab-linaro-lkft"
+    }
+  ]
+}

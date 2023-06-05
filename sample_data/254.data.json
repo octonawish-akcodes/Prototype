@@ -1,0 +1,1919 @@
+{
+  "tests": [
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.login",
+      "start_time": "2023-03-21T23:14:34.361000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9547",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.dmesg.crit",
+      "start_time": "2023-03-21T23:14:34.365000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9549",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.dmesg.alert",
+      "start_time": "2023-03-21T23:14:34.367000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c954a",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.dmesg.emerg",
+      "start_time": "2023-03-21T23:14:34.368000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c954b",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.deferred-probe-empty",
+      "start_time": "2023-03-21T23:14:34.373000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c954d",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.all-cpus-are-online",
+      "start_time": "2023-03-21T23:14:34.375000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c954e",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.tpm-chip-is-online",
+      "start_time": "2023-03-21T23:14:34.376000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c954f",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.at91_i2c-driver-present",
+      "start_time": "2023-03-21T23:14:34.377000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9550",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.at91_i2c-i2c0-probed",
+      "start_time": "2023-03-21T23:14:34.379000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9551",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.at91_i2c-i2c1-probed",
+      "start_time": "2023-03-21T23:14:34.380000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9552",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.sfp-driver-present",
+      "start_time": "2023-03-21T23:14:34.381000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9553",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.sfp-sfp0-probed",
+      "start_time": "2023-03-21T23:14:34.382000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9554",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.sfp-sfp1-probed",
+      "start_time": "2023-03-21T23:14:34.384000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9555",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.mdio0-phy0-probed",
+      "start_time": "2023-03-21T23:14:34.385000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9556",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.mdio0-phy1-probed",
+      "start_time": "2023-03-21T23:14:34.386000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9557",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.mdio0-phy4-probed",
+      "start_time": "2023-03-21T23:14:34.387000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9558",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.mdio0-phy5-probed",
+      "start_time": "2023-03-21T23:14:34.389000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9559",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.mdio0-phy6-probed",
+      "start_time": "2023-03-21T23:14:34.390000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c955a",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.mdio0-phy7-probed",
+      "start_time": "2023-03-21T23:14:34.391000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c955b",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.at91-xdmac-driver-present",
+      "start_time": "2023-03-21T23:14:34.393000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c955c",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.at91-xdmac-probed",
+      "start_time": "2023-03-21T23:14:34.394000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c955d",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.at91_usart_mode-driver-present",
+      "start_time": "2023-03-21T23:14:34.395000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c955e",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.at91_usart_mode-usart0-probed",
+      "start_time": "2023-03-21T23:14:34.397000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c955f",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.atmel-trng-driver-present",
+      "start_time": "2023-03-21T23:14:34.398000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9560",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.atmel-trng-probed",
+      "start_time": "2023-03-21T23:14:34.399000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9561",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.atmel_aes-driver-present",
+      "start_time": "2023-03-21T23:14:34.401000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9562",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.atmel_aes-probed",
+      "start_time": "2023-03-21T23:14:34.402000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9563",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.atmel_sha-driver-present",
+      "start_time": "2023-03-21T23:14:34.403000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9564",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.atmel_sha-probed",
+      "start_time": "2023-03-21T23:14:34.404000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9565",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.atmel_spi-driver-present",
+      "start_time": "2023-03-21T23:14:34.405000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9566",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.atmel_spi-probed",
+      "start_time": "2023-03-21T23:14:34.407000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9567",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.atmel_flexcom-driver-present",
+      "start_time": "2023-03-21T23:14:34.408000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9568",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.atmel_flexcom-flecom0-probed",
+      "start_time": "2023-03-21T23:14:34.409000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9569",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.dw_wdt-driver-present",
+      "start_time": "2023-03-21T23:14:34.410000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c956a",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.dw_wdt-probed",
+      "start_time": "2023-03-21T23:14:34.412000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c956b",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.lan966x-clk-driver-present",
+      "start_time": "2023-03-21T23:14:34.413000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c956c",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.lan966x-clk-probed",
+      "start_time": "2023-03-21T23:14:34.414000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c956d",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.pinctrl-microchip-sgpio-driver-present",
+      "start_time": "2023-03-21T23:14:34.415000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c956e",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.pinctrl-microchip-sgpio-probed",
+      "start_time": "2023-03-21T23:14:34.416000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c956f",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.pinctrl-ocelot-driver-present",
+      "start_time": "2023-03-21T23:14:34.418000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9570",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.pinctrl-ocelot-probed",
+      "start_time": "2023-03-21T23:14:34.419000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9571",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.restart-gpio-driver-present",
+      "start_time": "2023-03-21T23:14:34.420000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9572",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.restart-gpio-probed",
+      "start_time": "2023-03-21T23:14:34.421000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9573",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.sparx5-switch-reset-driver-present",
+      "start_time": "2023-03-21T23:14:34.423000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9574",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.sparx5-switch-reset-probed",
+      "start_time": "2023-03-21T23:14:34.424000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9575",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.lan966x-serdes-driver-present",
+      "start_time": "2023-03-21T23:14:34.426000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9576",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.lan966x-serdes-probed",
+      "start_time": "2023-03-21T23:14:34.427000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9577",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.lan966x-hwmon-driver-present",
+      "start_time": "2023-03-21T23:14:34.429000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9578",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-kontron",
+          "mach": "at91",
+          "device": "kontron-kswitch-d10-mmt-6g-2gs",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "kontron-kswitch-d10-mmt-6g-2gs-01"
+        },
+        "comment": "kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+      },
+      "path": "baseline-nfs.bootrr.lan966x-hwmon-probed",
+      "start_time": "2023-03-21T23:14:34.430000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/lava-kontron-kswitch-d10-mmt-6g-2gs.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm/multi_v7_defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-kontron/baseline-nfs-kontron-kswitch-d10-mmt-6g-2gs.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a5af9a2f779f29c9579",
+      "build_id": "kernelci:kernelci.org:641a39b477ec0cdc229c9547",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on kontron-kswitch-d10-mmt-6g-2gs in lab-kontron"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "checkouts": [
+    {
+      "id": "broonie:dad685bc67954cf69367f82a8b888103",
+      "git_commit_hash": "c18bbac353ffed50be134b0a2a059a2bd540c503",
+      "patchset_hash": "",
+      "origin": "broonie",
+      "valid": true,
+      "start_time": "2023-03-17T16:09:01.719878+00:00"
+    }
+  ],
+  "builds": [
+    {
+      "id": "broonie:c18bbac353ffed50be134b0a2a059a2bd540c503-armv5-multi_v5_defconfig",
+      "checkout_id": "broonie:dad685bc67954cf69367f82a8b888103",
+      "architecture": "armv5",
+      "config_name": "multi_v5_defconfig",
+      "valid": true,
+      "duration": 943.9001610279083,
+      "compiler": "arm-linux-gnueabi-gcc (Debian 12.2.0-14) 12.2.0",
+      "origin": "broonie",
+      "output_files": [
+        {
+          "name": "config",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/armv5/multi_v5_defconfig/config"
+        },
+        {
+          "name": "dtbs.tar.xz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/armv5/multi_v5_defconfig/dtbs.tar.xz"
+        },
+        {
+          "name": "dtbs.tar.xz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/armv5/multi_v5_defconfig/dtbs.tar.xz"
+        },
+        {
+          "name": "zImage",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/armv5/multi_v5_defconfig/zImage"
+        },
+        {
+          "name": "kselftest.tar.xz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/armv5/multi_v5_defconfig/kselftest.tar.xz"
+        },
+        {
+          "name": "build.log",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/armv5/multi_v5_defconfig/build.log"
+        },
+        {
+          "name": "build-debug.log",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/armv5/multi_v5_defconfig/build-debug.log"
+        },
+        {
+          "name": "modules.tar.xz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/armv5/multi_v5_defconfig/modules.tar.xz"
+        }
+      ],
+      "config_url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/armv5/multi_v5_defconfig/config",
+      "log_url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/armv5/multi_v5_defconfig/build.log",
+      "start_time": "2023-03-17T16:09:01.719878+00:00"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

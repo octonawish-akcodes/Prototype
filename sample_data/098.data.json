@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxl-s905x-libretech-cc",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxl-s905x-libretech-cc-02"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:18.589000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990679e2270760915edb",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxl-s905x-libretech-cc",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxl-s905x-libretech-cc-02"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:18.592000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990679e2270760915edd",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxl-s905x-libretech-cc",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxl-s905x-libretech-cc-02"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:18.593000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990679e2270760915ede",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxl-s905x-libretech-cc",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxl-s905x-libretech-cc-02"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:18.594000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990679e2270760915edf",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxl-s905x-libretech-cc",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxl-s905x-libretech-cc-02"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:18.597000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990679e2270760915ee1",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxl-s905x-libretech-cc",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxl-s905x-libretech-cc-02"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:18.598000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990679e2270760915ee2",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxl-s905x-libretech-cc",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxl-s905x-libretech-cc-02"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxl-s905x-libretech-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:18.600000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990679e2270760915ee3",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    }
+  ]
+}

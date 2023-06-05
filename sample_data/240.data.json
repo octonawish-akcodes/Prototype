@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "hisilicon",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "hip07-d05-cbg-0",
+          "device": "hip07-d05"
+        },
+        "comment": "hip07-d05 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/lava-hip07-d05.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:22.750000+00:00",
+      "path": "baseline-nfs.login",
+      "id": "kernelci:kernelci.org:64148d6ad7868b1cda8c8636",
+      "build_id": "kernelci:kernelci.org:641485d88d64e8892a8c8673",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on hip07-d05 in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "hisilicon",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "hip07-d05-cbg-0",
+          "device": "hip07-d05"
+        },
+        "comment": "hip07-d05 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/lava-hip07-d05.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:22.754000+00:00",
+      "path": "baseline-nfs.dmesg.emerg",
+      "id": "kernelci:kernelci.org:64148d6ad7868b1cda8c8638",
+      "build_id": "kernelci:kernelci.org:641485d88d64e8892a8c8673",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on hip07-d05 in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "hisilicon",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "hip07-d05-cbg-0",
+          "device": "hip07-d05"
+        },
+        "comment": "hip07-d05 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/lava-hip07-d05.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:22.755000+00:00",
+      "path": "baseline-nfs.dmesg.alert",
+      "id": "kernelci:kernelci.org:64148d6ad7868b1cda8c8639",
+      "build_id": "kernelci:kernelci.org:641485d88d64e8892a8c8673",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on hip07-d05 in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "hisilicon",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "hip07-d05-cbg-0",
+          "device": "hip07-d05"
+        },
+        "comment": "hip07-d05 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/lava-hip07-d05.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:22.757000+00:00",
+      "path": "baseline-nfs.dmesg.crit",
+      "id": "kernelci:kernelci.org:64148d6ad7868b1cda8c863a",
+      "build_id": "kernelci:kernelci.org:641485d88d64e8892a8c8673",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on hip07-d05 in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "SKIP",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "hisilicon",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "hip07-d05-cbg-0",
+          "device": "hip07-d05"
+        },
+        "comment": "hip07-d05 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/lava-hip07-d05.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:22.760000+00:00",
+      "path": "baseline-nfs.bootrr.tpm-chip-is-online",
+      "id": "kernelci:kernelci.org:64148d6ad7868b1cda8c863c",
+      "build_id": "kernelci:kernelci.org:641485d88d64e8892a8c8673",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on hip07-d05 in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "hisilicon",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "hip07-d05-cbg-0",
+          "device": "hip07-d05"
+        },
+        "comment": "hip07-d05 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/lava-hip07-d05.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:22.762000+00:00",
+      "path": "baseline-nfs.bootrr.all-cpus-are-online",
+      "id": "kernelci:kernelci.org:64148d6ad7868b1cda8c863d",
+      "build_id": "kernelci:kernelci.org:641485d88d64e8892a8c8673",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on hip07-d05 in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "SKIP",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "hisilicon",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "hip07-d05-cbg-0",
+          "device": "hip07-d05"
+        },
+        "comment": "hip07-d05 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-hip07-d05.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm64/defconfig/gcc-10/lab-collabora/lava-hip07-d05.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:22.763000+00:00",
+      "path": "baseline-nfs.bootrr.deferred-probe-empty",
+      "id": "kernelci:kernelci.org:64148d6ad7868b1cda8c863e",
+      "build_id": "kernelci:kernelci.org:641485d88d64e8892a8c8673",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on hip07-d05 in lab-collabora"
+    }
+  ]
+}

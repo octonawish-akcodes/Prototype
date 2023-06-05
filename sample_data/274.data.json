@@ -1,0 +1,58 @@
+{
+  "tests": [
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:811a742f2d4d1b0aee686bc2f4282b51534898a2-armv5-bcm2835_defconfig",
+      "id": "broonie:d4041a7541ea4ba79364f2cba2a69082",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/179406/log_file/plain",
+      "start_time": "2023-03-17T14:39:47.334468+00:00",
+      "status": "PASS",
+      "path": "dmesg.crit"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:811a742f2d4d1b0aee686bc2f4282b51534898a2-armv5-bcm2835_defconfig",
+      "id": "broonie:55d0a065eee04ddba6a6c5351a93286f",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/179406/log_file/plain",
+      "start_time": "2023-03-17T14:39:52.562749+00:00",
+      "status": "PASS",
+      "path": "dmesg.alert"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:811a742f2d4d1b0aee686bc2f4282b51534898a2-armv5-bcm2835_defconfig",
+      "id": "broonie:34caa2c706b64126bf9f1d01add145b6",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/179406/log_file/plain",
+      "start_time": "2023-03-17T14:39:52.562792+00:00",
+      "status": "PASS",
+      "path": "dmesg.emerg"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:811a742f2d4d1b0aee686bc2f4282b51534898a2-armv5-bcm2835_defconfig",
+      "id": "broonie:bd9c66f59b594b16bc283e13409a5563",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/179406/log_file/plain",
+      "start_time": "2023-03-17T14:39:52.562847+00:00",
+      "status": "PASS",
+      "path": "bootrr.deferred-probe-empty"
+    },
+    {
+      "origin": "broonie",
+      "waived": false,
+      "build_id": "broonie:811a742f2d4d1b0aee686bc2f4282b51534898a2-armv5-bcm2835_defconfig",
+      "id": "broonie:cf3eb3ae7c6942a2b2e8ce22f8518d2d",
+      "log_url": "https://lava.sirena.org.uk/scheduler/job/179406/log_file/plain",
+      "start_time": "2023-03-17T14:39:52.562870+00:00",
+      "status": "PASS",
+      "path": "bootrr.all-cpus-are-online"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "kselftest-tpm2",
+        "plan_variant": "kselftest-tpm2"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-0",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/kselftest-tpm2-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/kselftest-tpm2-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:34.969000+00:00",
+      "path": "kselftest-tpm2.login",
+      "id": "kernelci:kernelci.org:64148d762b25b5518b8c863e",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "kselftest-tpm2 on hp-11A-G6-EE-grunt in lab-collabora"
+    }
+  ]
+}

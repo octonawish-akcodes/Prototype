@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-25"
+        },
+        "comment": "qemu_x86_64-uefi in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:11.887000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2984b31bd46be28915f29",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-25"
+        },
+        "comment": "qemu_x86_64-uefi in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:11.891000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2984b31bd46be28915f2b",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-25"
+        },
+        "comment": "qemu_x86_64-uefi in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:11.892000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2984b31bd46be28915f2c",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-25"
+        },
+        "comment": "qemu_x86_64-uefi in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:11.894000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2984b31bd46be28915f2d",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-25"
+        },
+        "comment": "qemu_x86_64-uefi in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:11.897000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2984b31bd46be28915f2f",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-25"
+        },
+        "comment": "qemu_x86_64-uefi in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:11.899000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2984b31bd46be28915f30",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-25"
+        },
+        "comment": "qemu_x86_64-uefi in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:11.900000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2984b31bd46be28915f31",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi in lab-baylibre"
+    }
+  ]
+}

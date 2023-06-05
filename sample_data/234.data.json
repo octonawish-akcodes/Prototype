@@ -1,0 +1,1919 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.495000+00:00",
+      "path": "baseline-nfs.login",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8640",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.509000+00:00",
+      "path": "baseline-nfs.dmesg.emerg",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8642",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.510000+00:00",
+      "path": "baseline-nfs.dmesg.alert",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8643",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.512000+00:00",
+      "path": "baseline-nfs.dmesg.crit",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8644",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.516000+00:00",
+      "path": "baseline-nfs.bootrr.gpu-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8646",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.517000+00:00",
+      "path": "baseline-nfs.bootrr.lima-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8647",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.518000+00:00",
+      "path": "baseline-nfs.bootrr.video-mixer1-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8648",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.520000+00:00",
+      "path": "baseline-nfs.bootrr.video-mixer0-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8649",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.522000+00:00",
+      "path": "baseline-nfs.bootrr.sun8i-mixer-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c864a",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.523000+00:00",
+      "path": "baseline-nfs.bootrr.hdmi-phy-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c864b",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.524000+00:00",
+      "path": "baseline-nfs.bootrr.sun8i-hdmi-phy-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c864c",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.525000+00:00",
+      "path": "baseline-nfs.bootrr.soc-rtc-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c864d",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.526000+00:00",
+      "path": "baseline-nfs.bootrr.sun6i-rtc-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c864e",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.527000+00:00",
+      "path": "baseline-nfs.bootrr.soc-watchdog-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c864f",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.529000+00:00",
+      "path": "baseline-nfs.bootrr.sunxi-wdt-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8650",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.530000+00:00",
+      "path": "baseline-nfs.bootrr.soc-crypto-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8651",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.531000+00:00",
+      "path": "baseline-nfs.bootrr.sun8i-ce-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8652",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.532000+00:00",
+      "path": "baseline-nfs.bootrr.sid-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8653",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.533000+00:00",
+      "path": "baseline-nfs.bootrr.eeprom-sunxi-sid-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8654",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.539000+00:00",
+      "path": "baseline-nfs.bootrr.cpuidle-enabled",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8655",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.541000+00:00",
+      "path": "baseline-nfs.bootrr.cpufreq-enabled",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8656",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.542000+00:00",
+      "path": "baseline-nfs.bootrr.hdmi-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8657",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.544000+00:00",
+      "path": "baseline-nfs.bootrr.sun8i-dw-hdmi-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8658",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.545000+00:00",
+      "path": "baseline-nfs.bootrr.sound-card",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8659",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.547000+00:00",
+      "path": "baseline-nfs.bootrr.i2s-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c865a",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.548000+00:00",
+      "path": "baseline-nfs.bootrr.sun4i-i2s-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c865b",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.549000+00:00",
+      "path": "baseline-nfs.bootrr.codec-digital-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c865c",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.551000+00:00",
+      "path": "baseline-nfs.bootrr.sun8i-codec-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c865d",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.552000+00:00",
+      "path": "baseline-nfs.bootrr.codec-analog-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c865e",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.554000+00:00",
+      "path": "baseline-nfs.bootrr.sun50i-codec-analog-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c865f",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.555000+00:00",
+      "path": "baseline-nfs.bootrr.usbotg-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8660",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.556000+00:00",
+      "path": "baseline-nfs.bootrr.musb-sunxi-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8661",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.558000+00:00",
+      "path": "baseline-nfs.bootrr.usb-phy-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8662",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.559000+00:00",
+      "path": "baseline-nfs.bootrr.sun4i-usb-phy-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8663",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.560000+00:00",
+      "path": "baseline-nfs.bootrr.usb3-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8664",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.562000+00:00",
+      "path": "baseline-nfs.bootrr.usb1-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8665",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.563000+00:00",
+      "path": "baseline-nfs.bootrr.ohci-patform-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8666",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.565000+00:00",
+      "path": "baseline-nfs.bootrr.usb4-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8667",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.566000+00:00",
+      "path": "baseline-nfs.bootrr.usb2-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8668",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.568000+00:00",
+      "path": "baseline-nfs.bootrr.ehci-platform-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8669",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.569000+00:00",
+      "path": "baseline-nfs.bootrr.ethernet-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c866a",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.571000+00:00",
+      "path": "baseline-nfs.bootrr.dwmac-sun8i-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c866b",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.572000+00:00",
+      "path": "baseline-nfs.bootrr.mmc-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c866c",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.574000+00:00",
+      "path": "baseline-nfs.bootrr.sunxi-mmc-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c866d",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.575000+00:00",
+      "path": "baseline-nfs.bootrr.serial-probed",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c866e",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.576000+00:00",
+      "path": "baseline-nfs.bootrr.dw-apb-uart-driver-present",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c866f",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "SKIP",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.582000+00:00",
+      "path": "baseline-nfs.bootrr.tpm-chip-is-online",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8670",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.584000+00:00",
+      "path": "baseline-nfs.bootrr.all-cpus-are-online",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8671",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "allwinner",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "pine64plus-01",
+          "device": "sun50i-a64-pine64-plus"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/baseline-nfs-sun50i-a64-pine64-plus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/tip/master/v6.3-rc2-73-g12242a871076e/arm64/defconfig/gcc-10/lab-broonie/lava-sun50i-a64-pine64-plus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:56.586000+00:00",
+      "path": "baseline-nfs.bootrr.deferred-probe-empty",
+      "id": "kernelci:kernelci.org:64148d507021cdc2738c8672",
+      "build_id": "kernelci:kernelci.org:641477545118b032c78c8642",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on sun50i-a64-pine64-plus in lab-broonie"
+    }
+  ]
+}

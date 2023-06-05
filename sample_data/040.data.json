@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "at91sam9g20ek",
+          "mach": "at91",
+          "lab": "lab-broonie",
+          "instance": "at91sam9g20ek-01"
+        },
+        "comment": "at91sam9g20ek in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/lava-at91sam9g20ek.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:29.153000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298990634fcca59915eca",
+      "build_id": "kernelci:kernelci.org:63d2977b4424da8b30915ee6",
+      "origin": "kernelci",
+      "comment": "baseline on at91sam9g20ek in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "at91sam9g20ek",
+          "mach": "at91",
+          "lab": "lab-broonie",
+          "instance": "at91sam9g20ek-01"
+        },
+        "comment": "at91sam9g20ek in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/lava-at91sam9g20ek.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:29.182000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298990634fcca59915ecc",
+      "build_id": "kernelci:kernelci.org:63d2977b4424da8b30915ee6",
+      "origin": "kernelci",
+      "comment": "baseline on at91sam9g20ek in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "at91sam9g20ek",
+          "mach": "at91",
+          "lab": "lab-broonie",
+          "instance": "at91sam9g20ek-01"
+        },
+        "comment": "at91sam9g20ek in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/lava-at91sam9g20ek.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:29.183000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298990634fcca59915ecd",
+      "build_id": "kernelci:kernelci.org:63d2977b4424da8b30915ee6",
+      "origin": "kernelci",
+      "comment": "baseline on at91sam9g20ek in lab-broonie"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "FAIL",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "at91sam9g20ek",
+          "mach": "at91",
+          "lab": "lab-broonie",
+          "instance": "at91sam9g20ek-01"
+        },
+        "comment": "at91sam9g20ek in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/lava-at91sam9g20ek.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:29.185000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298990634fcca59915ece",
+      "build_id": "kernelci:kernelci.org:63d2977b4424da8b30915ee6",
+      "origin": "kernelci",
+      "comment": "baseline on at91sam9g20ek in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "at91sam9g20ek",
+          "mach": "at91",
+          "lab": "lab-broonie",
+          "instance": "at91sam9g20ek-01"
+        },
+        "comment": "at91sam9g20ek in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/lava-at91sam9g20ek.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:29.188000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298990634fcca59915ed0",
+      "build_id": "kernelci:kernelci.org:63d2977b4424da8b30915ee6",
+      "origin": "kernelci",
+      "comment": "baseline on at91sam9g20ek in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "at91sam9g20ek",
+          "mach": "at91",
+          "lab": "lab-broonie",
+          "instance": "at91sam9g20ek-01"
+        },
+        "comment": "at91sam9g20ek in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/lava-at91sam9g20ek.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:29.190000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298990634fcca59915ed1",
+      "build_id": "kernelci:kernelci.org:63d2977b4424da8b30915ee6",
+      "origin": "kernelci",
+      "comment": "baseline on at91sam9g20ek in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "at91sam9g20ek",
+          "mach": "at91",
+          "lab": "lab-broonie",
+          "instance": "at91sam9g20ek-01"
+        },
+        "comment": "at91sam9g20ek in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/baseline-at91sam9g20ek.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/multi_v5_defconfig/gcc-10/lab-broonie/lava-at91sam9g20ek.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:29.191000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298990634fcca59915ed2",
+      "build_id": "kernelci:kernelci.org:63d2977b4424da8b30915ee6",
+      "origin": "kernelci",
+      "comment": "baseline on at91sam9g20ek in lab-broonie"
+    }
+  ]
+}

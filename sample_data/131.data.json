@@ -1,0 +1,55 @@
+{
+  "checkouts": [
+    {
+      "id": "broonie:4d838442f2f746a6b830fc193c426902",
+      "git_commit_hash": "f9efae954905a07a9d152e9b30546a6632227eef",
+      "patchset_hash": "",
+      "origin": "broonie",
+      "valid": true,
+      "start_time": "2023-03-17T15:55:01.555884+00:00",
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git",
+      "git_repository_branch": "for-6.4"
+    }
+  ],
+  "builds": [
+    {
+      "id": "broonie:f9efae954905a07a9d152e9b30546a6632227eef-x86_64-allmodconfig",
+      "checkout_id": "broonie:4d838442f2f746a6b830fc193c426902",
+      "architecture": "x86_64",
+      "config_name": "allmodconfig",
+      "valid": true,
+      "duration": 1046.839575767517,
+      "compiler": "x86_64-linux-gnu-gcc (Debian 12.2.0-14) 12.2.0",
+      "origin": "broonie",
+      "output_files": [
+        {
+          "name": "config",
+          "url": "https://builds.sirena.org.uk/f9efae954905a07a9d152e9b30546a6632227eef/x86_64/allmodconfig/config"
+        },
+        {
+          "name": "bzImage",
+          "url": "https://builds.sirena.org.uk/f9efae954905a07a9d152e9b30546a6632227eef/x86_64/allmodconfig/bzImage"
+        },
+        {
+          "name": "build.log",
+          "url": "https://builds.sirena.org.uk/f9efae954905a07a9d152e9b30546a6632227eef/x86_64/allmodconfig/build.log"
+        },
+        {
+          "name": "build-debug.log",
+          "url": "https://builds.sirena.org.uk/f9efae954905a07a9d152e9b30546a6632227eef/x86_64/allmodconfig/build-debug.log"
+        },
+        {
+          "name": "modules.tar.xz",
+          "url": "https://builds.sirena.org.uk/f9efae954905a07a9d152e9b30546a6632227eef/x86_64/allmodconfig/modules.tar.xz"
+        }
+      ],
+      "config_url": "https://builds.sirena.org.uk/f9efae954905a07a9d152e9b30546a6632227eef/x86_64/allmodconfig/config",
+      "log_url": "https://builds.sirena.org.uk/f9efae954905a07a9d152e9b30546a6632227eef/x86_64/allmodconfig/build.log",
+      "start_time": "2023-03-17T15:55:01.555884+00:00"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

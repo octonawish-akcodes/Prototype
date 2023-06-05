@@ -1,0 +1,86 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "usb",
+        "plan_variant": "usb"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "broadcom",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/armhf/rootfs.cpio.gz",
+          "instance": "bcm2836-rpi-2-b-cbg-0",
+          "device": "bcm2836-rpi-2-b"
+        },
+        "comment": "bcm2836-rpi-2-b in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm/multi_v7_defconfig/gcc-10/lab-collabora/usb-bcm2836-rpi-2-b.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm/multi_v7_defconfig/gcc-10/lab-collabora/usb-bcm2836-rpi-2-b.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-bcm2836-rpi-2-b.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:21.023000+00:00",
+      "path": "usb.login",
+      "id": "kernelci:kernelci.org:64148d6993163e27b58c8634",
+      "build_id": "kernelci:kernelci.org:641482aee479448c418c8687",
+      "origin": "kernelci",
+      "comment": "usb on bcm2836-rpi-2-b in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "usb",
+        "plan_variant": "usb"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "broadcom",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/armhf/rootfs.cpio.gz",
+          "instance": "bcm2836-rpi-2-b-cbg-0",
+          "device": "bcm2836-rpi-2-b"
+        },
+        "comment": "bcm2836-rpi-2-b in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm/multi_v7_defconfig/gcc-10/lab-collabora/usb-bcm2836-rpi-2-b.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm/multi_v7_defconfig/gcc-10/lab-collabora/usb-bcm2836-rpi-2-b.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.14/v4.14.310-2-g06787e971e2a8/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-bcm2836-rpi-2-b.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:21.026000+00:00",
+      "path": "usb.usb-presence",
+      "id": "kernelci:kernelci.org:64148d6993163e27b58c8635",
+      "build_id": "kernelci:kernelci.org:641482aee479448c418c8687",
+      "origin": "kernelci",
+      "comment": "usb on bcm2836-rpi-2-b in lab-collabora"
+    }
+  ]
+}

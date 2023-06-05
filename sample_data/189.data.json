@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "kselftest-mincore",
+        "plan_variant": "kselftest-mincore_riscv_qemu"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-kselftest/20230310.0/riscv64/rootfs.cpio.gz",
+          "instance": "qemu-heliopause-03",
+          "device": "qemu_smp8_riscv64"
+        },
+        "comment": "qemu_smp8_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_smp8_riscv64.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:01.998000+00:00",
+      "path": "kselftest-mincore.login",
+      "id": "kernelci:kernelci.org:64148ca1dc0518b1788c8638",
+      "build_id": "kernelci:kernelci.org:64147c0a9e0a5e176c8c8638",
+      "origin": "kernelci",
+      "comment": "kselftest-mincore on qemu_smp8_riscv64 in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "kselftest-mincore",
+        "plan_variant": "kselftest-mincore_riscv_qemu"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-kselftest/20230310.0/riscv64/rootfs.cpio.gz",
+          "instance": "qemu-heliopause-03",
+          "device": "qemu_smp8_riscv64"
+        },
+        "comment": "qemu_smp8_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_smp8_riscv64.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:02+00:00",
+      "path": "kselftest-mincore.mincore_mincore_selftest",
+      "id": "kernelci:kernelci.org:64148ca2dc0518b1788c8639",
+      "build_id": "kernelci:kernelci.org:64147c0a9e0a5e176c8c8638",
+      "origin": "kernelci",
+      "comment": "kselftest-mincore on qemu_smp8_riscv64 in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "kselftest-mincore",
+        "plan_variant": "kselftest-mincore_riscv_qemu"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-kselftest/20230310.0/riscv64/rootfs.cpio.gz",
+          "instance": "qemu-heliopause-03",
+          "device": "qemu_smp8_riscv64"
+        },
+        "comment": "qemu_smp8_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_smp8_riscv64.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:02.001000+00:00",
+      "path": "kselftest-mincore.mincore_mincore_selftest_global_check_tmpfs_mmap",
+      "id": "kernelci:kernelci.org:64148ca2dc0518b1788c863a",
+      "build_id": "kernelci:kernelci.org:64147c0a9e0a5e176c8c8638",
+      "origin": "kernelci",
+      "comment": "kselftest-mincore on qemu_smp8_riscv64 in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan": "kselftest-mincore",
+        "plan_variant": "kselftest-mincore_riscv_qemu"
+      },
+      "status": "SKIP",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-kselftest/20230310.0/riscv64/rootfs.cpio.gz",
+          "instance": "qemu-heliopause-03",
+          "device": "qemu_smp8_riscv64"
+        },
+        "comment": "qemu_smp8_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_smp8_riscv64.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:02.003000+00:00",
+      "path": "kselftest-mincore.mincore_mincore_selftest_fallocate_not_supported_by_filesystem",
+      "id": "kernelci:kernelci.org:64148ca2dc0518b1788c863b",
+      "build_id": "kernelci:kernelci.org:64147c0a9e0a5e176c8c8638",
+      "origin": "kernelci",
+      "comment": "kselftest-mincore on qemu_smp8_riscv64 in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan": "kselftest-mincore",
+        "plan_variant": "kselftest-mincore_riscv_qemu"
+      },
+      "status": "SKIP",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-kselftest/20230310.0/riscv64/rootfs.cpio.gz",
+          "instance": "qemu-heliopause-03",
+          "device": "qemu_smp8_riscv64"
+        },
+        "comment": "qemu_smp8_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_smp8_riscv64.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:02.005000+00:00",
+      "path": "kselftest-mincore.mincore_mincore_selftest_No_huge_pages_available",
+      "id": "kernelci:kernelci.org:64148ca2dc0518b1788c863c",
+      "build_id": "kernelci:kernelci.org:64147c0a9e0a5e176c8c8638",
+      "origin": "kernelci",
+      "comment": "kselftest-mincore on qemu_smp8_riscv64 in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "kselftest-mincore",
+        "plan_variant": "kselftest-mincore_riscv_qemu"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-kselftest/20230310.0/riscv64/rootfs.cpio.gz",
+          "instance": "qemu-heliopause-03",
+          "device": "qemu_smp8_riscv64"
+        },
+        "comment": "qemu_smp8_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_smp8_riscv64.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:02.007000+00:00",
+      "path": "kselftest-mincore.mincore_mincore_selftest_global_check_anonymous_locked_pages",
+      "id": "kernelci:kernelci.org:64148ca2dc0518b1788c863d",
+      "build_id": "kernelci:kernelci.org:64147c0a9e0a5e176c8c8638",
+      "origin": "kernelci",
+      "comment": "kselftest-mincore on qemu_smp8_riscv64 in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "kselftest-mincore",
+        "plan_variant": "kselftest-mincore_riscv_qemu"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-kselftest/20230310.0/riscv64/rootfs.cpio.gz",
+          "instance": "qemu-heliopause-03",
+          "device": "qemu_smp8_riscv64"
+        },
+        "comment": "qemu_smp8_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/kselftest-mincore-qemu_smp8_riscv64.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/krzysztof/for-next/v6.3-rc1-41-ga81e2e2ca6ae3/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_smp8_riscv64.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:02.009000+00:00",
+      "path": "kselftest-mincore.mincore_mincore_selftest_global_basic_interface",
+      "id": "kernelci:kernelci.org:64148ca2dc0518b1788c863e",
+      "build_id": "kernelci:kernelci.org:64147c0a9e0a5e176c8c8638",
+      "origin": "kernelci",
+      "comment": "kselftest-mincore on qemu_smp8_riscv64 in lab-broonie"
+    }
+  ]
+}

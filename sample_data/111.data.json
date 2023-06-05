@@ -1,0 +1,62 @@
+{
+  "builds": [
+    {
+      "architecture": "arm64",
+      "start_time": "2023-01-26T18:11:52.876000+00:00",
+      "misc": {
+        "vmlinux_data_size": 14200760,
+        "kernel_image_size": null,
+        "build_platform": [
+          "Linux",
+          "build-j924705-arm64-clang-14-allmodconfig-nptzq",
+          "5.4.0-1086-azure",
+          "#91~18.04.1-Ubuntu SMP Thu Jun 23 20:33:05 UTC 2022",
+          "x86_64",
+          "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz"
+        ],
+        "vmlinux_bss_size": 31419296
+      },
+      "log_url": "https://storage.kernelci.org/android/android12-5.4/android12-5.4.225_r00-26-g0ed90f62b184/arm64/allmodconfig/clang-14/logs",
+      "config_url": "https://storage.kernelci.org/android/android12-5.4/android12-5.4.225_r00-26-g0ed90f62b184/arm64/allmodconfig/clang-14/config/kernel.config",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org//android/android12-5.4/android12-5.4.225_r00-26-g0ed90f62b184/arm64/allmodconfig/clang-14/kernel/System.map",
+          "name": "System.map"
+        },
+        {
+          "url": "https://storage.kernelci.org//android/android12-5.4/android12-5.4.225_r00-26-g0ed90f62b184/arm64/allmodconfig/clang-14/modules.tar.xz",
+          "name": "modules"
+        },
+        {
+          "url": "https://storage.kernelci.org//android/android12-5.4/android12-5.4.225_r00-26-g0ed90f62b184/arm64/allmodconfig/clang-14/kernel/Image",
+          "name": "kernel_image"
+        }
+      ],
+      "duration": 1064.8936998844147,
+      "compiler": "Debian clang version 14.0.6",
+      "valid": true,
+      "config_name": "allmodconfig",
+      "id": "kernelci:kernelci.org:63d2c268fb60a05a24915ecf",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:0ed90f62b1849120b24d1dff4c342aaeabae9154",
+      "comment": "v5.4-25718-g0ed90f62b184"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "android12-5.4",
+      "valid": true,
+      "git_repository_url": "https://android.googlesource.com/kernel/common",
+      "id": "_:kernelci:0ed90f62b1849120b24d1dff4c342aaeabae9154",
+      "origin": "kernelci",
+      "git_commit_hash": "0ed90f62b1849120b24d1dff4c342aaeabae9154",
+      "git_commit_name": "v5.4-25718-g0ed90f62b184",
+      "patchset_hash": "",
+      "start_time": "2023-01-26T18:11:52.876000+00:00"
+    }
+  ]
+}

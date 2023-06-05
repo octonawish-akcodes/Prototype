@@ -1,0 +1,1412 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.853000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efa",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "FAIL",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.clock_getcpuclockid_5-1",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.891000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efb",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.nanosleep",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.895000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efc",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.speculative",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.940000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efd",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "FAIL",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.clock_settime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.925000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efe",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.clock_nanosleep",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.901000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915eff",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.clock_gettime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.926000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f00",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.clock_getres",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.903000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f01",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "FAIL",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.clock_getcpuclockid",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.904000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f02",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.clock",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.905000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f03",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.speculative",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.940000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efd",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.timer_settime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.932000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f04",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.speculative",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.940000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efd",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.timer_gettime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.934000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f05",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.time",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.942000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f06",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.strftime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.914000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f07",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.mktime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.916000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f08",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.localtime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.917000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f09",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.gmtime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.920000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f0a",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.difftime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.921000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f0b",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.ctime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.923000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f0c",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.speculative",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.940000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efd",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "FAIL",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.clock_settime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.925000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efe",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.clock_gettime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.926000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f00",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.asctime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.927000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f0d",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.speculative",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.940000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efd",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.timer_settime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.932000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f04",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.speculative",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.940000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efd",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.timer_gettime",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.934000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f05",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.speculative",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.940000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efd",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.timer_getoverrun",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.936000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f0e",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.speculative",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.940000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efd",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.timer_delete",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.939000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f0f",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.speculative",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.940000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915efd",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.timer_create",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.941000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f10",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-timers_riscv_qemu"
+      },
+      "path": "ltp-timers.time",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-05"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/ltp-timers-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.15/v5.15.90-123-gff66dad0e6ef/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:43.942000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e345e60875ec915f06",
+      "build_id": "kernelci:kernelci.org:63d243d03ee630aab4915f0b",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_riscv64 in lab-broonie"
+    }
+  ]
+}

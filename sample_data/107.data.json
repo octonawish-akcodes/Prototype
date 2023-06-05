@@ -1,0 +1,32 @@
+{
+  "revisions": [
+    {
+      "id": "9fbee811e479aca2f3523787cae1f46553141b40",
+      "origin": "tuxsuite",
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git",
+      "git_commit_hash": "9fbee811e479aca2f3523787cae1f46553141b40",
+      "git_commit_name": "next-20230125",
+      "discovery_time": "2023-01-26T16:29:14+00:00",
+      "valid": true,
+      "git_repository_branch": "master"
+    }
+  ],
+  "builds": [
+    {
+      "id": "tuxsuite:2KrjDjxAs59UzMst7tb8wtqJP1Z",
+      "revision_id": "9fbee811e479aca2f3523787cae1f46553141b40",
+      "origin": "tuxsuite",
+      "architecture": "arm64",
+      "compiler": "Debian clang version 13.0.1-++20220126092033+75e33f71c2da-1~exp1~20220126212112.63",
+      "config_name": "allyesconfig",
+      "config_url": "https://storage.tuxsuite.com/public/clangbuiltlinux/continuous-integration2/builds/2KrjDjxAs59UzMst7tb8wtqJP1Z/config",
+      "log_url": "https://storage.tuxsuite.com/public/clangbuiltlinux/continuous-integration2/builds/2KrjDjxAs59UzMst7tb8wtqJP1Z/build.log",
+      "start_time": "2023-01-26T16:29:14+00:00",
+      "valid": false
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

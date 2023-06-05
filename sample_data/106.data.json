@@ -1,0 +1,148 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "id": "redhat:758589125",
+      "origin": "redhat",
+      "tree_name": "c9s-coverage",
+      "git_repository_url": "https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9.git",
+      "git_repository_branch": "main",
+      "git_commit_hash": "92819adbb3916fa91940bdfcfd783c3f91da86db",
+      "git_commit_name": "kernel-5.14.0-244.el9-52-g92819adbb391",
+      "patchset_hash": "",
+      "comment": "Merge: bnxt_re: Driver update to v6.0",
+      "start_time": "2023-01-26T15:02:06.409090+00:00",
+      "valid": true,
+      "misc": {
+        "iid": 67209,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-01-26T16:01:00.429283Z"
+        },
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": false,
+        "kernel_version": "5.14.0-244.test.gcov.el9",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/758589125",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "id": "redhat:758569451",
+      "origin": "redhat",
+      "tree_name": "net-next",
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git",
+      "git_repository_branch": "master",
+      "git_commit_hash": "9179f5fe41733ff56f7dfcb83c0c1456f6d2e4ae",
+      "git_commit_name": "v6.2-rc4-880-g9179f5fe4173",
+      "patchset_hash": "",
+      "comment": "net: ethtool: provide shims for stats aggregation helpers when CONFIG_ETHTOOL_NETLINK=n",
+      "start_time": "2023-01-26T16:04:27.998068+00:00",
+      "valid": true,
+      "misc": {
+        "iid": 67211,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-01-26T16:31:03.865816Z"
+        },
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": false,
+        "kernel_version": "6.2.0-rc4",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/758569451",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    }
+  ],
+  "builds": [
+    {
+      "checkout_id": "redhat:758589125",
+      "id": "redhat:758589125_s390x",
+      "origin": "redhat",
+      "comment": "CKI build of c9s",
+      "start_time": "2023-01-26T16:00:32.912443+00:00",
+      "duration": 2367,
+      "architecture": "s390x",
+      "command": "rpmbuild --target s390x --with cross --with up --with zfcpdump --with gcov --without bpftool --without selftests --without debug --without ipaclones --without perf --without tools --without trace --without realtime --without arm64_64k --without debug",
+      "compiler": "s390x-linux-gnu-gcc (GCC) 12.1.1 20220507 (Red Hat Cross 12.1.1-1)",
+      "config_name": "srpm: kernel-s390x.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758589125/build%20s390x/3666185954/artifacts/kernel-s390x.config",
+      "log_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758589125/build%20s390x/3666185954/artifacts/build.log",
+      "misc": {
+        "iid": 304946,
+        "is_missing_triage": true,
+        "revision_id": "92819adbb3916fa91940bdfcfd783c3f91da86db",
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3666185954",
+            "function": "executor",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "checkout_id": "redhat:758569451",
+      "id": "redhat:758569451_aarch64",
+      "origin": "redhat",
+      "comment": "CKI build of net-next",
+      "start_time": "2023-01-26T16:10:56.815033+00:00",
+      "duration": 888,
+      "architecture": "aarch64",
+      "command": "make -j24 INSTALL_MOD_STRIP=1 targz-pkg",
+      "compiler": "aarch64-linux-gnu-gcc (GCC) 12.2.1 20220819 (Red Hat Cross 12.2.1-2)",
+      "output_files": [
+        {
+          "url": "https://s3.upshift.redhat.com/DH-PROD-CKI/internal/758569451/aarch64/artifacts/kernel-net-next-redhat_758569451_aarch64.tar.gz",
+          "name": "beaker_kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758569451/publish%20aarch64/3666065344/artifacts/kernel-net-next-redhat_758569451_aarch64.tar.gz",
+          "name": "kernel_package_url"
+        }
+      ],
+      "config_name": "olddefconfig",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758569451/build%20aarch64/3666065305/artifacts/kernel-net-next-redhat_758569451_aarch64.config",
+      "log_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758569451/build%20aarch64/3666065305/artifacts/build.log",
+      "valid": true,
+      "misc": {
+        "iid": 304950,
+        "is_missing_triage": false,
+        "revision_id": "9179f5fe41733ff56f7dfcb83c0c1456f6d2e4ae",
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3666065305",
+            "function": "executor",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    }
+  ],
+  "tests": []
+}

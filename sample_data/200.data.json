@@ -1,0 +1,359 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-1",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:55.094000+00:00",
+      "path": "ltp-ipc.login",
+      "id": "kernelci:kernelci.org:64148cd772f0bdf0508c8651",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-C523NA-A20057-coral in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-1",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:55.095000+00:00",
+      "path": "ltp-ipc.sem02",
+      "id": "kernelci:kernelci.org:64148cd772f0bdf0508c8652",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-C523NA-A20057-coral in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-1",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:55.097000+00:00",
+      "path": "ltp-ipc.sem01",
+      "id": "kernelci:kernelci.org:64148cd772f0bdf0508c8653",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-C523NA-A20057-coral in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-1",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:55.098000+00:00",
+      "path": "ltp-ipc.pipeio_8",
+      "id": "kernelci:kernelci.org:64148cd772f0bdf0508c8654",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-C523NA-A20057-coral in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-1",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:55.099000+00:00",
+      "path": "ltp-ipc.pipeio_6",
+      "id": "kernelci:kernelci.org:64148cd772f0bdf0508c8655",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-C523NA-A20057-coral in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-1",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:55.101000+00:00",
+      "path": "ltp-ipc.pipeio_5",
+      "id": "kernelci:kernelci.org:64148cd772f0bdf0508c8656",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-C523NA-A20057-coral in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-1",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:55.102000+00:00",
+      "path": "ltp-ipc.pipeio_4",
+      "id": "kernelci:kernelci.org:64148cd772f0bdf0508c8657",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-C523NA-A20057-coral in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-1",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:55.103000+00:00",
+      "path": "ltp-ipc.pipeio_3",
+      "id": "kernelci:kernelci.org:64148cd772f0bdf0508c8658",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-C523NA-A20057-coral in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-1",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/ltp-ipc-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:55.105000+00:00",
+      "path": "ltp-ipc.pipeio_1",
+      "id": "kernelci:kernelci.org:64148cd772f0bdf0508c8659",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-C523NA-A20057-coral in lab-collabora"
+    }
+  ]
+}

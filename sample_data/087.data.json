@@ -1,0 +1,86 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "usb",
+        "kernelci_status": "PASS",
+        "plan_variant": "usb"
+      },
+      "path": "usb.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/armhf/rootfs.cpio.gz",
+          "device": "rk3288-veyron-jaq",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3288-veyron-jaq-cbg-1"
+        },
+        "comment": "rk3288-veyron-jaq in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/broonie-sound/for-linus/asoc-fix-v6.2-rc3-23-g100c94ffde48/arm/multi_v7_defconfig/gcc-10/lab-collabora/usb-rk3288-veyron-jaq.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/broonie-sound/for-linus/asoc-fix-v6.2-rc3-23-g100c94ffde48/arm/multi_v7_defconfig/gcc-10/lab-collabora/usb-rk3288-veyron-jaq.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/broonie-sound/for-linus/asoc-fix-v6.2-rc3-23-g100c94ffde48/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-rk3288-veyron-jaq.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:03.712000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f7c004c7ab47915ed5",
+      "build_id": "kernelci:kernelci.org:63d1ea420e70323a67915f2e",
+      "origin": "kernelci",
+      "comment": "usb on rk3288-veyron-jaq in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "usb",
+        "kernelci_status": "PASS",
+        "plan_variant": "usb"
+      },
+      "path": "usb.usb-presence",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/armhf/rootfs.cpio.gz",
+          "device": "rk3288-veyron-jaq",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3288-veyron-jaq-cbg-1"
+        },
+        "comment": "rk3288-veyron-jaq in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/broonie-sound/for-linus/asoc-fix-v6.2-rc3-23-g100c94ffde48/arm/multi_v7_defconfig/gcc-10/lab-collabora/usb-rk3288-veyron-jaq.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/broonie-sound/for-linus/asoc-fix-v6.2-rc3-23-g100c94ffde48/arm/multi_v7_defconfig/gcc-10/lab-collabora/usb-rk3288-veyron-jaq.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/broonie-sound/for-linus/asoc-fix-v6.2-rc3-23-g100c94ffde48/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-rk3288-veyron-jaq.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:03.723000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f7c004c7ab47915ed6",
+      "build_id": "kernelci:kernelci.org:63d1ea420e70323a67915f2e",
+      "origin": "kernelci",
+      "comment": "usb on rk3288-veyron-jaq in lab-collabora"
+    }
+  ]
+}

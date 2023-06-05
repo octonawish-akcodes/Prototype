@@ -1,0 +1,1724 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.744000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915ef1",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.748000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915ef3",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.749000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915ef4",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.751000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915ef5",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-i2c-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.752000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915ef6",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-i2c-i2c0-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.754000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915ef7",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-i2c-i2c3-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.755000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915ef8",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-uart-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.757000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915ef9",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-uart-uart0-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.758000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915efa",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-uart-uart1-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.760000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915efb",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-uart-uart2-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.761000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915efc",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx2-wdt-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.763000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915efd",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx2-wdt-watchdog0-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.764000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915efe",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-sdma-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.765000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915eff",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-sdma-0-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.766000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f00",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-sdma-1-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.768000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f01",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx-sdma-2-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.769000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f02",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx8mm-pinctrl-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.771000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f03",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx8mm-pinctrl-0-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.772000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f04",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx8mm-ccm-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.773000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f05",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx8mm-ccm-0-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.775000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f06",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx_ocotp-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.776000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f07",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.imx_ocotp-0-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.777000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f08",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.sdhci-esdhc-imx-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.778000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f09",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.sdhci-esdhc-imx-mmc0-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.779000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f0a",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.sdhci-esdhc-imx-mmc1-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.781000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f0b",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.fec-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.782000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f0c",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.fec-ethernet0-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.783000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f0d",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.reset-imx7-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.784000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f0e",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.reset-imx7-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.785000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f0f",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.ci-hdrc-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.786000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f10",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.ci-hdrc-usb0-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.788000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f11",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.ci-hdrc-usb1-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.789000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f12",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.usb-smsc95xx-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.790000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f13",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.usb-smsc95xx-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.792000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f14",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.pmic-nxp-pca9450-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.793000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f15",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.pmic-nxp-pca9450-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.795000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f16",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.rtc-rv8803-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.796000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f17",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.rtc-rv8803-rtc-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.797000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f18",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.spi-nor-driver-present",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.799000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f19",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.spi-nor-probed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.800000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f1a",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.803000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f1c",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.804000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f1d",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "kontron-bl-imx8mm",
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "instance": "kontron-bl-imx8mm-01"
+        },
+        "comment": "kontron-bl-imx8mm in lab-kontron"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/baseline-kontron-bl-imx8mm.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-kontron/lava-kontron-bl-imx8mm.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:02.806000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f6df925465ef915f1e",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-bl-imx8mm in lab-kontron"
+    }
+  ]
+}

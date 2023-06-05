@@ -1,0 +1,58 @@
+{
+  "builds": [
+    {
+      "architecture": "arc",
+      "start_time": "2023-01-26T15:12:36.537000+00:00",
+      "misc": {
+        "vmlinux_data_size": 629504,
+        "kernel_image_size": null,
+        "build_platform": [
+          "Linux",
+          "build-j924001-arc-gcc-10-vdk-hs38-smp-defconfig-59rhc",
+          "5.4.0-1065-azure",
+          "#68~18.04.1-Ubuntu SMP Fri Dec 3 14:08:44 UTC 2021",
+          "x86_64",
+          "Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz"
+        ],
+        "vmlinux_bss_size": 249340
+      },
+      "log_url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arc/vdk_hs38_smp_defconfig/gcc-10/logs",
+      "config_url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arc/vdk_hs38_smp_defconfig/gcc-10/config/kernel.config",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/arc/vdk_hs38_smp_defconfig/gcc-10/kernel/System.map",
+          "name": "System.map"
+        },
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/arc/vdk_hs38_smp_defconfig/gcc-10/kernel/uImage",
+          "name": "kernel_image"
+        }
+      ],
+      "duration": 274.42531991004944,
+      "compiler": "arc-elf32-gcc (ARCompact/ARCv2 ISA elf32 toolchain - build 581) 10.2.0",
+      "valid": true,
+      "config_name": "vdk_hs38_smp_defconfig",
+      "id": "kernelci:kernelci.org:63d298648c76cd6e5b915ecb",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:610b3c408ab575b559aa282627a11130020f5ecc",
+      "comment": "v6.2-rc5-274-g610b3c408ab5"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "master",
+      "valid": true,
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git",
+      "id": "_:kernelci:610b3c408ab575b559aa282627a11130020f5ecc",
+      "origin": "kernelci",
+      "git_commit_hash": "610b3c408ab575b559aa282627a11130020f5ecc",
+      "git_commit_name": "v6.2-rc5-274-g610b3c408ab5",
+      "patchset_hash": "",
+      "start_time": "2023-01-26T15:12:36.537000+00:00"
+    }
+  ]
+}

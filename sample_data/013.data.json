@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "qemu_arm-vexpress-a9",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-32"
+        },
+        "comment": "qemu_arm-vexpress-a9 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/lava-qemu_arm-vexpress-a9.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:31.364000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2985f6702832047915ec9",
+      "build_id": "kernelci:kernelci.org:63d297571a1f869e7e915eda",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm-vexpress-a9 in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "qemu_arm-vexpress-a9",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-32"
+        },
+        "comment": "qemu_arm-vexpress-a9 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/lava-qemu_arm-vexpress-a9.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:31.371000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2985f6702832047915ecb",
+      "build_id": "kernelci:kernelci.org:63d297571a1f869e7e915eda",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm-vexpress-a9 in lab-baylibre"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "FAIL",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "qemu_arm-vexpress-a9",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-32"
+        },
+        "comment": "qemu_arm-vexpress-a9 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/lava-qemu_arm-vexpress-a9.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:31.373000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2985f6702832047915ecc",
+      "build_id": "kernelci:kernelci.org:63d297571a1f869e7e915eda",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm-vexpress-a9 in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "qemu_arm-vexpress-a9",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-32"
+        },
+        "comment": "qemu_arm-vexpress-a9 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/lava-qemu_arm-vexpress-a9.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:31.374000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2985f6702832047915ecd",
+      "build_id": "kernelci:kernelci.org:63d297571a1f869e7e915eda",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm-vexpress-a9 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "qemu_arm-vexpress-a9",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-32"
+        },
+        "comment": "qemu_arm-vexpress-a9 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/lava-qemu_arm-vexpress-a9.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:31.378000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2985f6702832047915ecf",
+      "build_id": "kernelci:kernelci.org:63d297571a1f869e7e915eda",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm-vexpress-a9 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "qemu_arm-vexpress-a9",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-32"
+        },
+        "comment": "qemu_arm-vexpress-a9 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/lava-qemu_arm-vexpress-a9.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:31.380000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2985f6702832047915ed0",
+      "build_id": "kernelci:kernelci.org:63d297571a1f869e7e915eda",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm-vexpress-a9 in lab-baylibre"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "FAIL",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "qemu_arm-vexpress-a9",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-32"
+        },
+        "comment": "qemu_arm-vexpress-a9 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/baseline-qemu_arm-vexpress-a9.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/vexpress_defconfig/gcc-10/lab-baylibre/lava-qemu_arm-vexpress-a9.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:31.381000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2985f6702832047915ed1",
+      "build_id": "kernelci:kernelci.org:63d297571a1f869e7e915eda",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm-vexpress-a9 in lab-baylibre"
+    }
+  ]
+}

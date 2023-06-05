@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-a64-pine64-plus",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-a64-pine64-plus-01"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-a64-pine64-plus.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.833000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bea91479fdb5915f65",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-a64-pine64-plus in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-a64-pine64-plus",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-a64-pine64-plus-01"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-a64-pine64-plus.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.857000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bea91479fdb5915f67",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-a64-pine64-plus in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-a64-pine64-plus",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-a64-pine64-plus-01"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-a64-pine64-plus.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.859000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bea91479fdb5915f68",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-a64-pine64-plus in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-a64-pine64-plus",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-a64-pine64-plus-01"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-a64-pine64-plus.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.861000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bea91479fdb5915f69",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-a64-pine64-plus in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-a64-pine64-plus",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-a64-pine64-plus-01"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-a64-pine64-plus.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.866000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bea91479fdb5915f6b",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-a64-pine64-plus in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-a64-pine64-plus",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-a64-pine64-plus-01"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-a64-pine64-plus.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.867000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bea91479fdb5915f6c",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-a64-pine64-plus in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-a64-pine64-plus",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-a64-pine64-plus-01"
+        },
+        "comment": "sun50i-a64-pine64-plus in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-a64-pine64-plus.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-a64-pine64-plus.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.869000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bea91479fdb5915f6d",
+      "build_id": "kernelci:kernelci.org:63d27d0eb6af7b264f915ef9",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-a64-pine64-plus in lab-baylibre"
+    }
+  ]
+}

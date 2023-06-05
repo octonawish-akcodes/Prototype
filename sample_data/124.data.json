@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi-mixed",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-18"
+        },
+        "comment": "qemu_x86_64-uefi-mixed in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi-mixed.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:55.717000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c53b1cfbf45156915f2f",
+      "build_id": "kernelci:kernelci.org:63d2c39959f2c1c2b7915ed8",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi-mixed in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi-mixed",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-18"
+        },
+        "comment": "qemu_x86_64-uefi-mixed in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi-mixed.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:55.722000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c53b1cfbf45156915f31",
+      "build_id": "kernelci:kernelci.org:63d2c39959f2c1c2b7915ed8",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi-mixed in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi-mixed",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-18"
+        },
+        "comment": "qemu_x86_64-uefi-mixed in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi-mixed.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:55.723000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c53b1cfbf45156915f32",
+      "build_id": "kernelci:kernelci.org:63d2c39959f2c1c2b7915ed8",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi-mixed in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi-mixed",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-18"
+        },
+        "comment": "qemu_x86_64-uefi-mixed in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi-mixed.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:55.725000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c53b1cfbf45156915f33",
+      "build_id": "kernelci:kernelci.org:63d2c39959f2c1c2b7915ed8",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi-mixed in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi-mixed",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-18"
+        },
+        "comment": "qemu_x86_64-uefi-mixed in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi-mixed.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:55.731000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c53b1cfbf45156915f35",
+      "build_id": "kernelci:kernelci.org:63d2c39959f2c1c2b7915ed8",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi-mixed in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi-mixed",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-18"
+        },
+        "comment": "qemu_x86_64-uefi-mixed in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi-mixed.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:55.733000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c53b1cfbf45156915f36",
+      "build_id": "kernelci:kernelci.org:63d2c39959f2c1c2b7915ed8",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi-mixed in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "qemu_x86_64-uefi-mixed",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-18"
+        },
+        "comment": "qemu_x86_64-uefi-mixed in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/baseline-qemu_x86_64-uefi-mixed.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/x86_64/x86_64_defconfig/gcc-10/lab-baylibre/lava-qemu_x86_64-uefi-mixed.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:55.735000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c53b1cfbf45156915f37",
+      "build_id": "kernelci:kernelci.org:63d2c39959f2c1c2b7915ed8",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_x86_64-uefi-mixed in lab-baylibre"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "sleep",
+        "plan_variant": "sleep_mem"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/amd64/rootfs.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-4",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/sleep-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/sleep-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:34.805000+00:00",
+      "path": "sleep.login",
+      "id": "kernelci:kernelci.org:64148cc272f0bdf0508c8644",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "sleep on asus-C523NA-A20057-coral in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "sleep",
+        "plan_variant": "sleep_mem"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/amd64/rootfs.cpio.gz",
+          "instance": "asus-C523NA-A20057-coral-cbg-4",
+          "device": "asus-C523NA-A20057-coral"
+        },
+        "comment": "asus-C523NA-A20057-coral in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/sleep-asus-C523NA-A20057-coral.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/sleep-asus-C523NA-A20057-coral.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C523NA-A20057-coral.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:34.806000+00:00",
+      "path": "sleep.rtc-exist",
+      "id": "kernelci:kernelci.org:64148cc272f0bdf0508c8645",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "sleep on asus-C523NA-A20057-coral in lab-collabora"
+    }
+  ]
+}

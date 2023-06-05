@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxm-khadas-vim2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:58.127000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f2df925465ef915ed7",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxm-khadas-vim2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:58.130000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f2df925465ef915ed9",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxm-khadas-vim2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:58.131000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f2df925465ef915eda",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxm-khadas-vim2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:58.132000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f2df925465ef915edb",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxm-khadas-vim2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:58.136000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f2df925465ef915edd",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxm-khadas-vim2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:58.137000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f2df925465ef915ede",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxm-khadas-vim2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:58.138000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f2df925465ef915edf",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxm-khadas-vim2 in lab-baylibre"
+    }
+  ]
+}

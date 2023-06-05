@@ -1,0 +1,398 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-01"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:04.065000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f8df925465ef915f23",
+      "build_id": "kernelci:kernelci.org:63d24e983c77b00081915ecd",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty04",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-01"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:04.086000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f8df925465ef915f24",
+      "build_id": "kernelci:kernelci.org:63d24e983c77b00081915ecd",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty03",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-01"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:04.092000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f8df925465ef915f25",
+      "build_id": "kernelci:kernelci.org:63d24e983c77b00081915ecd",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty02",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-01"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:04.093000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f8df925465ef915f26",
+      "build_id": "kernelci:kernelci.org:63d24e983c77b00081915ecd",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty01",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-01"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:04.094000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f8df925465ef915f27",
+      "build_id": "kernelci:kernelci.org:63d24e983c77b00081915ecd",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.ptem01",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-01"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:04.098000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f8df925465ef915f28",
+      "build_id": "kernelci:kernelci.org:63d24e983c77b00081915ecd",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty07",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-01"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:04.099000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f8df925465ef915f29",
+      "build_id": "kernelci:kernelci.org:63d24e983c77b00081915ecd",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty06",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-01"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:04.100000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f8df925465ef915f2a",
+      "build_id": "kernelci:kernelci.org:63d24e983c77b00081915ecd",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty05",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-01"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:04.101000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f8df925465ef915f2b",
+      "build_id": "kernelci:kernelci.org:63d24e983c77b00081915ecd",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.hangup01",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-01"
+        },
+        "comment": "qemu_riscv64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/riscv/defconfig/gcc-10/lab-broonie/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:04.102000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f8df925465ef915f2c",
+      "build_id": "kernelci:kernelci.org:63d24e983c77b00081915ecd",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-broonie"
+    }
+  ]
+}

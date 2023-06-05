@@ -1,0 +1,62 @@
+{
+  "builds": [
+    {
+      "architecture": "mips",
+      "start_time": "2023-01-26T15:12:24.927000+00:00",
+      "misc": {
+        "vmlinux_data_size": 413592,
+        "kernel_image_size": null,
+        "build_platform": [
+          "Linux",
+          "build-j923997-mips-gcc-10-loongson1c-defconfig-5g4bm",
+          "5.4.0-1065-azure",
+          "#68~18.04.1-Ubuntu SMP Fri Dec 3 14:08:44 UTC 2021",
+          "x86_64",
+          "Intel(R) Xeon(R) Platinum 8171M CPU @ 2.60GHz"
+        ],
+        "vmlinux_bss_size": 183184
+      },
+      "log_url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/mips/loongson1c_defconfig/gcc-10/logs",
+      "config_url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/mips/loongson1c_defconfig/gcc-10/config/kernel.config",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/mips/loongson1c_defconfig/gcc-10/kernel/System.map",
+          "name": "System.map"
+        },
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/mips/loongson1c_defconfig/gcc-10/modules.tar.xz",
+          "name": "modules"
+        },
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/mips/loongson1c_defconfig/gcc-10/kernel/vmlinuz",
+          "name": "kernel_image"
+        }
+      ],
+      "duration": 335.923091173172,
+      "compiler": "mips-linux-gnu-gcc (Debian 10.2.1-6) 10.2.1 20210110",
+      "valid": true,
+      "config_name": "loongson1c_defconfig",
+      "id": "kernelci:kernelci.org:63d298586702832047915ec6",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:610b3c408ab575b559aa282627a11130020f5ecc",
+      "comment": "v6.2-rc5-274-g610b3c408ab5"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "master",
+      "valid": true,
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git",
+      "id": "_:kernelci:610b3c408ab575b559aa282627a11130020f5ecc",
+      "origin": "kernelci",
+      "git_commit_hash": "610b3c408ab575b559aa282627a11130020f5ecc",
+      "git_commit_name": "v6.2-rc5-274-g610b3c408ab5",
+      "patchset_hash": "",
+      "start_time": "2023-01-26T15:12:24.927000+00:00"
+    }
+  ]
+}

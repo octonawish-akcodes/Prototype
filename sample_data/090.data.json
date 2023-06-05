@@ -1,0 +1,47 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "ltp-timers",
+        "kernelci_status": "FAIL",
+        "plan_variant": "ltp-timers_qemu"
+      },
+      "path": "ltp-timers.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230120.0/amd64/rootfs.cpio.gz",
+          "device": "qemu_x86_64",
+          "mach": "qemu",
+          "lab": "lab-broonie",
+          "instance": "qemu-heliopause-04"
+        },
+        "comment": "qemu_x86_64 in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/x86_64/x86_64_defconfig/gcc-10/lab-broonie/ltp-timers-qemu_x86_64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/x86_64/x86_64_defconfig/gcc-10/lab-broonie/ltp-timers-qemu_x86_64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/amlogic/for-next/amlogic-fixes-v6.2-rc-55-g46b1c99fb30c/x86_64/x86_64_defconfig/gcc-10/lab-broonie/lava-qemu_x86_64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:05.542000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f9c1619422cd915eba",
+      "build_id": "kernelci:kernelci.org:63d24eaf504cd32930915ebb",
+      "origin": "kernelci",
+      "comment": "ltp-timers on qemu_x86_64 in lab-broonie"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "builds": [
+    {
+      "compiler": "arm-linux-gnueabihf-gcc (Debian 10.2.1-6) 10.2.1 20210110",
+      "misc": {
+        "vmlinux_data_size": 645644,
+        "kernel_image_size": null,
+        "vmlinux_bss_size": 231460,
+        "build_platform": [
+          "Linux",
+          "build-j1201973-arm-gcc-10-pxa-defconfig-x7fgr",
+          "5.10.162+",
+          "#1 SMP Fri Jan 13 21:12:05 UTC 2023",
+          "x86_64",
+          "Intel(R) Xeon(R) CPU @ 2.20GHz"
+        ]
+      },
+      "architecture": "arm",
+      "duration": 1004.7153704166412,
+      "log_url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm/pxa_defconfig/gcc-10/logs",
+      "output_files": [
+        {
+          "name": "kernel_image",
+          "url": "https://storage.kernelci.org//stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm/pxa_defconfig/gcc-10/kernel/zImage"
+        },
+        {
+          "name": "modules",
+          "url": "https://storage.kernelci.org//stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm/pxa_defconfig/gcc-10/modules.tar.xz"
+        },
+        {
+          "name": "System.map",
+          "url": "https://storage.kernelci.org//stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm/pxa_defconfig/gcc-10/kernel/System.map"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:37.100000+00:00",
+      "config_url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm/pxa_defconfig/gcc-10/config/kernel.config",
+      "valid": true,
+      "config_name": "pxa_defconfig",
+      "id": "kernelci:kernelci.org:64148d3db38b5096eb8c8630",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:b46b0d301871033aa98bb6306f23f894230bb6ab",
+      "comment": "v5.4.237-1-gb46b0d301871"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "queue/5.4",
+      "valid": true,
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+      "id": "_:kernelci:b46b0d301871033aa98bb6306f23f894230bb6ab",
+      "origin": "kernelci",
+      "git_commit_hash": "b46b0d301871033aa98bb6306f23f894230bb6ab",
+      "git_commit_name": "v5.4.237-1-gb46b0d301871",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:54:37.100000+00:00"
+    }
+  ]
+}

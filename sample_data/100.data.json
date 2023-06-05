@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-h5-libretech-all-h3-cc",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-h5-libretech-all-h3-cc-02"
+        },
+        "comment": "sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-h5-libretech-all-h3-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:20.299000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990879e2270760915ef1",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-h5-libretech-all-h3-cc",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-h5-libretech-all-h3-cc-02"
+        },
+        "comment": "sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-h5-libretech-all-h3-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:20.303000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990879e2270760915ef3",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-h5-libretech-all-h3-cc",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-h5-libretech-all-h3-cc-02"
+        },
+        "comment": "sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-h5-libretech-all-h3-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:20.304000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990879e2270760915ef4",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-h5-libretech-all-h3-cc",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-h5-libretech-all-h3-cc-02"
+        },
+        "comment": "sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-h5-libretech-all-h3-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:20.305000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990879e2270760915ef5",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-h5-libretech-all-h3-cc",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-h5-libretech-all-h3-cc-02"
+        },
+        "comment": "sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-h5-libretech-all-h3-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:20.309000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990879e2270760915ef7",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-h5-libretech-all-h3-cc",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-h5-libretech-all-h3-cc-02"
+        },
+        "comment": "sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-h5-libretech-all-h3-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:20.310000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990879e2270760915ef8",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "sun50i-h5-libretech-all-h3-cc",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-h5-libretech-all-h3-cc-02"
+        },
+        "comment": "sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-sun50i-h5-libretech-all-h3-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-h5-libretech-all-h3-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:20.311000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2990879e2270760915ef9",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+    }
+  ]
+}

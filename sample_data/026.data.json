@@ -1,0 +1,398 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-1"
+        },
+        "comment": "qemu_riscv64 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:03.105000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2987fcc9d5009f0915ed4",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.hangup01",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-1"
+        },
+        "comment": "qemu_riscv64 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:03.107000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2987fcc9d5009f0915ed5",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.ptem01",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-1"
+        },
+        "comment": "qemu_riscv64 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:03.108000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2987fcc9d5009f0915ed6",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty07",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-1"
+        },
+        "comment": "qemu_riscv64 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:03.109000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2987fcc9d5009f0915ed7",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty06",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-1"
+        },
+        "comment": "qemu_riscv64 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:03.111000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2987fcc9d5009f0915ed8",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty05",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-1"
+        },
+        "comment": "qemu_riscv64 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:03.112000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2987fcc9d5009f0915ed9",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty04",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-1"
+        },
+        "comment": "qemu_riscv64 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:03.113000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2987fcc9d5009f0915eda",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty03",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-1"
+        },
+        "comment": "qemu_riscv64 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:03.115000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2987fcc9d5009f0915edb",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty02",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-1"
+        },
+        "comment": "qemu_riscv64 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:03.116000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2987fcc9d5009f0915edc",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty01",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-1"
+        },
+        "comment": "qemu_riscv64 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-collabora/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:03.117000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2987fcc9d5009f0915edd",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-collabora"
+    }
+  ]
+}
