@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "sun7i-a20-olinuxino-lime2",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun7i-a20-olinuxino-lime2-01"
+        },
+        "comment": "sun7i-a20-olinuxino-lime2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/lava-sun7i-a20-olinuxino-lime2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:43.185000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c52ff937b7db13915edc",
+      "build_id": "kernelci:kernelci.org:63d2c35b07a2d1470b915ef5",
+      "origin": "kernelci",
+      "comment": "baseline on sun7i-a20-olinuxino-lime2 in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "sun7i-a20-olinuxino-lime2",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun7i-a20-olinuxino-lime2-01"
+        },
+        "comment": "sun7i-a20-olinuxino-lime2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/lava-sun7i-a20-olinuxino-lime2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:43.189000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c52ff937b7db13915ede",
+      "build_id": "kernelci:kernelci.org:63d2c35b07a2d1470b915ef5",
+      "origin": "kernelci",
+      "comment": "baseline on sun7i-a20-olinuxino-lime2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "sun7i-a20-olinuxino-lime2",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun7i-a20-olinuxino-lime2-01"
+        },
+        "comment": "sun7i-a20-olinuxino-lime2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/lava-sun7i-a20-olinuxino-lime2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:43.190000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c52ff937b7db13915edf",
+      "build_id": "kernelci:kernelci.org:63d2c35b07a2d1470b915ef5",
+      "origin": "kernelci",
+      "comment": "baseline on sun7i-a20-olinuxino-lime2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "sun7i-a20-olinuxino-lime2",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun7i-a20-olinuxino-lime2-01"
+        },
+        "comment": "sun7i-a20-olinuxino-lime2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/lava-sun7i-a20-olinuxino-lime2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:43.192000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c52ff937b7db13915ee0",
+      "build_id": "kernelci:kernelci.org:63d2c35b07a2d1470b915ef5",
+      "origin": "kernelci",
+      "comment": "baseline on sun7i-a20-olinuxino-lime2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "sun7i-a20-olinuxino-lime2",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun7i-a20-olinuxino-lime2-01"
+        },
+        "comment": "sun7i-a20-olinuxino-lime2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/lava-sun7i-a20-olinuxino-lime2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:43.195000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c52ff937b7db13915ee2",
+      "build_id": "kernelci:kernelci.org:63d2c35b07a2d1470b915ef5",
+      "origin": "kernelci",
+      "comment": "baseline on sun7i-a20-olinuxino-lime2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "sun7i-a20-olinuxino-lime2",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun7i-a20-olinuxino-lime2-01"
+        },
+        "comment": "sun7i-a20-olinuxino-lime2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/lava-sun7i-a20-olinuxino-lime2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:43.196000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c52ff937b7db13915ee3",
+      "build_id": "kernelci:kernelci.org:63d2c35b07a2d1470b915ef5",
+      "origin": "kernelci",
+      "comment": "baseline on sun7i-a20-olinuxino-lime2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "sun7i-a20-olinuxino-lime2",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun7i-a20-olinuxino-lime2-01"
+        },
+        "comment": "sun7i-a20-olinuxino-lime2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/baseline-sun7i-a20-olinuxino-lime2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/arm/sunxi_defconfig/gcc-10/lab-baylibre/lava-sun7i-a20-olinuxino-lime2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:23:43.197000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c52ff937b7db13915ee4",
+      "build_id": "kernelci:kernelci.org:63d2c35b07a2d1470b915ef5",
+      "origin": "kernelci",
+      "comment": "baseline on sun7i-a20-olinuxino-lime2 in lab-baylibre"
+    }
+  ]
+}

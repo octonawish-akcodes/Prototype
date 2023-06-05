@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "r8a77960-ulcb",
+          "mach": "renesas",
+          "lab": "lab-collabora",
+          "instance": "r8a7796-m3ulcb-cbg-1"
+        },
+        "comment": "r8a77960-ulcb in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/lava-r8a77960-ulcb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:11:28.576000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c2504c4aeed7a1915ec7",
+      "build_id": "kernelci:kernelci.org:63d1ef5ceeae9868a6915ebc",
+      "origin": "kernelci",
+      "comment": "baseline on r8a77960-ulcb in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "r8a77960-ulcb",
+          "mach": "renesas",
+          "lab": "lab-collabora",
+          "instance": "r8a7796-m3ulcb-cbg-1"
+        },
+        "comment": "r8a77960-ulcb in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/lava-r8a77960-ulcb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:11:28.592000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c2504c4aeed7a1915ec9",
+      "build_id": "kernelci:kernelci.org:63d1ef5ceeae9868a6915ebc",
+      "origin": "kernelci",
+      "comment": "baseline on r8a77960-ulcb in lab-collabora"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "FAIL",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "r8a77960-ulcb",
+          "mach": "renesas",
+          "lab": "lab-collabora",
+          "instance": "r8a7796-m3ulcb-cbg-1"
+        },
+        "comment": "r8a77960-ulcb in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/lava-r8a77960-ulcb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:11:28.593000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c2504c4aeed7a1915eca",
+      "build_id": "kernelci:kernelci.org:63d1ef5ceeae9868a6915ebc",
+      "origin": "kernelci",
+      "comment": "baseline on r8a77960-ulcb in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "r8a77960-ulcb",
+          "mach": "renesas",
+          "lab": "lab-collabora",
+          "instance": "r8a7796-m3ulcb-cbg-1"
+        },
+        "comment": "r8a77960-ulcb in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/lava-r8a77960-ulcb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:11:28.595000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c2504c4aeed7a1915ecb",
+      "build_id": "kernelci:kernelci.org:63d1ef5ceeae9868a6915ebc",
+      "origin": "kernelci",
+      "comment": "baseline on r8a77960-ulcb in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "r8a77960-ulcb",
+          "mach": "renesas",
+          "lab": "lab-collabora",
+          "instance": "r8a7796-m3ulcb-cbg-1"
+        },
+        "comment": "r8a77960-ulcb in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/lava-r8a77960-ulcb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:11:28.599000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c2504c4aeed7a1915ecd",
+      "build_id": "kernelci:kernelci.org:63d1ef5ceeae9868a6915ebc",
+      "origin": "kernelci",
+      "comment": "baseline on r8a77960-ulcb in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "r8a77960-ulcb",
+          "mach": "renesas",
+          "lab": "lab-collabora",
+          "instance": "r8a7796-m3ulcb-cbg-1"
+        },
+        "comment": "r8a77960-ulcb in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/lava-r8a77960-ulcb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:11:28.600000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c2504c4aeed7a1915ece",
+      "build_id": "kernelci:kernelci.org:63d1ef5ceeae9868a6915ebc",
+      "origin": "kernelci",
+      "comment": "baseline on r8a77960-ulcb in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "r8a77960-ulcb",
+          "mach": "renesas",
+          "lab": "lab-collabora",
+          "instance": "r8a7796-m3ulcb-cbg-1"
+        },
+        "comment": "r8a77960-ulcb in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/baseline-r8a77960-ulcb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/clk/clk-next/v6.2-rc1-36-g71854f780c8b/arm64/defconfig/gcc-10/lab-collabora/lava-r8a77960-ulcb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T18:11:28.601000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2c2504c4aeed7a1915ecf",
+      "build_id": "kernelci:kernelci.org:63d1ef5ceeae9868a6915ebc",
+      "origin": "kernelci",
+      "comment": "baseline on r8a77960-ulcb in lab-collabora"
+    }
+  ]
+}

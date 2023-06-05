@@ -1,0 +1,57 @@
+{
+  "checkouts": [
+    {
+      "id": "broonie:f5f97cc789d84674836d76a8062f5ff1",
+      "git_commit_hash": "c18bbac353ffed50be134b0a2a059a2bd540c503",
+      "patchset_hash": "",
+      "origin": "broonie",
+      "valid": true,
+      "start_time": "2023-03-17T16:00:03.063632+00:00"
+    }
+  ],
+  "builds": [
+    {
+      "id": "broonie:c18bbac353ffed50be134b0a2a059a2bd540c503-arm64-allnoconfig",
+      "checkout_id": "broonie:f5f97cc789d84674836d76a8062f5ff1",
+      "architecture": "arm64",
+      "config_name": "allnoconfig",
+      "valid": true,
+      "duration": 10.244332075119019,
+      "compiler": "aarch64-linux-gnu-gcc (Debian 12.2.0-14) 12.2.0",
+      "origin": "broonie",
+      "output_files": [
+        {
+          "name": "config",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm64/allnoconfig/config"
+        },
+        {
+          "name": "dtbs.tar.xz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm64/allnoconfig/dtbs.tar.xz"
+        },
+        {
+          "name": "dtbs.tar.xz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm64/allnoconfig/dtbs.tar.xz"
+        },
+        {
+          "name": "Image.gz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm64/allnoconfig/Image.gz"
+        },
+        {
+          "name": "build.log",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm64/allnoconfig/build.log"
+        },
+        {
+          "name": "build-debug.log",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm64/allnoconfig/build-debug.log"
+        }
+      ],
+      "config_url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm64/allnoconfig/config",
+      "log_url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm64/allnoconfig/build.log",
+      "start_time": "2023-03-17T16:00:03.063632+00:00"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

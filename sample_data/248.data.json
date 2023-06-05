@@ -1,0 +1,47 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "kselftest-futex",
+        "plan_variant": "kselftest-futex"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxl-s905x-libretech-cc-sea",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/kselftest-futex-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/kselftest-futex-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:52.506000+00:00",
+      "path": "kselftest-futex.login",
+      "id": "kernelci:kernelci.org:64148d8893163e27b58c8642",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "kselftest-futex on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxl-s905x-libretech-cc-01",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:46.272000+00:00",
+      "path": "ltp-ipc.login",
+      "id": "kernelci:kernelci.org:64148d46e246e9de1e8c8667",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxl-s905x-libretech-cc-01",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:46.274000+00:00",
+      "path": "ltp-ipc.sem02",
+      "id": "kernelci:kernelci.org:64148d46e246e9de1e8c8668",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxl-s905x-libretech-cc-01",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:46.275000+00:00",
+      "path": "ltp-ipc.sem01",
+      "id": "kernelci:kernelci.org:64148d46e246e9de1e8c8669",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxl-s905x-libretech-cc-01",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:46.276000+00:00",
+      "path": "ltp-ipc.pipeio_8",
+      "id": "kernelci:kernelci.org:64148d46e246e9de1e8c866a",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxl-s905x-libretech-cc-01",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:46.277000+00:00",
+      "path": "ltp-ipc.pipeio_6",
+      "id": "kernelci:kernelci.org:64148d46e246e9de1e8c866b",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxl-s905x-libretech-cc-01",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:46.278000+00:00",
+      "path": "ltp-ipc.pipeio_5",
+      "id": "kernelci:kernelci.org:64148d46e246e9de1e8c866c",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxl-s905x-libretech-cc-01",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:46.279000+00:00",
+      "path": "ltp-ipc.pipeio_4",
+      "id": "kernelci:kernelci.org:64148d46e246e9de1e8c866d",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxl-s905x-libretech-cc-01",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:46.281000+00:00",
+      "path": "ltp-ipc.pipeio_3",
+      "id": "kernelci:kernelci.org:64148d46e246e9de1e8c866e",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-ipc",
+        "plan_variant": "ltp-ipc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxl-s905x-libretech-cc-01",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/ltp-ipc-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:46.282000+00:00",
+      "path": "ltp-ipc.pipeio_1",
+      "id": "kernelci:kernelci.org:64148d46e246e9de1e8c866f",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on meson-gxl-s905x-libretech-cc in lab-baylibre"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "id": "redhat:koji-98809470",
+      "origin": "redhat",
+      "tree_name": "kernel-eln",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:48:30.344131+00:00",
+      "contacts": [
+        "jforbes@redhat.com"
+      ],
+      "valid": true,
+      "misc": {
+        "iid": 79501,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "brew_task_id": 98809470,
+        "submitter": "jforbes@redhat.com",
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": true,
+        "kernel_version": "6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810135866",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          }
+        ]
+      }
+    }
+  ],
+  "builds": [
+    {
+      "checkout_id": "redhat:koji-98809470",
+      "id": "redhat:koji-98809470-x86_64-kernel",
+      "origin": "redhat",
+      "comment": "Buildsystem task 98809470",
+      "start_time": "2023-03-17T15:48:49.462153+00:00",
+      "duration": 7064,
+      "architecture": "x86_64",
+      "config_name": "srpm: kernel-x86_64.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/createrepo%20x86_64/3956552103/artifacts/kernel-x86_64.config",
+      "misc": {
+        "iid": 324122,
+        "is_missing_triage": true,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956552103",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    }
+  ],
+  "tests": []
+}

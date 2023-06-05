@@ -1,0 +1,62 @@
+{
+  "builds": [
+    {
+      "compiler": "Debian clang version 14.0.6",
+      "misc": {
+        "vmlinux_data_size": 177344,
+        "kernel_image_size": null,
+        "vmlinux_bss_size": 73453,
+        "build_platform": [
+          "Linux",
+          "build-j1202109-arm-clang-14-tct-hammer-defconfig-xzmg9",
+          "5.10.162+",
+          "#1 SMP Fri Jan 13 21:12:05 UTC 2023",
+          "x86_64",
+          "Intel(R) Xeon(R) CPU @ 2.20GHz"
+        ]
+      },
+      "architecture": "arm",
+      "duration": 342.3257236480713,
+      "log_url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/tct_hammer_defconfig/clang-14/logs",
+      "output_files": [
+        {
+          "name": "kernel_image",
+          "url": "https://storage.kernelci.org//android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/tct_hammer_defconfig/clang-14/kernel/zImage"
+        },
+        {
+          "name": "modules",
+          "url": "https://storage.kernelci.org//android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/tct_hammer_defconfig/clang-14/modules.tar.xz"
+        },
+        {
+          "name": "System.map",
+          "url": "https://storage.kernelci.org//android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/tct_hammer_defconfig/clang-14/kernel/System.map"
+        }
+      ],
+      "start_time": "2023-03-17T15:53:43.999000+00:00",
+      "config_url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/tct_hammer_defconfig/clang-14/config/kernel.config",
+      "valid": true,
+      "config_name": "tct_hammer_defconfig",
+      "id": "kernelci:kernelci.org:64148d077a377b5ad98c8635",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:afff17f58386f569c7bd324ee4a39b4cd840bf22",
+      "comment": "v5.10-24778-gafff17f58386f"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "android12-5.10",
+      "valid": true,
+      "git_repository_url": "https://android.googlesource.com/kernel/common",
+      "id": "_:kernelci:afff17f58386f569c7bd324ee4a39b4cd840bf22",
+      "origin": "kernelci",
+      "git_commit_hash": "afff17f58386f569c7bd324ee4a39b4cd840bf22",
+      "git_commit_name": "v5.10-24778-gafff17f58386f",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:53:43.999000+00:00"
+    }
+  ]
+}

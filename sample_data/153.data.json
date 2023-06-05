@@ -1,0 +1,47 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C433TA-AJ0005-rammus-cbg-0",
+          "device": "asus-C433TA-AJ0005-rammus"
+        },
+        "comment": "asus-C433TA-AJ0005-rammus in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-asus-C433TA-AJ0005-rammus.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-asus-C433TA-AJ0005-rammus.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C433TA-AJ0005-rammus.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:35.583000+00:00",
+      "path": "baseline-nfs.login",
+      "id": "kernelci:kernelci.org:64148c4b04f54871db8c866a",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on asus-C433TA-AJ0005-rammus in lab-collabora"
+    }
+  ]
+}

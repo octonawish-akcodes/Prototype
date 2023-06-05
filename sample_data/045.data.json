@@ -1,0 +1,437 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.018000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915ed8",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.alsa_pcm-test",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.020000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915ed9",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.alsa_mixer-test",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.021000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915eda",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.pidfd_pidfd_wait",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.022000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915edb",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.netfilter_nft_trans_stress_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.023000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915edc",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.netfilter_nft_flowtable_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.025000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915edd",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.netfilter_bridge_brouter_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.026000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915ede",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.net_tls",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.028000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915edf",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.net_rtnetlink_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.029000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915ee0",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.ftrace_ftracetest",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.030000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915ee1",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-alsa",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-alsa"
+      },
+      "path": "kselftest-alsa.breakpoints_step_after_suspend_test",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-4"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/kselftest-alsa-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:45.032000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a9a6f26c4b14915ee2",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "kselftest-alsa on asus-cx9400-volteer in lab-collabora"
+    }
+  ]
+}

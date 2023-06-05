@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "imx8mp-evk",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx8mp-evk-1"
+        },
+        "comment": "imx8mp-evk in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-imx8mp-evk.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:48.771000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e870d976c34d915ebf",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on imx8mp-evk in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "imx8mp-evk",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx8mp-evk-1"
+        },
+        "comment": "imx8mp-evk in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-imx8mp-evk.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:48.775000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e870d976c34d915ec1",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on imx8mp-evk in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "imx8mp-evk",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx8mp-evk-1"
+        },
+        "comment": "imx8mp-evk in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-imx8mp-evk.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:48.776000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e870d976c34d915ec2",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on imx8mp-evk in lab-nxp"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "imx8mp-evk",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx8mp-evk-1"
+        },
+        "comment": "imx8mp-evk in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-imx8mp-evk.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:48.777000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e870d976c34d915ec3",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on imx8mp-evk in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "imx8mp-evk",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx8mp-evk-1"
+        },
+        "comment": "imx8mp-evk in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-imx8mp-evk.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:48.780000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e870d976c34d915ec5",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on imx8mp-evk in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "imx8mp-evk",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx8mp-evk-1"
+        },
+        "comment": "imx8mp-evk in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-imx8mp-evk.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:48.782000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e870d976c34d915ec6",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on imx8mp-evk in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "imx8mp-evk",
+          "mach": "imx",
+          "lab": "lab-nxp",
+          "instance": "imx8mp-evk-1"
+        },
+        "comment": "imx8mp-evk in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-imx8mp-evk.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-imx8mp-evk.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:48.783000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e870d976c34d915ec7",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on imx8mp-evk in lab-nxp"
+    }
+  ]
+}

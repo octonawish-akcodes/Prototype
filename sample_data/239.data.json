@@ -1,0 +1,49 @@
+{
+  "builds": [
+    {
+      "compiler": "Debian clang version 14.0.6",
+      "misc": {
+        "vmlinux_data_size": null,
+        "kernel_image_size": null,
+        "vmlinux_bss_size": null,
+        "build_platform": [
+          "Linux",
+          "build-j1202132-i386-clang-14-i386-defconfig-zdtv7",
+          "5.4.0-1065-azure",
+          "#68~18.04.1-Ubuntu SMP Fri Dec 3 14:08:44 UTC 2021",
+          "x86_64",
+          "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz"
+        ]
+      },
+      "architecture": "i386",
+      "duration": 606.1825771331787,
+      "log_url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/i386/i386_defconfig/clang-14/logs",
+      "output_files": [],
+      "start_time": "2023-03-17T15:55:21.683000+00:00",
+      "config_url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/i386/i386_defconfig/clang-14/config/kernel.config",
+      "valid": false,
+      "config_name": "i386_defconfig",
+      "id": "kernelci:kernelci.org:64148d69f0f8e63ecd8c8631",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:afff17f58386f569c7bd324ee4a39b4cd840bf22",
+      "comment": "v5.10-24778-gafff17f58386f"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "android12-5.10",
+      "valid": true,
+      "git_repository_url": "https://android.googlesource.com/kernel/common",
+      "id": "_:kernelci:afff17f58386f569c7bd324ee4a39b4cd840bf22",
+      "origin": "kernelci",
+      "git_commit_hash": "afff17f58386f569c7bd324ee4a39b4cd840bf22",
+      "git_commit_name": "v5.10-24778-gafff17f58386f",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:55:21.683000+00:00"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "fsl-ls1088a-rdb",
+          "mach": "freescale",
+          "lab": "lab-nxp",
+          "instance": "fsl-ls1088a-rdb-1"
+        },
+        "comment": "fsl-ls1088a-rdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-fsl-ls1088a-rdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.808000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298be45e60875ec915ebc",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on fsl-ls1088a-rdb in lab-nxp"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "FAIL",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "fsl-ls1088a-rdb",
+          "mach": "freescale",
+          "lab": "lab-nxp",
+          "instance": "fsl-ls1088a-rdb-1"
+        },
+        "comment": "fsl-ls1088a-rdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-fsl-ls1088a-rdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.813000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298be45e60875ec915ebe",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on fsl-ls1088a-rdb in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "fsl-ls1088a-rdb",
+          "mach": "freescale",
+          "lab": "lab-nxp",
+          "instance": "fsl-ls1088a-rdb-1"
+        },
+        "comment": "fsl-ls1088a-rdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-fsl-ls1088a-rdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.814000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298be45e60875ec915ebf",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on fsl-ls1088a-rdb in lab-nxp"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "fsl-ls1088a-rdb",
+          "mach": "freescale",
+          "lab": "lab-nxp",
+          "instance": "fsl-ls1088a-rdb-1"
+        },
+        "comment": "fsl-ls1088a-rdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-fsl-ls1088a-rdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.816000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298be45e60875ec915ec0",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on fsl-ls1088a-rdb in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "fsl-ls1088a-rdb",
+          "mach": "freescale",
+          "lab": "lab-nxp",
+          "instance": "fsl-ls1088a-rdb-1"
+        },
+        "comment": "fsl-ls1088a-rdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-fsl-ls1088a-rdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.819000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298be45e60875ec915ec2",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on fsl-ls1088a-rdb in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "fsl-ls1088a-rdb",
+          "mach": "freescale",
+          "lab": "lab-nxp",
+          "instance": "fsl-ls1088a-rdb-1"
+        },
+        "comment": "fsl-ls1088a-rdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-fsl-ls1088a-rdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.821000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298be45e60875ec915ec3",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on fsl-ls1088a-rdb in lab-nxp"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "fsl-ls1088a-rdb",
+          "mach": "freescale",
+          "lab": "lab-nxp",
+          "instance": "fsl-ls1088a-rdb-1"
+        },
+        "comment": "fsl-ls1088a-rdb in lab-nxp"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/baseline-fsl-ls1088a-rdb.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm64/defconfig/clang-14/lab-nxp/lava-fsl-ls1088a-rdb.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:06.823000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298be45e60875ec915ec4",
+      "build_id": "kernelci:kernelci.org:63d2967398c4774227915ec0",
+      "origin": "kernelci",
+      "comment": "baseline on fsl-ls1088a-rdb in lab-nxp"
+    }
+  ]
+}

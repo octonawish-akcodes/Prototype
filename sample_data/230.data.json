@@ -1,0 +1,164 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "kontron-sl28-var3-ads2-01",
+          "device": "kontron-sl28-var3-ads2"
+        },
+        "comment": "kontron-sl28-var3-ads2 in lab-kontron"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/baseline-kontron-sl28-var3-ads2.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/baseline-kontron-sl28-var3-ads2.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/lava-kontron-sl28-var3-ads2.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:53.863000+00:00",
+      "path": "baseline.login",
+      "id": "kernelci:kernelci.org:64148d4d1781dd222d8c8635",
+      "build_id": "kernelci:kernelci.org:64148c74f0b06962058c86c1",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-sl28-var3-ads2 in lab-kontron"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "kontron-sl28-var3-ads2-01",
+          "device": "kontron-sl28-var3-ads2"
+        },
+        "comment": "kontron-sl28-var3-ads2 in lab-kontron"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/baseline-kontron-sl28-var3-ads2.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/baseline-kontron-sl28-var3-ads2.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/lava-kontron-sl28-var3-ads2.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:53.894000+00:00",
+      "path": "baseline.dmesg.crit",
+      "id": "kernelci:kernelci.org:64148d4d1781dd222d8c8637",
+      "build_id": "kernelci:kernelci.org:64148c74f0b06962058c86c1",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-sl28-var3-ads2 in lab-kontron"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "kontron-sl28-var3-ads2-01",
+          "device": "kontron-sl28-var3-ads2"
+        },
+        "comment": "kontron-sl28-var3-ads2 in lab-kontron"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/baseline-kontron-sl28-var3-ads2.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/baseline-kontron-sl28-var3-ads2.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/lava-kontron-sl28-var3-ads2.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:53.895000+00:00",
+      "path": "baseline.dmesg.alert",
+      "id": "kernelci:kernelci.org:64148d4d1781dd222d8c8638",
+      "build_id": "kernelci:kernelci.org:64148c74f0b06962058c86c1",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-sl28-var3-ads2 in lab-kontron"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "freescale",
+          "lab": "lab-kontron",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "kontron-sl28-var3-ads2-01",
+          "device": "kontron-sl28-var3-ads2"
+        },
+        "comment": "kontron-sl28-var3-ads2 in lab-kontron"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/baseline-kontron-sl28-var3-ads2.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/baseline-kontron-sl28-var3-ads2.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm64/defconfig+CONFIG_RANDOMIZE_BASE=y/gcc-10/lab-kontron/lava-kontron-sl28-var3-ads2.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:54:53.897000+00:00",
+      "path": "baseline.dmesg.emerg",
+      "id": "kernelci:kernelci.org:64148d4d1781dd222d8c8639",
+      "build_id": "kernelci:kernelci.org:64148c74f0b06962058c86c1",
+      "origin": "kernelci",
+      "comment": "baseline on kontron-sl28-var3-ads2 in lab-kontron"
+    }
+  ]
+}

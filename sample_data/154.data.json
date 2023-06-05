@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/armel/rootfs.cpio.gz",
+          "instance": "imx28-duckbill-0",
+          "device": "imx28-duckbill"
+        },
+        "comment": "imx28-duckbill in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/lava-imx28-duckbill.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:35.555000+00:00",
+      "path": "baseline.login",
+      "id": "kernelci:kernelci.org:64148c4bf3b842080a8c8646",
+      "build_id": "kernelci:kernelci.org:64148bc7b844d5d4d58c874e",
+      "origin": "kernelci",
+      "comment": "baseline on imx28-duckbill in lab-pengutronix"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/armel/rootfs.cpio.gz",
+          "instance": "imx28-duckbill-0",
+          "device": "imx28-duckbill"
+        },
+        "comment": "imx28-duckbill in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/lava-imx28-duckbill.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:35.626000+00:00",
+      "path": "baseline.dmesg.emerg",
+      "id": "kernelci:kernelci.org:64148c4bf3b842080a8c8648",
+      "build_id": "kernelci:kernelci.org:64148bc7b844d5d4d58c874e",
+      "origin": "kernelci",
+      "comment": "baseline on imx28-duckbill in lab-pengutronix"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/armel/rootfs.cpio.gz",
+          "instance": "imx28-duckbill-0",
+          "device": "imx28-duckbill"
+        },
+        "comment": "imx28-duckbill in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/lava-imx28-duckbill.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:35.628000+00:00",
+      "path": "baseline.dmesg.alert",
+      "id": "kernelci:kernelci.org:64148c4bf3b842080a8c8649",
+      "build_id": "kernelci:kernelci.org:64148bc7b844d5d4d58c874e",
+      "origin": "kernelci",
+      "comment": "baseline on imx28-duckbill in lab-pengutronix"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/armel/rootfs.cpio.gz",
+          "instance": "imx28-duckbill-0",
+          "device": "imx28-duckbill"
+        },
+        "comment": "imx28-duckbill in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/lava-imx28-duckbill.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:35.630000+00:00",
+      "path": "baseline.dmesg.crit",
+      "id": "kernelci:kernelci.org:64148c4bf3b842080a8c864a",
+      "build_id": "kernelci:kernelci.org:64148bc7b844d5d4d58c874e",
+      "origin": "kernelci",
+      "comment": "baseline on imx28-duckbill in lab-pengutronix"
+    },
+    {
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "SKIP",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/armel/rootfs.cpio.gz",
+          "instance": "imx28-duckbill-0",
+          "device": "imx28-duckbill"
+        },
+        "comment": "imx28-duckbill in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/lava-imx28-duckbill.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:35.636000+00:00",
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "id": "kernelci:kernelci.org:64148c4bf3b842080a8c864c",
+      "build_id": "kernelci:kernelci.org:64148bc7b844d5d4d58c874e",
+      "origin": "kernelci",
+      "comment": "baseline on imx28-duckbill in lab-pengutronix"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/armel/rootfs.cpio.gz",
+          "instance": "imx28-duckbill-0",
+          "device": "imx28-duckbill"
+        },
+        "comment": "imx28-duckbill in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/lava-imx28-duckbill.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:35.639000+00:00",
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "id": "kernelci:kernelci.org:64148c4bf3b842080a8c864d",
+      "build_id": "kernelci:kernelci.org:64148bc7b844d5d4d58c874e",
+      "origin": "kernelci",
+      "comment": "baseline on imx28-duckbill in lab-pengutronix"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/armel/rootfs.cpio.gz",
+          "instance": "imx28-duckbill-0",
+          "device": "imx28-duckbill"
+        },
+        "comment": "imx28-duckbill in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-imx28-duckbill.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/lava-imx28-duckbill.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:35.642000+00:00",
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "id": "kernelci:kernelci.org:64148c4bf3b842080a8c864e",
+      "build_id": "kernelci:kernelci.org:64148bc7b844d5d4d58c874e",
+      "origin": "kernelci",
+      "comment": "baseline on imx28-duckbill in lab-pengutronix"
+    }
+  ]
+}

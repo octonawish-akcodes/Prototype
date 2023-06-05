@@ -1,0 +1,62 @@
+{
+  "builds": [
+    {
+      "architecture": "arm",
+      "start_time": "2023-01-26T15:12:03.497000+00:00",
+      "misc": {
+        "vmlinux_data_size": 207328,
+        "kernel_image_size": null,
+        "build_platform": [
+          "Linux",
+          "build-j924006-arm-gcc-10-realview-defconfig-zt2mt",
+          "5.4.0-1086-azure",
+          "#91~18.04.1-Ubuntu SMP Thu Jun 23 20:33:05 UTC 2022",
+          "x86_64",
+          "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz"
+        ],
+        "vmlinux_bss_size": 127808
+      },
+      "log_url": "https://books-library.net/files/books-library.online-01080946Qu8X0.pdf",
+      "config_url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm/realview_defconfig/gcc-10/config/kernel.config",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/arm/realview_defconfig/gcc-10/kernel/System.map",
+          "name": "System.map"
+        },
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/arm/realview_defconfig/gcc-10/modules.tar.xz",
+          "name": "modules"
+        },
+        {
+          "url": "https://storage.kernelci.org//tip/master/v6.2-rc5-274-g610b3c408ab5/arm/realview_defconfig/gcc-10/kernel/zImage",
+          "name": "kernel_image"
+        }
+      ],
+      "duration": 229.3547031879425,
+      "compiler": "arm-linux-gnueabihf-gcc (Debian 10.2.1-6) 10.2.1 20210110",
+      "valid": true,
+      "config_name": "realview_defconfig",
+      "id": "kernelci:kernelci.org:63d2984331bd46be28915ec3",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:610b3c408ab575b559aa282627a11130020f5ecc",
+      "comment": "v6.2-rc5-274-g610b3c408ab5"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "master",
+      "valid": true,
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git",
+      "id": "_:kernelci:610b3c408ab575b559aa282627a11130020f5ecc",
+      "origin": "kernelci",
+      "git_commit_hash": "610b3c408ab575b559aa282627a11130020f5ecc",
+      "git_commit_name": "v6.2-rc5-274-g610b3c408ab5",
+      "patchset_hash": "",
+      "start_time": "2023-01-26T15:12:03.497000+00:00"
+    }
+  ]
+}

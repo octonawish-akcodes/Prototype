@@ -1,0 +1,129 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "id": "redhat:758607955",
+      "origin": "redhat",
+      "tree_name": "kernel-rt-c9s",
+      "git_repository_url": "https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9.git",
+      "git_repository_branch": "main",
+      "git_commit_hash": "6dc74cb645b1a48798561e1ee4739444d71b99fe",
+      "git_commit_name": "kernel-5.14.0-244.el9-65-g6dc74cb645b1",
+      "patchset_hash": "",
+      "comment": "Merge: Draft: [ADL-S] Enable Real-time TSN support on ADL-S platform",
+      "start_time": "2023-01-26T15:25:59.332085+00:00",
+      "valid": true,
+      "misc": {
+        "iid": 67210,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-01-26T16:31:04.048397Z"
+        },
+        "scratch": true,
+        "retrigger": false,
+        "related_merge_request": {
+          "url": "https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/merge_requests/1961",
+          "id": 1961,
+          "diff_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758607955/merge/3666416086/artifacts/mr.diff"
+        },
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": false,
+        "kernel_version": "5.14.0-244.rt14.245.1961_758607955.el9",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/758607955",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    }
+  ],
+  "builds": [
+    {
+      "checkout_id": "redhat:758607955",
+      "id": "redhat:758607955_x86_64",
+      "origin": "redhat",
+      "comment": "CKI build of kernel-rt-c9s",
+      "start_time": "2023-01-26T16:04:58.682745+00:00",
+      "duration": 1729,
+      "architecture": "x86_64",
+      "command": "rpmbuild --target x86_64 --with up --with realtime --without trace --without debug --without zfcpdump --without arm64_64k --without debug",
+      "compiler": "gcc (GCC) 11.3.1 20221121 (Red Hat 11.3.1-4)",
+      "output_files": [
+        {
+          "url": "https://s3.upshift.redhat.com/DH-PROD-CKI/internal/758607955/x86_64/5.14.0-244.rt14.245.1961_758607955.el9.x86_64",
+          "name": "beaker_kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758607955/publish%20x86_64/3666292756/artifacts/repo/5.14.0-244.rt14.245.1961_758607955.el9.x86_64/",
+          "name": "kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758607955/publish%20x86_64/3666292756/artifacts/cki-kernel.repo",
+          "name": "kernel_repofile_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/index.html?prefix=trusted-artifacts/758607955/publish%20x86_64/3666292756/artifacts/repo/5.14.0-244.rt14.245.1961_758607955.el9.x86_64/",
+          "name": "kernel_browse_url"
+        }
+      ],
+      "config_name": "srpm: kernel-x86_64.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758607955/build%20x86_64/3666292749/artifacts/kernel-x86_64.config",
+      "log_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758607955/build%20x86_64/3666292749/artifacts/build.log",
+      "valid": true,
+      "misc": {
+        "iid": 304948,
+        "is_missing_triage": false,
+        "revision_id": "6dc74cb645b1a48798561e1ee4739444d71b99fe",
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel-rt",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3666292749",
+            "function": "executor",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "checkout_id": "redhat:758607955",
+      "id": "redhat:758607955_x86_64_debug",
+      "origin": "redhat",
+      "comment": "CKI build of kernel-rt-c9s",
+      "start_time": "2023-01-26T16:07:40.335874Z",
+      "duration": 443,
+      "architecture": "x86_64",
+      "command": "rpmbuild --target x86_64 --with up --with realtime --with debug --without trace --without up --without zfcpdump --without arm64_64k",
+      "compiler": "gcc (GCC) 11.3.1 20221121 (Red Hat 11.3.1-4)",
+      "config_name": "srpm: kernel-x86_64-debug.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758607955/build%20x86_64%20debug/3666292753/artifacts/kernel-x86_64-debug.config",
+      "log_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/758607955/build%20x86_64%20debug/3666292753/artifacts/build.log",
+      "misc": {
+        "iid": 304949,
+        "is_missing_triage": true,
+        "revision_id": "6dc74cb645b1a48798561e1ee4739444d71b99fe",
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": true,
+        "package_name": "kernel-rt",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3666292753",
+            "function": "executor",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    }
+  ],
+  "tests": []
+}

@@ -1,0 +1,32 @@
+{
+  "revisions": [
+    {
+      "id": "aabd5ba7e9b03e9a211a4842ab4a93d46f684d2c",
+      "origin": "tuxsuite",
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git",
+      "git_commit_hash": "aabd5ba7e9b03e9a211a4842ab4a93d46f684d2c",
+      "git_commit_name": "v5.15.90",
+      "discovery_time": "2023-01-26T14:48:23+00:00",
+      "valid": true,
+      "git_repository_branch": "linux-5.15.y"
+    }
+  ],
+  "builds": [
+    {
+      "id": "tuxsuite:2KrtPHbYTmuVK1inIbEQQreKJVx",
+      "revision_id": "aabd5ba7e9b03e9a211a4842ab4a93d46f684d2c",
+      "origin": "tuxsuite",
+      "architecture": "x86_64",
+      "compiler": "Debian clang version 16.0.0 (++20230124121624+5265adc73721-1~exp1~20230124121637.543)",
+      "config_name": "allmodconfig",
+      "config_url": "https://storage.tuxsuite.com/public/clangbuiltlinux/continuous-integration2/builds/2KrtPHbYTmuVK1inIbEQQreKJVx/config",
+      "log_url": "https://storage.tuxsuite.com/public/clangbuiltlinux/continuous-integration2/builds/2KrtPHbYTmuVK1inIbEQQreKJVx/build.log",
+      "start_time": "2023-01-26T14:48:23+00:00",
+      "valid": true
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

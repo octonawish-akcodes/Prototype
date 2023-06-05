@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-2"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:57.708000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29879cc9d5009f0915eba",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-2"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:57.727000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29879cc9d5009f0915ebc",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-2"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:57.732000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29879cc9d5009f0915ebd",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-2"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:57.734000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29879cc9d5009f0915ebe",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-2"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:57.739000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29879cc9d5009f0915ec0",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-2"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:57.741000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29879cc9d5009f0915ec1",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/x86/rootfs.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-2"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/baseline-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:57.742000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29879cc9d5009f0915ec2",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "baseline on asus-cx9400-volteer in lab-collabora"
+    }
+  ]
+}

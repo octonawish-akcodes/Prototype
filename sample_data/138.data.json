@@ -1,0 +1,80 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "id": "redhat:810097563",
+      "origin": "redhat",
+      "tree_name": "kernel-64k-c9s",
+      "git_repository_url": "https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9.git",
+      "git_repository_branch": "main",
+      "git_commit_hash": "54d69fffa904bedf4790f618e31ae80f6e98679e",
+      "git_commit_name": "kernel-5.14.0-288.el9-51-g54d69fffa904",
+      "patchset_hash": "",
+      "comment": "Merge: Draft: Provide linux kernel support for performing Scan At Field in SPR",
+      "start_time": "2023-03-17T15:18:47.249915+00:00",
+      "valid": true,
+      "misc": {
+        "iid": 79496,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T15:29:00.977875Z"
+        },
+        "scratch": true,
+        "retrigger": false,
+        "related_merge_request": {
+          "url": "https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/merge_requests/1259",
+          "id": 1259,
+          "diff_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097563/merge/3956295794/artifacts/mr.diff"
+        },
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": false,
+        "kernel_version": "5.14.0-288.1259_810097477.el9",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810097563",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    }
+  ],
+  "builds": [
+    {
+      "checkout_id": "redhat:810097563",
+      "id": "redhat:810097563-aarch64-kernel-64k",
+      "origin": "redhat",
+      "comment": "CKI build of kernel-64k-c9s",
+      "start_time": "2023-03-17T15:30:41.712092+00:00",
+      "duration": 1907,
+      "architecture": "aarch64",
+      "command": "rpmbuild --target aarch64 --with cross --with arm64_64k --without bpftool --without selftests --without ipaclones --without perf --without tools --without trace --without up --without zfcpdump --without realtime --without debug",
+      "compiler": "aarch64-linux-gnu-gcc (GCC) 12.1.1 20220507 (Red Hat Cross 12.1.1-1)",
+      "config_name": "srpm: kernel-64k-aarch64.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097563/build%20aarch64/3956295796/artifacts/kernel-64k-aarch64.config",
+      "log_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097563/build%20aarch64/3956295796/artifacts/build.log",
+      "misc": {
+        "iid": 324119,
+        "is_missing_triage": true,
+        "revision_id": "54d69fffa904bedf4790f618e31ae80f6e98679e",
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel-64k",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956295796",
+            "function": "executor",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    }
+  ],
+  "tests": []
+}

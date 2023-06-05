@@ -1,0 +1,53 @@
+{
+  "checkouts": [
+    {
+      "id": "broonie:3cdb9b8d826f44c491fe7f307f3449bf",
+      "git_commit_hash": "9448bc1dee65f86c0fe64d9dea8b410af0586886",
+      "patchset_hash": "",
+      "origin": "broonie",
+      "valid": true,
+      "start_time": "2023-03-17T16:57:01.740040+00:00"
+    }
+  ],
+  "builds": [
+    {
+      "id": "broonie:9448bc1dee65f86c0fe64d9dea8b410af0586886-x86_64-allmodconfig",
+      "checkout_id": "broonie:3cdb9b8d826f44c491fe7f307f3449bf",
+      "architecture": "x86_64",
+      "config_name": "allmodconfig",
+      "valid": true,
+      "duration": 997.9714481830597,
+      "compiler": "x86_64-linux-gnu-gcc (Debian 12.2.0-14) 12.2.0",
+      "origin": "broonie",
+      "output_files": [
+        {
+          "name": "config",
+          "url": "https://builds.sirena.org.uk/9448bc1dee65f86c0fe64d9dea8b410af0586886/x86_64/allmodconfig/config"
+        },
+        {
+          "name": "bzImage",
+          "url": "https://builds.sirena.org.uk/9448bc1dee65f86c0fe64d9dea8b410af0586886/x86_64/allmodconfig/bzImage"
+        },
+        {
+          "name": "build.log",
+          "url": "https://builds.sirena.org.uk/9448bc1dee65f86c0fe64d9dea8b410af0586886/x86_64/allmodconfig/build.log"
+        },
+        {
+          "name": "build-debug.log",
+          "url": "https://builds.sirena.org.uk/9448bc1dee65f86c0fe64d9dea8b410af0586886/x86_64/allmodconfig/build-debug.log"
+        },
+        {
+          "name": "modules.tar.xz",
+          "url": "https://builds.sirena.org.uk/9448bc1dee65f86c0fe64d9dea8b410af0586886/x86_64/allmodconfig/modules.tar.xz"
+        }
+      ],
+      "config_url": "https://builds.sirena.org.uk/9448bc1dee65f86c0fe64d9dea8b410af0586886/x86_64/allmodconfig/config",
+      "log_url": "https://builds.sirena.org.uk/9448bc1dee65f86c0fe64d9dea8b410af0586886/x86_64/allmodconfig/build.log",
+      "start_time": "2023-03-17T16:57:01.740040+00:00"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

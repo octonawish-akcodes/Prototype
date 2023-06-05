@@ -1,0 +1,58 @@
+{
+  "builds": [
+    {
+      "architecture": "mips",
+      "start_time": "2023-01-26T18:11:55.982000+00:00",
+      "misc": {
+        "vmlinux_data_size": 524704,
+        "kernel_image_size": null,
+        "build_platform": [
+          "Linux",
+          "build-j925052-mips-gcc-10-db1xxx-defconfig-tc8hs",
+          "5.10.147+",
+          "#1 SMP Thu Nov 10 10:14:30 UTC 2022",
+          "x86_64",
+          "Intel(R) Xeon(R) CPU @ 2.20GHz"
+        ],
+        "vmlinux_bss_size": 202864
+      },
+      "log_url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/mips/db1xxx_defconfig/gcc-10/logs",
+      "config_url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/mips/db1xxx_defconfig/gcc-10/config/kernel.config",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org//net-next/master/v6.2-rc4-880-g9179f5fe4173/mips/db1xxx_defconfig/gcc-10/kernel/System.map",
+          "name": "System.map"
+        },
+        {
+          "url": "https://storage.kernelci.org//net-next/master/v6.2-rc4-880-g9179f5fe4173/mips/db1xxx_defconfig/gcc-10/kernel/vmlinuz",
+          "name": "kernel_image"
+        }
+      ],
+      "duration": 343.29995703697205,
+      "compiler": "mips-linux-gnu-gcc (Debian 10.2.1-6) 10.2.1 20210110",
+      "valid": true,
+      "config_name": "db1xxx_defconfig",
+      "id": "kernelci:kernelci.org:63d2c26b7751f49ed8915ebe",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:9179f5fe41733ff56f7dfcb83c0c1456f6d2e4ae",
+      "comment": "v6.2-rc4-880-g9179f5fe4173"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "master",
+      "valid": true,
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next.git",
+      "id": "_:kernelci:9179f5fe41733ff56f7dfcb83c0c1456f6d2e4ae",
+      "origin": "kernelci",
+      "git_commit_hash": "9179f5fe41733ff56f7dfcb83c0c1456f6d2e4ae",
+      "git_commit_name": "v6.2-rc4-880-g9179f5fe4173",
+      "patchset_hash": "",
+      "start_time": "2023-01-26T18:11:55.982000+00:00"
+    }
+  ]
+}

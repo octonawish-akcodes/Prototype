@@ -1,0 +1,47 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "kselftest-timers",
+        "kernelci_status": "FAIL",
+        "plan_variant": "kselftest-timers"
+      },
+      "path": "kselftest-timers.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/arm64/initrd.cpio.gz",
+          "device": "sun50i-h5-libretech-all-h3-cc",
+          "mach": "allwinner",
+          "lab": "lab-baylibre",
+          "instance": "sun50i-h5-libretech-all-h3-cc-02"
+        },
+        "comment": "sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.10/v5.10.165-76-gffe5f229ddc9/arm64/defconfig/gcc-10/lab-baylibre/kselftest-timers-sun50i-h5-libretech-all-h3-cc.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.10/v5.10.165-76-gffe5f229ddc9/arm64/defconfig/gcc-10/lab-baylibre/kselftest-timers-sun50i-h5-libretech-all-h3-cc.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.10/v5.10.165-76-gffe5f229ddc9/arm64/defconfig/gcc-10/lab-baylibre/lava-sun50i-h5-libretech-all-h3-cc.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:12:51.396000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298738c76cd6e5b915edc",
+      "build_id": "kernelci:kernelci.org:63d150317ecbac24b4915ebf",
+      "origin": "kernelci",
+      "comment": "kselftest-timers on sun50i-h5-libretech-all-h3-cc in lab-baylibre"
+    }
+  ]
+}

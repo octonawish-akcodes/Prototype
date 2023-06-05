@@ -1,0 +1,359 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-ipc",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-ipc"
+      },
+      "path": "ltp-ipc.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-0"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:38.052000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a2a6f26c4b14915ecb",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-ipc",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-ipc"
+      },
+      "path": "ltp-ipc.sem02",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-0"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:38.054000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a2a6f26c4b14915ecc",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-ipc",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-ipc"
+      },
+      "path": "ltp-ipc.sem01",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-0"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:38.055000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a2a6f26c4b14915ecd",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-ipc",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-ipc"
+      },
+      "path": "ltp-ipc.pipeio_8",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-0"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:38.057000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a2a6f26c4b14915ece",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-ipc",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-ipc"
+      },
+      "path": "ltp-ipc.pipeio_6",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-0"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:38.058000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a2a6f26c4b14915ecf",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-ipc",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-ipc"
+      },
+      "path": "ltp-ipc.pipeio_5",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-0"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:38.059000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a2a6f26c4b14915ed0",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-ipc",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-ipc"
+      },
+      "path": "ltp-ipc.pipeio_4",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-0"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:38.061000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a2a6f26c4b14915ed1",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-ipc",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-ipc"
+      },
+      "path": "ltp-ipc.pipeio_3",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-0"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:38.062000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a2a6f26c4b14915ed2",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-cx9400-volteer in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-ipc",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-ipc"
+      },
+      "path": "ltp-ipc.pipeio_1",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230120.0/amd64/initrd.cpio.gz",
+          "device": "asus-cx9400-volteer",
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "instance": "asus-cx9400-volteer-cbg-0"
+        },
+        "comment": "asus-cx9400-volteer in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/ltp-ipc-asus-cx9400-volteer.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/x86_64/x86_64_defconfig+x86-chromebook/gcc-10/lab-collabora/lava-asus-cx9400-volteer.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:38.063000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298a2a6f26c4b14915ed3",
+      "build_id": "kernelci:kernelci.org:63d297804ec66314b4915ecb",
+      "origin": "kernelci",
+      "comment": "ltp-ipc on asus-cx9400-volteer in lab-collabora"
+    }
+  ]
+}

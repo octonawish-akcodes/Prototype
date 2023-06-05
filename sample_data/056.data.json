@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/armhf/initrd.cpio.gz",
+          "device": "rk3288-rock2-square",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3288-rock2-square-cbg-0"
+        },
+        "comment": "rk3288-rock2-square in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-rk3288-rock2-square.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:05.037000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bda91479fdb5915f4f",
+      "build_id": "kernelci:kernelci.org:63d27a838bbb85705d915f0f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on rk3288-rock2-square in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/armhf/initrd.cpio.gz",
+          "device": "rk3288-rock2-square",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3288-rock2-square-cbg-0"
+        },
+        "comment": "rk3288-rock2-square in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-rk3288-rock2-square.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:05.042000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bda91479fdb5915f51",
+      "build_id": "kernelci:kernelci.org:63d27a838bbb85705d915f0f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on rk3288-rock2-square in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/armhf/initrd.cpio.gz",
+          "device": "rk3288-rock2-square",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3288-rock2-square-cbg-0"
+        },
+        "comment": "rk3288-rock2-square in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-rk3288-rock2-square.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:05.043000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bda91479fdb5915f52",
+      "build_id": "kernelci:kernelci.org:63d27a838bbb85705d915f0f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on rk3288-rock2-square in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/armhf/initrd.cpio.gz",
+          "device": "rk3288-rock2-square",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3288-rock2-square-cbg-0"
+        },
+        "comment": "rk3288-rock2-square in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-rk3288-rock2-square.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:05.044000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bda91479fdb5915f53",
+      "build_id": "kernelci:kernelci.org:63d27a838bbb85705d915f0f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on rk3288-rock2-square in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/armhf/initrd.cpio.gz",
+          "device": "rk3288-rock2-square",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3288-rock2-square-cbg-0"
+        },
+        "comment": "rk3288-rock2-square in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-rk3288-rock2-square.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:05.048000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bda91479fdb5915f55",
+      "build_id": "kernelci:kernelci.org:63d27a838bbb85705d915f0f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on rk3288-rock2-square in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/armhf/initrd.cpio.gz",
+          "device": "rk3288-rock2-square",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3288-rock2-square-cbg-0"
+        },
+        "comment": "rk3288-rock2-square in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-rk3288-rock2-square.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:05.049000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bda91479fdb5915f56",
+      "build_id": "kernelci:kernelci.org:63d27a838bbb85705d915f0f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on rk3288-rock2-square in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/armhf/initrd.cpio.gz",
+          "device": "rk3288-rock2-square",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3288-rock2-square-cbg-0"
+        },
+        "comment": "rk3288-rock2-square in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-nfs-rk3288-rock2-square.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/krzysztof/for-next/samsung-dt64-6.3-62-g5e8b8afd175e/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-rk3288-rock2-square.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:05.050000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bda91479fdb5915f57",
+      "build_id": "kernelci:kernelci.org:63d27a838bbb85705d915f0f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on rk3288-rock2-square in lab-collabora"
+    }
+  ]
+}

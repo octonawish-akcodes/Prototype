@@ -1,0 +1,281 @@
+{
+  "tests": [
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-gxm-khadas-vim2",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "path": "baseline-nfs.login",
+      "start_time": "2023-03-21T23:17:10.237000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3af6bc0230eeea9c950e",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-gxm-khadas-vim2",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "path": "baseline-nfs.dmesg.emerg",
+      "start_time": "2023-03-21T23:17:10.241000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3af6bc0230eeea9c9510",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-gxm-khadas-vim2",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "path": "baseline-nfs.dmesg.alert",
+      "start_time": "2023-03-21T23:17:10.243000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3af6bc0230eeea9c9511",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-gxm-khadas-vim2",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "path": "baseline-nfs.dmesg.crit",
+      "start_time": "2023-03-21T23:17:10.245000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3af6bc0230eeea9c9512",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-gxm-khadas-vim2",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "path": "baseline-nfs.bootrr.tpm-chip-is-online",
+      "start_time": "2023-03-21T23:17:10.250000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3af6bc0230eeea9c9514",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-gxm-khadas-vim2",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "path": "baseline-nfs.bootrr.all-cpus-are-online",
+      "start_time": "2023-03-21T23:17:10.251000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3af6bc0230eeea9c9515",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-gxm-khadas-vim2 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs",
+        "plan": "baseline-nfs"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-gxm-khadas-vim2",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230317.0/arm64/initrd.cpio.gz",
+          "instance": "meson-gxm-khadas-vim2-03"
+        },
+        "comment": "meson-gxm-khadas-vim2 in lab-baylibre"
+      },
+      "path": "baseline-nfs.bootrr.deferred-probe-empty",
+      "start_time": "2023-03-21T23:17:10.253000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-gxm-khadas-vim2.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-nfs-meson-gxm-khadas-vim2.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3af6bc0230eeea9c9516",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-gxm-khadas-vim2 in lab-baylibre"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

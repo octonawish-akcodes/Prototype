@@ -1,0 +1,62 @@
+{
+  "builds": [
+    {
+      "architecture": "mips",
+      "start_time": "2023-01-26T18:24:02.556000+00:00",
+      "misc": {
+        "vmlinux_data_size": 406040,
+        "kernel_image_size": null,
+        "build_platform": [
+          "Linux",
+          "build-j925180-mips-gcc-10-loongson1b-defconfig-l4wbn",
+          "5.4.0-1065-azure",
+          "#68~18.04.1-Ubuntu SMP Fri Dec 3 14:08:44 UTC 2021",
+          "x86_64",
+          "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz"
+        ],
+        "vmlinux_bss_size": 183184
+      },
+      "log_url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/mips/loongson1b_defconfig/gcc-10/logs",
+      "config_url": "https://storage.kernelci.org/net-next/master/v6.2-rc4-880-g9179f5fe4173/mips/loongson1b_defconfig/gcc-10/config/kernel.config",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org//net-next/master/v6.2-rc4-880-g9179f5fe4173/mips/loongson1b_defconfig/gcc-10/kernel/System.map",
+          "name": "System.map"
+        },
+        {
+          "url": "https://storage.kernelci.org//net-next/master/v6.2-rc4-880-g9179f5fe4173/mips/loongson1b_defconfig/gcc-10/modules.tar.xz",
+          "name": "modules"
+        },
+        {
+          "url": "https://storage.kernelci.org//net-next/master/v6.2-rc4-880-g9179f5fe4173/mips/loongson1b_defconfig/gcc-10/kernel/vmlinuz",
+          "name": "kernel_image"
+        }
+      ],
+      "duration": 345.80058574676514,
+      "compiler": "mips-linux-gnu-gcc (Debian 10.2.1-6) 10.2.1 20210110",
+      "valid": true,
+      "config_name": "loongson1b_defconfig",
+      "id": "kernelci:kernelci.org:63d2c542059c8a255b915ec5",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:9179f5fe41733ff56f7dfcb83c0c1456f6d2e4ae",
+      "comment": "v6.2-rc4-880-g9179f5fe4173"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "master",
+      "valid": true,
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next.git",
+      "id": "_:kernelci:9179f5fe41733ff56f7dfcb83c0c1456f6d2e4ae",
+      "origin": "kernelci",
+      "git_commit_hash": "9179f5fe41733ff56f7dfcb83c0c1456f6d2e4ae",
+      "git_commit_name": "v6.2-rc4-880-g9179f5fe4173",
+      "patchset_hash": "",
+      "start_time": "2023-01-26T18:24:02.556000+00:00"
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.355000+00:00",
+      "path": "smc.login",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c8646",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.357000+00:00",
+      "path": "smc.CVE-2020-0543",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c8647",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.358000+00:00",
+      "path": "smc.CVE-2018-12207",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c8648",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.359000+00:00",
+      "path": "smc.CVE-2019-11135",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c8649",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.361000+00:00",
+      "path": "smc.CVE-2019-11091",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c864a",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.362000+00:00",
+      "path": "smc.CVE-2018-12127",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c864b",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.364000+00:00",
+      "path": "smc.CVE-2018-12130",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c864c",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.365000+00:00",
+      "path": "smc.CVE-2018-12126",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c864d",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.366000+00:00",
+      "path": "smc.CVE-2018-3646",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c864e",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.368000+00:00",
+      "path": "smc.CVE-2018-3620",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c864f",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.370000+00:00",
+      "path": "smc.CVE-2018-3615",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c8650",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.373000+00:00",
+      "path": "smc.CVE-2018-3639",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c8651",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.375000+00:00",
+      "path": "smc.CVE-2018-3640",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c8652",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.377000+00:00",
+      "path": "smc.CVE-2017-5754",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c8653",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.378000+00:00",
+      "path": "smc.CVE-2017-5715",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c8654",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/x86/rootfs.cpio.gz",
+          "instance": "hp-11A-G6-EE-grunt-cbg-7",
+          "device": "hp-11A-G6-EE-grunt"
+        },
+        "comment": "hp-11A-G6-EE-grunt in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/smc-hp-11A-G6-EE-grunt.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-hp-11A-G6-EE-grunt.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:54.381000+00:00",
+      "path": "smc.CVE-2017-5753",
+      "id": "kernelci:kernelci.org:64148d8ad7868b1cda8c8655",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "smc on hp-11A-G6-EE-grunt in lab-collabora"
+    }
+  ]
+}

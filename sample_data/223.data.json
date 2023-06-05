@@ -1,0 +1,281 @@
+{
+  "tests": [
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline",
+        "plan": "baseline"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-sm1-sei610",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "path": "baseline.login",
+      "start_time": "2023-03-21T23:13:43.544000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a27931673020b9c9506",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline",
+        "plan": "baseline"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-sm1-sei610",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "path": "baseline.dmesg.emerg",
+      "start_time": "2023-03-21T23:13:43.547000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a27931673020b9c9508",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline",
+        "plan": "baseline"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-sm1-sei610",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "path": "baseline.dmesg.alert",
+      "start_time": "2023-03-21T23:13:43.548000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a27931673020b9c9509",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline",
+        "plan": "baseline"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-sm1-sei610",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "path": "baseline.dmesg.crit",
+      "start_time": "2023-03-21T23:13:43.549000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a27931673020b9c950a",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline",
+        "plan": "baseline"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-sm1-sei610",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "start_time": "2023-03-21T23:13:43.553000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a27931673020b9c950c",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline",
+        "plan": "baseline"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-sm1-sei610",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "start_time": "2023-03-21T23:13:43.554000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a27931673020b9c950d",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline",
+        "plan": "baseline"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-baylibre",
+          "mach": "amlogic",
+          "device": "meson-sm1-sei610",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "start_time": "2023-03-21T23:13:43.556000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/next/pending-fixes/v6.3-rc3-248-g01078db9d658/arm64/defconfig+CONFIG_CPU_BIG_ENDIAN=y/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a3a27931673020b9c950e",
+      "build_id": "kernelci:kernelci.org:641a36d8bf447a5b099c955f",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "revisions": [
+    {
+      "id": "610b3c408ab575b559aa282627a11130020f5ecc",
+      "origin": "tuxsuite",
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git",
+      "git_commit_hash": "610b3c408ab575b559aa282627a11130020f5ecc",
+      "git_commit_name": "v6.2-rc5-274-g610b3c408ab5",
+      "discovery_time": "2023-01-26T18:14:48+00:00",
+      "valid": true,
+      "git_repository_branch": "master"
+    }
+  ],
+  "builds": [
+    {
+      "id": "tuxsuite:2KsIVjuva28Y15brUMPAahHh2Us",
+      "revision_id": "610b3c408ab575b559aa282627a11130020f5ecc",
+      "origin": "tuxsuite",
+      "architecture": "x86_64",
+      "compiler": "Debian clang version 14.0.6",
+      "config_name": "allnoconfig",
+      "config_url": "https://storage.tuxsuite.com/public/clangbuiltlinux/continuous-integration2/builds/2KsIVjuva28Y15brUMPAahHh2Us/config",
+      "log_url": "https://storage.tuxsuite.com/public/clangbuiltlinux/continuous-integration2/builds/2KsIVjuva28Y15brUMPAahHh2Us/build.log",
+      "start_time": "2023-01-26T18:14:48+00:00",
+      "valid": true
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

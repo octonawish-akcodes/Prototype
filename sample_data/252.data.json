@@ -1,0 +1,1217 @@
+{
+  "tests": [
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.login",
+      "start_time": "2023-03-21T23:12:10.535000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c9599",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio01",
+      "start_time": "2023-03-21T23:12:10.537000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c959a",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio02",
+      "start_time": "2023-03-21T23:12:10.539000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c959b",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio03",
+      "start_time": "2023-03-21T23:12:10.541000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c959c",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio04",
+      "start_time": "2023-03-21T23:12:10.542000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c959d",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio05",
+      "start_time": "2023-03-21T23:12:10.543000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c959e",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio06",
+      "start_time": "2023-03-21T23:12:10.544000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c959f",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio07",
+      "start_time": "2023-03-21T23:12:10.546000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95a0",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio08",
+      "start_time": "2023-03-21T23:12:10.547000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95a1",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio09",
+      "start_time": "2023-03-21T23:12:10.548000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95a2",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio10",
+      "start_time": "2023-03-21T23:12:10.549000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95a3",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "PASS",
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio11",
+      "start_time": "2023-03-21T23:12:10.550000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95a4",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio12",
+      "start_time": "2023-03-21T23:12:10.552000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95a5",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio13",
+      "start_time": "2023-03-21T23:12:10.553000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95a6",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio14",
+      "start_time": "2023-03-21T23:12:10.554000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95a7",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio15",
+      "start_time": "2023-03-21T23:12:10.555000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95a8",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio16",
+      "start_time": "2023-03-21T23:12:10.556000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95a9",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio17",
+      "start_time": "2023-03-21T23:12:10.558000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95aa",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio18",
+      "start_time": "2023-03-21T23:12:10.559000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95ab",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio19",
+      "start_time": "2023-03-21T23:12:10.560000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95ac",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio20",
+      "start_time": "2023-03-21T23:12:10.561000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95ad",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio21",
+      "start_time": "2023-03-21T23:12:10.563000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95ae",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio22",
+      "start_time": "2023-03-21T23:12:10.564000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95af",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio23",
+      "start_time": "2023-03-21T23:12:10.565000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95b0",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio24",
+      "start_time": "2023-03-21T23:12:10.567000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95b1",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio25",
+      "start_time": "2023-03-21T23:12:10.568000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95b2",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio26",
+      "start_time": "2023-03-21T23:12:10.569000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95b3",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio27",
+      "start_time": "2023-03-21T23:12:10.571000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95b4",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio28",
+      "start_time": "2023-03-21T23:12:10.572000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95b5",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio29",
+      "start_time": "2023-03-21T23:12:10.573000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95b6",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    },
+    {
+      "waived": false,
+      "status": "SKIP",
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-dio",
+        "plan": "ltp-dio"
+      },
+      "environment": {
+        "misc": {
+          "lab": "lab-cip",
+          "mach": "omap2",
+          "device": "beaglebone-black",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230317.0/armhf/initrd.cpio.gz",
+          "instance": "bbb-01"
+        },
+        "comment": "beaglebone-black in lab-cip"
+      },
+      "path": "ltp-dio.dio30",
+      "start_time": "2023-03-21T23:12:10.574000+00:00",
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/lava-beaglebone-black.json",
+          "name": "lava_json"
+        },
+        {
+          "url": "https://storage.kernelci.org/mainline/master/v6.3-rc3-16-g2faac9a98f01/arm/omap2plus_defconfig/gcc-10/lab-cip/ltp-dio-beaglebone-black.html",
+          "name": "html"
+        }
+      ],
+      "id": "kernelci:kernelci.org:641a39ca566c5841d69c95b7",
+      "build_id": "kernelci:kernelci.org:641a23c1d5b4bab5c79c956f",
+      "origin": "kernelci",
+      "comment": "ltp-dio on beaglebone-black in lab-cip"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "kselftest-filesystems",
+        "plan_variant": "kselftest-filesystems"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "asus-C436FA-Flip-hatch-cbg-1",
+          "device": "asus-C436FA-Flip-hatch"
+        },
+        "comment": "asus-C436FA-Flip-hatch in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/kselftest-filesystems-asus-C436FA-Flip-hatch.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/kselftest-filesystems-asus-C436FA-Flip-hatch.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-asus-C436FA-Flip-hatch.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:52:16.351000+00:00",
+      "path": "kselftest-filesystems.login",
+      "id": "kernelci:kernelci.org:64148cb0b1cc7b96b48c865e",
+      "build_id": "kernelci:kernelci.org:641488c2f1f3fe9b008c865d",
+      "origin": "kernelci",
+      "comment": "kselftest-filesystems on asus-C436FA-Flip-hatch in lab-collabora"
+    }
+  ]
+}

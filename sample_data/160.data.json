@@ -1,0 +1,86 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-fcntl-locktests",
+        "plan_variant": "ltp-fcntl-locktests"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "le-potato-05",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/lee-mfd/for-mfd-next/ib-mfd-rtc-v6.4-56-g368eb79f738a2/arm64/defconfig/gcc-10/lab-broonie/ltp-fcntl-locktests-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/lee-mfd/for-mfd-next/ib-mfd-rtc-v6.4-56-g368eb79f738a2/arm64/defconfig/gcc-10/lab-broonie/ltp-fcntl-locktests-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/lee-mfd/for-mfd-next/ib-mfd-rtc-v6.4-56-g368eb79f738a2/arm64/defconfig/gcc-10/lab-broonie/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:53.815000+00:00",
+      "path": "ltp-fcntl-locktests.login",
+      "id": "kernelci:kernelci.org:64148c5df3b842080a8c86a1",
+      "build_id": "kernelci:kernelci.org:64147283e6021132258c86c0",
+      "origin": "kernelci",
+      "comment": "ltp-fcntl-locktests on meson-gxl-s905x-libretech-cc in lab-broonie"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "ltp-fcntl-locktests",
+        "plan_variant": "ltp-fcntl-locktests"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "amlogic",
+          "lab": "lab-broonie",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-ltp/20230310.0/arm64/initrd.cpio.gz",
+          "instance": "le-potato-05",
+          "device": "meson-gxl-s905x-libretech-cc"
+        },
+        "comment": "meson-gxl-s905x-libretech-cc in lab-broonie"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/lee-mfd/for-mfd-next/ib-mfd-rtc-v6.4-56-g368eb79f738a2/arm64/defconfig/gcc-10/lab-broonie/ltp-fcntl-locktests-meson-gxl-s905x-libretech-cc.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/lee-mfd/for-mfd-next/ib-mfd-rtc-v6.4-56-g368eb79f738a2/arm64/defconfig/gcc-10/lab-broonie/ltp-fcntl-locktests-meson-gxl-s905x-libretech-cc.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/lee-mfd/for-mfd-next/ib-mfd-rtc-v6.4-56-g368eb79f738a2/arm64/defconfig/gcc-10/lab-broonie/lava-meson-gxl-s905x-libretech-cc.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:53.820000+00:00",
+      "path": "ltp-fcntl-locktests.FCNTL_LOCKTESTS",
+      "id": "kernelci:kernelci.org:64148c5df3b842080a8c86a2",
+      "build_id": "kernelci:kernelci.org:64147283e6021132258c86c0",
+      "origin": "kernelci",
+      "comment": "ltp-fcntl-locktests on meson-gxl-s905x-libretech-cc in lab-broonie"
+    }
+  ]
+}

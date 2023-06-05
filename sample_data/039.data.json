@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx6qp-wandboard-revd1",
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "instance": "imx6qp-wandboard-revd1-0"
+        },
+        "comment": "imx6qp-wandboard-revd1 in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-imx6qp-wandboard-revd1.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:28.133000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29898adc0d9bdbb915ec8",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx6qp-wandboard-revd1 in lab-pengutronix"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx6qp-wandboard-revd1",
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "instance": "imx6qp-wandboard-revd1-0"
+        },
+        "comment": "imx6qp-wandboard-revd1 in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-imx6qp-wandboard-revd1.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:28.149000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29898adc0d9bdbb915eca",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx6qp-wandboard-revd1 in lab-pengutronix"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx6qp-wandboard-revd1",
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "instance": "imx6qp-wandboard-revd1-0"
+        },
+        "comment": "imx6qp-wandboard-revd1 in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-imx6qp-wandboard-revd1.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:28.151000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29898adc0d9bdbb915ecb",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx6qp-wandboard-revd1 in lab-pengutronix"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx6qp-wandboard-revd1",
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "instance": "imx6qp-wandboard-revd1-0"
+        },
+        "comment": "imx6qp-wandboard-revd1 in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-imx6qp-wandboard-revd1.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:28.152000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29898adc0d9bdbb915ecc",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx6qp-wandboard-revd1 in lab-pengutronix"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx6qp-wandboard-revd1",
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "instance": "imx6qp-wandboard-revd1-0"
+        },
+        "comment": "imx6qp-wandboard-revd1 in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-imx6qp-wandboard-revd1.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:28.156000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29898adc0d9bdbb915ece",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx6qp-wandboard-revd1 in lab-pengutronix"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx6qp-wandboard-revd1",
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "instance": "imx6qp-wandboard-revd1-0"
+        },
+        "comment": "imx6qp-wandboard-revd1 in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-imx6qp-wandboard-revd1.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:28.157000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29898adc0d9bdbb915ecf",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx6qp-wandboard-revd1 in lab-pengutronix"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "imx6qp-wandboard-revd1",
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "instance": "imx6qp-wandboard-revd1-0"
+        },
+        "comment": "imx6qp-wandboard-revd1 in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-imx6qp-wandboard-revd1.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-imx6qp-wandboard-revd1.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:28.159000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d29898adc0d9bdbb915ed0",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on imx6qp-wandboard-revd1 in lab-pengutronix"
+    }
+  ]
+}

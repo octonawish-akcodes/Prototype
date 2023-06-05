@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "rk3399-rock-pi-4b",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3399-rock-pi-4b-cbg-3"
+        },
+        "comment": "rk3399-rock-pi-4b in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-rock-pi-4b.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:59.267000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f3c004c7ab47915ebb",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on rk3399-rock-pi-4b in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "rk3399-rock-pi-4b",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3399-rock-pi-4b-cbg-3"
+        },
+        "comment": "rk3399-rock-pi-4b in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-rock-pi-4b.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:59.279000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f3c004c7ab47915ebd",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on rk3399-rock-pi-4b in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "rk3399-rock-pi-4b",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3399-rock-pi-4b-cbg-3"
+        },
+        "comment": "rk3399-rock-pi-4b in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-rock-pi-4b.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:59.281000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f3c004c7ab47915ebe",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on rk3399-rock-pi-4b in lab-collabora"
+    },
+    {
+      "status": "FAIL",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "FAIL",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "rk3399-rock-pi-4b",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3399-rock-pi-4b-cbg-3"
+        },
+        "comment": "rk3399-rock-pi-4b in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-rock-pi-4b.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:59.282000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f3c004c7ab47915ebf",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on rk3399-rock-pi-4b in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "rk3399-rock-pi-4b",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3399-rock-pi-4b-cbg-3"
+        },
+        "comment": "rk3399-rock-pi-4b in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-rock-pi-4b.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:59.286000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f3c004c7ab47915ec1",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on rk3399-rock-pi-4b in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "rk3399-rock-pi-4b",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3399-rock-pi-4b-cbg-3"
+        },
+        "comment": "rk3399-rock-pi-4b in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-rock-pi-4b.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:59.287000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f3c004c7ab47915ec2",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on rk3399-rock-pi-4b in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "rk3399-rock-pi-4b",
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "instance": "rk3399-rock-pi-4b-cbg-3"
+        },
+        "comment": "rk3399-rock-pi-4b in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-rk3399-rock-pi-4b.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-rock-pi-4b.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:59.289000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f3c004c7ab47915ec3",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on rk3399-rock-pi-4b in lab-collabora"
+    }
+  ]
+}

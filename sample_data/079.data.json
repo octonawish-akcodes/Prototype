@@ -1,0 +1,398 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-kcmp",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-kcmp"
+      },
+      "path": "kselftest-kcmp.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-03"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.215000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ee70d976c34d915ee4",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-kcmp on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-kcmp",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-kcmp"
+      },
+      "path": "kselftest-kcmp.kcmp_kcmp_test",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-03"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.218000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ee70d976c34d915ee5",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-kcmp on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-kcmp",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-kcmp"
+      },
+      "path": "kselftest-kcmp.pidfd_pidfd_wait",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-03"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.220000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ee70d976c34d915ee6",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-kcmp on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-kcmp",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-kcmp"
+      },
+      "path": "kselftest-kcmp.netfilter_nft_trans_stress_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-03"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.221000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ee70d976c34d915ee7",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-kcmp on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-kcmp",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-kcmp"
+      },
+      "path": "kselftest-kcmp.netfilter_nft_flowtable_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-03"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.223000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ee70d976c34d915ee8",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-kcmp on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-kcmp",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-kcmp"
+      },
+      "path": "kselftest-kcmp.netfilter_bridge_brouter_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-03"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.224000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ee70d976c34d915ee9",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-kcmp on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-kcmp",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-kcmp"
+      },
+      "path": "kselftest-kcmp.net_tls",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-03"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.225000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ee70d976c34d915eea",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-kcmp on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-kcmp",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-kcmp"
+      },
+      "path": "kselftest-kcmp.net_rtnetlink_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-03"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.226000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ee70d976c34d915eeb",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-kcmp on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-kcmp",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-kcmp"
+      },
+      "path": "kselftest-kcmp.ftrace_ftracetest",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-03"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.228000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ee70d976c34d915eec",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-kcmp on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-kcmp",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-kcmp"
+      },
+      "path": "kselftest-kcmp.breakpoints_step_after_suspend_test",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-03"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-kcmp-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:54.229000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ee70d976c34d915eed",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-kcmp on beaglebone-black in lab-broonie"
+    }
+  ]
+}

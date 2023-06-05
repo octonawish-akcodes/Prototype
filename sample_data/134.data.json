@@ -1,0 +1,428 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "id": "redhat:koji-98809470",
+      "origin": "redhat",
+      "tree_name": "kernel-eln",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:54:05.374794+00:00",
+      "contacts": [
+        "jforbes@redhat.com"
+      ],
+      "valid": true,
+      "misc": {
+        "iid": 79501,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T15:57:03.241208Z"
+        },
+        "brew_task_id": 98809470,
+        "submitter": "jforbes@redhat.com",
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": true,
+        "kernel_version": "6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810135866",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "redhat:810097624",
+      "origin": "redhat",
+      "tree_name": "c9s",
+      "git_repository_url": "https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9.git",
+      "git_repository_branch": "main",
+      "git_commit_hash": "54d69fffa904bedf4790f618e31ae80f6e98679e",
+      "git_commit_name": "kernel-5.14.0-288.el9-51-g54d69fffa904",
+      "patchset_hash": "",
+      "comment": "Merge: Draft: Provide linux kernel support for performing Scan At Field in SPR",
+      "start_time": "2023-03-17T15:18:00.023943+00:00",
+      "valid": true,
+      "misc": {
+        "iid": 79494,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T15:53:02.880398Z"
+        },
+        "scratch": true,
+        "retrigger": false,
+        "related_merge_request": {
+          "url": "https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/merge_requests/1259",
+          "id": 1259,
+          "diff_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097624/merge/3956296498/artifacts/mr.diff"
+        },
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": false,
+        "kernel_version": "5.14.0-288.1259_810097477.el9",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810097624",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "id": "redhat:koji-98809470",
+      "origin": "redhat",
+      "tree_name": "kernel-eln",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:48:30.344131+00:00",
+      "contacts": [
+        "jforbes@redhat.com"
+      ],
+      "valid": true,
+      "misc": {
+        "iid": 79501,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T15:57:03.241208Z"
+        },
+        "brew_task_id": 98809470,
+        "submitter": "jforbes@redhat.com",
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": true,
+        "kernel_version": "6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810135866",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "redhat:810097624",
+      "origin": "redhat",
+      "tree_name": "c9s",
+      "git_repository_url": "https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9.git",
+      "git_repository_branch": "main",
+      "git_commit_hash": "54d69fffa904bedf4790f618e31ae80f6e98679e",
+      "git_commit_name": "kernel-5.14.0-288.el9-51-g54d69fffa904",
+      "patchset_hash": "",
+      "comment": "Merge: Draft: Provide linux kernel support for performing Scan At Field in SPR",
+      "start_time": "2023-03-17T15:18:00.023943+00:00",
+      "valid": true,
+      "misc": {
+        "iid": 79494,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T15:53:02.880398Z"
+        },
+        "scratch": true,
+        "retrigger": false,
+        "related_merge_request": {
+          "url": "https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9/-/merge_requests/1259",
+          "id": 1259,
+          "diff_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097624/merge/3956296498/artifacts/mr.diff"
+        },
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": false,
+        "kernel_version": "5.14.0-288.1259_810097477.el9",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810097624",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "id": "redhat:koji-98809470",
+      "origin": "redhat",
+      "tree_name": "kernel-eln",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:49:45.233619+00:00",
+      "contacts": [
+        "jforbes@redhat.com"
+      ],
+      "valid": true,
+      "misc": {
+        "iid": 79501,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": "2023-03-17T15:57:03.241208Z"
+        },
+        "brew_task_id": 98809470,
+        "submitter": "jforbes@redhat.com",
+        "scratch": false,
+        "retrigger": false,
+        "send_ready_for_test_pre": false,
+        "send_ready_for_test_post": true,
+        "kernel_version": "6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126",
+        "source_package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/pipelines/810135866",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          },
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          }
+        ]
+      }
+    }
+  ],
+  "builds": [
+    {
+      "checkout_id": "redhat:koji-98809470",
+      "id": "redhat:koji-98809470-s390x-kernel",
+      "origin": "redhat",
+      "comment": "Buildsystem task 98809470",
+      "start_time": "2023-03-17T15:54:25.163600+00:00",
+      "duration": 5278,
+      "architecture": "s390x",
+      "config_name": "srpm: kernel-s390x.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/createrepo%20s390x/3956552108/artifacts/kernel-s390x.config",
+      "misc": {
+        "iid": 324125,
+        "is_missing_triage": true,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956552108",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "checkout_id": "redhat:810097624",
+      "id": "redhat:810097624-s390x-kernel",
+      "origin": "redhat",
+      "comment": "CKI build of c9s",
+      "start_time": "2023-03-17T15:30:33.156954+00:00",
+      "duration": 1712,
+      "architecture": "s390x",
+      "command": "rpmbuild --target s390x --with cross --with up --with zfcpdump --without bpftool --without selftests --without ipaclones --without perf --without tools --without trace --without realtime --without arm64_64k --without debug / rpmbuild --rebuild --without doc --without cross_headers --without kabidw_base --without debuginfo --without trace --without up --without zfcpdump --without realtime --without arm64_64k --without debug",
+      "compiler": "s390x-linux-gnu-gcc (GCC) 12.1.1 20220507 (Red Hat Cross 12.1.1-1) / gcc (GCC) 11.3.1 20221121 (Red Hat 11.3.1-4)",
+      "config_name": "srpm: kernel-s390x.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097624/build%20s390x/3956296514/artifacts/kernel-s390x.config",
+      "log_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097624/build_tools%20s390x/3956296541/artifacts/build.log",
+      "misc": {
+        "iid": 324111,
+        "is_missing_triage": true,
+        "revision_id": "54d69fffa904bedf4790f618e31ae80f6e98679e",
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956296514",
+            "function": "executor",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "checkout_id": "redhat:koji-98809470",
+      "id": "redhat:koji-98809470-x86_64-kernel",
+      "origin": "redhat",
+      "comment": "Buildsystem task 98809470",
+      "start_time": "2023-03-17T15:48:49.462153+00:00",
+      "duration": 7064,
+      "architecture": "x86_64",
+      "output_files": [
+        {
+          "url": "https://s3.upshift.redhat.com/DH-PROD-CKI/internal/810135866/x86_64/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.x86_64",
+          "name": "beaker_kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20x86_64/3956552110/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.x86_64/",
+          "name": "kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20x86_64/3956552110/artifacts/cki-kernel.repo",
+          "name": "kernel_repofile_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/index.html?prefix=trusted-artifacts/810135866/publish%20x86_64/3956552110/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.x86_64/",
+          "name": "kernel_browse_url"
+        }
+      ],
+      "config_name": "srpm: kernel-x86_64.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/createrepo%20x86_64/3956552103/artifacts/kernel-x86_64.config",
+      "valid": true,
+      "misc": {
+        "iid": 324122,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956552103",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "checkout_id": "redhat:810097624",
+      "id": "redhat:810097624-ppc64le-kernel",
+      "origin": "redhat",
+      "comment": "CKI build of c9s",
+      "start_time": "2023-03-17T15:30:47.936279+00:00",
+      "duration": 1784,
+      "architecture": "ppc64le",
+      "command": "rpmbuild --target ppc64le --with cross --with up --with zfcpdump --without bpftool --without selftests --without ipaclones --without perf --without tools --without trace --without realtime --without arm64_64k --without debug",
+      "compiler": "powerpc64le-linux-gnu-gcc (GCC) 12.1.1 20220507 (Red Hat Cross 12.1.1-1)",
+      "config_name": "srpm: kernel-ppc64le.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097624/build%20ppc64le/3956296507/artifacts/kernel-ppc64le.config",
+      "log_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097624/build%20ppc64le/3956296507/artifacts/build.log",
+      "misc": {
+        "iid": 324110,
+        "is_missing_triage": true,
+        "revision_id": "54d69fffa904bedf4790f618e31ae80f6e98679e",
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956296507",
+            "function": "executor",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "checkout_id": "redhat:810097624",
+      "id": "redhat:810097624-s390x-kernel",
+      "origin": "redhat",
+      "comment": "CKI build of c9s",
+      "start_time": "2023-03-17T15:30:33.156954Z",
+      "duration": 356,
+      "architecture": "s390x",
+      "command": "rpmbuild --target s390x --with cross --with up --with zfcpdump --without bpftool --without selftests --without ipaclones --without perf --without tools --without trace --without realtime --without arm64_64k --without debug / rpmbuild --rebuild --without doc --without cross_headers --without kabidw_base --without debuginfo --without trace --without up --without zfcpdump --without realtime --without arm64_64k --without debug",
+      "compiler": "s390x-linux-gnu-gcc (GCC) 12.1.1 20220507 (Red Hat Cross 12.1.1-1) / gcc (GCC) 11.3.1 20221121 (Red Hat 11.3.1-4)",
+      "config_name": "srpm: kernel-s390x.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097624/build%20s390x/3956296514/artifacts/kernel-s390x.config",
+      "log_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810097624/build_tools%20s390x/3956296541/artifacts/build.log",
+      "misc": {
+        "iid": 324111,
+        "is_missing_triage": true,
+        "revision_id": "54d69fffa904bedf4790f618e31ae80f6e98679e",
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956296514",
+            "function": "executor",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    },
+    {
+      "checkout_id": "redhat:koji-98809470",
+      "id": "redhat:koji-98809470-aarch64-kernel",
+      "origin": "redhat",
+      "comment": "Buildsystem task 98809470",
+      "start_time": "2023-03-17T15:50:05.455372+00:00",
+      "duration": 4160,
+      "architecture": "aarch64",
+      "output_files": [
+        {
+          "url": "https://s3.upshift.redhat.com/DH-PROD-CKI/internal/810135866/aarch64/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.aarch64",
+          "name": "beaker_kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20aarch64/3956552116/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.aarch64/",
+          "name": "kernel_package_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/publish%20aarch64/3956552116/artifacts/cki-kernel.repo",
+          "name": "kernel_repofile_url"
+        },
+        {
+          "url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/index.html?prefix=trusted-artifacts/810135866/publish%20aarch64/3956552116/artifacts/repo/6.3.0-0.rc2.20230317git38e04b3e4240.27.eln126.aarch64/",
+          "name": "kernel_browse_url"
+        }
+      ],
+      "config_name": "srpm: kernel-aarch64.config",
+      "config_url": "https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/810135866/createrepo%20aarch64/3956552107/artifacts/kernel-aarch64.config",
+      "valid": true,
+      "misc": {
+        "iid": 324123,
+        "is_missing_triage": false,
+        "actions": {
+          "last_triaged_at": null
+        },
+        "debug": false,
+        "package_name": "kernel",
+        "provenance": [
+          {
+            "url": "https://koji.fedoraproject.org/koji/taskinfo?taskID=98809470",
+            "function": "executor",
+            "service_name": "buildsystem"
+          },
+          {
+            "url": "https://gitlab.com/redhat/red-hat-ci-tools/kernel/cki-internal-pipelines/cki-trusted-contributors/-/jobs/3956552107",
+            "function": "coordinator",
+            "service_name": "gitlab"
+          }
+        ]
+      }
+    }
+  ],
+  "tests": []
+}

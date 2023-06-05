@@ -1,0 +1,47 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "baseline",
+        "plan_variant": "baseline"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "broadcom",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/armel/rootfs.cpio.gz",
+          "instance": "bcm2836-rpi-2-b-cbg-0",
+          "device": "bcm2836-rpi-2-b"
+        },
+        "comment": "bcm2836-rpi-2-b in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-bcm2836-rpi-2-b.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm/multi_v7_defconfig/gcc-10/lab-collabora/baseline-bcm2836-rpi-2-b.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm/multi_v7_defconfig/gcc-10/lab-collabora/lava-bcm2836-rpi-2-b.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:41.007000+00:00",
+      "path": "baseline.login",
+      "id": "kernelci:kernelci.org:64148c51f3b842080a8c8659",
+      "build_id": "kernelci:kernelci.org:64148a9055eca46d158c863c",
+      "origin": "kernelci",
+      "comment": "baseline on bcm2836-rpi-2-b in lab-collabora"
+    }
+  ]
+}

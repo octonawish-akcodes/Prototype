@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "qemu_arm64-virt-gicv3",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-0"
+        },
+        "comment": "qemu_arm64-virt-gicv3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-qemu_arm64-virt-gicv3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:04.163000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bca91479fdb5915f39",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm64-virt-gicv3 in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "qemu_arm64-virt-gicv3",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-0"
+        },
+        "comment": "qemu_arm64-virt-gicv3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-qemu_arm64-virt-gicv3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:04.170000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bca91479fdb5915f3b",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm64-virt-gicv3 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "qemu_arm64-virt-gicv3",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-0"
+        },
+        "comment": "qemu_arm64-virt-gicv3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-qemu_arm64-virt-gicv3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:04.171000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bca91479fdb5915f3c",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm64-virt-gicv3 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "qemu_arm64-virt-gicv3",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-0"
+        },
+        "comment": "qemu_arm64-virt-gicv3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-qemu_arm64-virt-gicv3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:04.173000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bca91479fdb5915f3d",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm64-virt-gicv3 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "qemu_arm64-virt-gicv3",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-0"
+        },
+        "comment": "qemu_arm64-virt-gicv3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-qemu_arm64-virt-gicv3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:04.176000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bca91479fdb5915f3f",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm64-virt-gicv3 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "qemu_arm64-virt-gicv3",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-0"
+        },
+        "comment": "qemu_arm64-virt-gicv3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-qemu_arm64-virt-gicv3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:04.178000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bca91479fdb5915f40",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm64-virt-gicv3 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline_qemu"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "qemu_arm64-virt-gicv3",
+          "mach": "qemu",
+          "lab": "lab-collabora",
+          "instance": "qemu-albezia-0"
+        },
+        "comment": "qemu_arm64-virt-gicv3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-qemu_arm64-virt-gicv3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-qemu_arm64-virt-gicv3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:04.179000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298bca91479fdb5915f41",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on qemu_arm64-virt-gicv3 in lab-collabora"
+    }
+  ]
+}

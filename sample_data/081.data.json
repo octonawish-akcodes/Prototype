@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxbb-nanopi-k2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxbb-nanopi-k2-01"
+        },
+        "comment": "meson-gxbb-nanopi-k2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxbb-nanopi-k2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:55.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ef70d976c34d915ef2",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxbb-nanopi-k2 in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxbb-nanopi-k2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxbb-nanopi-k2-01"
+        },
+        "comment": "meson-gxbb-nanopi-k2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxbb-nanopi-k2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:55.660000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ef70d976c34d915ef4",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxbb-nanopi-k2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxbb-nanopi-k2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxbb-nanopi-k2-01"
+        },
+        "comment": "meson-gxbb-nanopi-k2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxbb-nanopi-k2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:55.662000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ef70d976c34d915ef5",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxbb-nanopi-k2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxbb-nanopi-k2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxbb-nanopi-k2-01"
+        },
+        "comment": "meson-gxbb-nanopi-k2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxbb-nanopi-k2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:55.663000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ef70d976c34d915ef6",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxbb-nanopi-k2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxbb-nanopi-k2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxbb-nanopi-k2-01"
+        },
+        "comment": "meson-gxbb-nanopi-k2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxbb-nanopi-k2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:55.666000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ef70d976c34d915ef8",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxbb-nanopi-k2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxbb-nanopi-k2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxbb-nanopi-k2-01"
+        },
+        "comment": "meson-gxbb-nanopi-k2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxbb-nanopi-k2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:55.667000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ef70d976c34d915ef9",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxbb-nanopi-k2 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-gxbb-nanopi-k2",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-gxbb-nanopi-k2-01"
+        },
+        "comment": "meson-gxbb-nanopi-k2 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-gxbb-nanopi-k2.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-gxbb-nanopi-k2.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:55.669000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298ef70d976c34d915efa",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-gxbb-nanopi-k2 in lab-baylibre"
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-30"
+        },
+        "comment": "qemu_riscv64 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:53.359000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eddf925465ef915ebb",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.hangup01",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-30"
+        },
+        "comment": "qemu_riscv64 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:53.361000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eddf925465ef915ebc",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.ptem01",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-30"
+        },
+        "comment": "qemu_riscv64 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:53.362000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eddf925465ef915ebd",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty07",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-30"
+        },
+        "comment": "qemu_riscv64 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:53.364000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eddf925465ef915ebe",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty06",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-30"
+        },
+        "comment": "qemu_riscv64 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:53.365000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eddf925465ef915ebf",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty05",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-30"
+        },
+        "comment": "qemu_riscv64 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:53.366000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eddf925465ef915ec0",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty04",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-30"
+        },
+        "comment": "qemu_riscv64 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:53.368000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eddf925465ef915ec1",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "SKIP",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty03",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-30"
+        },
+        "comment": "qemu_riscv64 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:53.369000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eddf925465ef915ec2",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty02",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-30"
+        },
+        "comment": "qemu_riscv64 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:53.370000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eddf925465ef915ec3",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "ltp-pty",
+        "kernelci_status": "PASS",
+        "plan_variant": "ltp-pty_riscv_qemu"
+      },
+      "path": "ltp-pty.pty01",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/sid-ltp/20230120.0/riscv64/rootfs.cpio.gz",
+          "device": "qemu_riscv64",
+          "mach": "qemu",
+          "lab": "lab-baylibre",
+          "instance": "qemu-30"
+        },
+        "comment": "qemu_riscv64 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/ltp-pty-qemu_riscv64.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/riscv/defconfig/gcc-10/lab-baylibre/lava-qemu_riscv64.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:53.372000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298eddf925465ef915ec4",
+      "build_id": "kernelci:kernelci.org:63d296120f3bacf349915ec2",
+      "origin": "kernelci",
+      "comment": "ltp-pty on qemu_riscv64 in lab-baylibre"
+    }
+  ]
+}

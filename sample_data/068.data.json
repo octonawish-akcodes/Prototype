@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-sm1-sei610",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:40.868000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e02c48680ef9915eba",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-sm1-sei610",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:40.882000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e02c48680ef9915ebc",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-sm1-sei610",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:40.883000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e02c48680ef9915ebd",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-sm1-sei610",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:40.885000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e02c48680ef9915ebe",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-sm1-sei610",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:40.888000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e02c48680ef9915ec0",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-sm1-sei610",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:40.889000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e02c48680ef9915ec1",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/arm64/rootfs.cpio.gz",
+          "device": "meson-sm1-sei610",
+          "mach": "amlogic",
+          "lab": "lab-baylibre",
+          "instance": "meson-sm1-sei610-01"
+        },
+        "comment": "meson-sm1-sei610 in lab-baylibre"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/baseline-meson-sm1-sei610.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-baylibre/lava-meson-sm1-sei610.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:40.890000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e02c48680ef9915ec2",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline on meson-sm1-sei610 in lab-baylibre"
+    }
+  ]
+}

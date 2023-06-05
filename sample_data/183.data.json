@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "dell-latitude-5400-8665U-sarien-cbg-2",
+          "device": "dell-latitude-5400-8665U-sarien"
+        },
+        "comment": "dell-latitude-5400-8665U-sarien in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-dell-latitude-5400-8665U-sarien.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:54.658000+00:00",
+      "path": "baseline-nfs.login",
+      "id": "kernelci:kernelci.org:64148c9af0b06962058c86f3",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on dell-latitude-5400-8665U-sarien in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "dell-latitude-5400-8665U-sarien-cbg-2",
+          "device": "dell-latitude-5400-8665U-sarien"
+        },
+        "comment": "dell-latitude-5400-8665U-sarien in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-dell-latitude-5400-8665U-sarien.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:54.664000+00:00",
+      "path": "baseline-nfs.dmesg.emerg",
+      "id": "kernelci:kernelci.org:64148c9af0b06962058c86f5",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on dell-latitude-5400-8665U-sarien in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "dell-latitude-5400-8665U-sarien-cbg-2",
+          "device": "dell-latitude-5400-8665U-sarien"
+        },
+        "comment": "dell-latitude-5400-8665U-sarien in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-dell-latitude-5400-8665U-sarien.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:54.666000+00:00",
+      "path": "baseline-nfs.dmesg.alert",
+      "id": "kernelci:kernelci.org:64148c9af0b06962058c86f6",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on dell-latitude-5400-8665U-sarien in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "dell-latitude-5400-8665U-sarien-cbg-2",
+          "device": "dell-latitude-5400-8665U-sarien"
+        },
+        "comment": "dell-latitude-5400-8665U-sarien in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-dell-latitude-5400-8665U-sarien.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:54.667000+00:00",
+      "path": "baseline-nfs.dmesg.crit",
+      "id": "kernelci:kernelci.org:64148c9af0b06962058c86f7",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on dell-latitude-5400-8665U-sarien in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "SKIP",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "SKIP",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "dell-latitude-5400-8665U-sarien-cbg-2",
+          "device": "dell-latitude-5400-8665U-sarien"
+        },
+        "comment": "dell-latitude-5400-8665U-sarien in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-dell-latitude-5400-8665U-sarien.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:54.672000+00:00",
+      "path": "baseline-nfs.bootrr.tpm-chip-is-online",
+      "id": "kernelci:kernelci.org:64148c9af0b06962058c86f9",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on dell-latitude-5400-8665U-sarien in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "dell-latitude-5400-8665U-sarien-cbg-2",
+          "device": "dell-latitude-5400-8665U-sarien"
+        },
+        "comment": "dell-latitude-5400-8665U-sarien in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-dell-latitude-5400-8665U-sarien.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:54.674000+00:00",
+      "path": "baseline-nfs.bootrr.all-cpus-are-online",
+      "id": "kernelci:kernelci.org:64148c9af0b06962058c86fa",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on dell-latitude-5400-8665U-sarien in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "x86",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/amd64/initrd.cpio.gz",
+          "instance": "dell-latitude-5400-8665U-sarien-cbg-2",
+          "device": "dell-latitude-5400-8665U-sarien"
+        },
+        "comment": "dell-latitude-5400-8665U-sarien in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/baseline-nfs-dell-latitude-5400-8665U-sarien.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-4.19/v4.19.278-2-g53ebfb8e0caf/x86_64/x86_64_defconfig/gcc-10/lab-collabora/lava-dell-latitude-5400-8665U-sarien.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:54.676000+00:00",
+      "path": "baseline-nfs.bootrr.deferred-probe-empty",
+      "id": "kernelci:kernelci.org:64148c9af0b06962058c86fb",
+      "build_id": "kernelci:kernelci.org:64147c5870d85f1be38c8631",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on dell-latitude-5400-8665U-sarien in lab-collabora"
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.657000+00:00",
+      "path": "smc.login",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c8677",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.659000+00:00",
+      "path": "smc.CVE-2020-0543",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c8678",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.661000+00:00",
+      "path": "smc.CVE-2018-12207",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c8679",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.662000+00:00",
+      "path": "smc.CVE-2019-11135",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c867a",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.664000+00:00",
+      "path": "smc.CVE-2019-11091",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c867b",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.665000+00:00",
+      "path": "smc.CVE-2018-12127",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c867c",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.667000+00:00",
+      "path": "smc.CVE-2018-12130",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c867d",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.669000+00:00",
+      "path": "smc.CVE-2018-12126",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c867e",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.671000+00:00",
+      "path": "smc.CVE-2018-3646",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c867f",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.672000+00:00",
+      "path": "smc.CVE-2018-3620",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c8680",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.674000+00:00",
+      "path": "smc.CVE-2018-3615",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c8681",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.676000+00:00",
+      "path": "smc.CVE-2018-3639",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c8682",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.677000+00:00",
+      "path": "smc.CVE-2018-3640",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c8683",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.678000+00:00",
+      "path": "smc.CVE-2017-5754",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c8684",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.680000+00:00",
+      "path": "smc.CVE-2017-5715",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c8685",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    },
+    {
+      "misc": {
+        "kernelci_status": "PASS",
+        "plan": "smc",
+        "plan_variant": "smc"
+      },
+      "status": "PASS",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "rockchip",
+          "lab": "lab-collabora",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230310.0/arm64/rootfs.cpio.gz",
+          "instance": "rk3399-gru-kevin-cbg-4",
+          "device": "rk3399-gru-kevin"
+        },
+        "comment": "rk3399-gru-kevin in lab-collabora"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/smc-rk3399-gru-kevin.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/stable-rc/queue-5.4/v5.4.237-1-gb46b0d301871/arm64/defconfig/gcc-10/lab-collabora/lava-rk3399-gru-kevin.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:50:56.681000+00:00",
+      "path": "smc.CVE-2017-5753",
+      "id": "kernelci:kernelci.org:64148c6004f54871db8c8686",
+      "build_id": "kernelci:kernelci.org:64148828a228e9c29c8c8637",
+      "origin": "kernelci",
+      "comment": "smc on rk3399-gru-kevin in lab-collabora"
+    }
+  ]
+}

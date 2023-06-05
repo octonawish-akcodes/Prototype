@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "meson-g12b-a311d-khadas-vim3",
+          "mach": "amlogic",
+          "lab": "lab-collabora",
+          "instance": "meson-g12b-a311d-khadas-vim3-cbg-6"
+        },
+        "comment": "meson-g12b-a311d-khadas-vim3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-meson-g12b-a311d-khadas-vim3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:00.728000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f4c004c7ab47915ec8",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-g12b-a311d-khadas-vim3 in lab-collabora"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "meson-g12b-a311d-khadas-vim3",
+          "mach": "amlogic",
+          "lab": "lab-collabora",
+          "instance": "meson-g12b-a311d-khadas-vim3-cbg-6"
+        },
+        "comment": "meson-g12b-a311d-khadas-vim3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-meson-g12b-a311d-khadas-vim3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:00.732000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f4c004c7ab47915eca",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-g12b-a311d-khadas-vim3 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "meson-g12b-a311d-khadas-vim3",
+          "mach": "amlogic",
+          "lab": "lab-collabora",
+          "instance": "meson-g12b-a311d-khadas-vim3-cbg-6"
+        },
+        "comment": "meson-g12b-a311d-khadas-vim3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-meson-g12b-a311d-khadas-vim3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:00.733000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f4c004c7ab47915ecb",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-g12b-a311d-khadas-vim3 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "meson-g12b-a311d-khadas-vim3",
+          "mach": "amlogic",
+          "lab": "lab-collabora",
+          "instance": "meson-g12b-a311d-khadas-vim3-cbg-6"
+        },
+        "comment": "meson-g12b-a311d-khadas-vim3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-meson-g12b-a311d-khadas-vim3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:00.735000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f4c004c7ab47915ecc",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-g12b-a311d-khadas-vim3 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "meson-g12b-a311d-khadas-vim3",
+          "mach": "amlogic",
+          "lab": "lab-collabora",
+          "instance": "meson-g12b-a311d-khadas-vim3-cbg-6"
+        },
+        "comment": "meson-g12b-a311d-khadas-vim3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-meson-g12b-a311d-khadas-vim3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:00.738000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f4c004c7ab47915ece",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-g12b-a311d-khadas-vim3 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "meson-g12b-a311d-khadas-vim3",
+          "mach": "amlogic",
+          "lab": "lab-collabora",
+          "instance": "meson-g12b-a311d-khadas-vim3-cbg-6"
+        },
+        "comment": "meson-g12b-a311d-khadas-vim3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-meson-g12b-a311d-khadas-vim3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:00.739000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f4c004c7ab47915ecf",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-g12b-a311d-khadas-vim3 in lab-collabora"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline-nfs",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline-nfs"
+      },
+      "path": "baseline-nfs.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230120.0/arm64/initrd.cpio.gz",
+          "device": "meson-g12b-a311d-khadas-vim3",
+          "mach": "amlogic",
+          "lab": "lab-collabora",
+          "instance": "meson-g12b-a311d-khadas-vim3-cbg-6"
+        },
+        "comment": "meson-g12b-a311d-khadas-vim3 in lab-collabora"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/baseline-nfs-meson-g12b-a311d-khadas-vim3.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/tip/master/v6.2-rc5-274-g610b3c408ab5/arm64/defconfig/gcc-10/lab-collabora/lava-meson-g12b-a311d-khadas-vim3.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:15:00.740000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298f4c004c7ab47915ed0",
+      "build_id": "kernelci:kernelci.org:63d2982c4108a4c75d915ecc",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on meson-g12b-a311d-khadas-vim3 in lab-collabora"
+    }
+  ]
+}

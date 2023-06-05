@@ -1,0 +1,32 @@
+{
+  "revisions": [
+    {
+      "id": "7c46948a6e9cf47ed03b0d489fde894ad46f1437",
+      "origin": "tuxsuite",
+      "git_repository_url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git",
+      "git_commit_hash": "7c46948a6e9cf47ed03b0d489fde894ad46f1437",
+      "git_commit_name": "v6.2-rc5-47-g7c46948a6e9c",
+      "discovery_time": "2023-01-26T18:14:58+00:00",
+      "valid": true,
+      "git_repository_branch": "master"
+    }
+  ],
+  "builds": [
+    {
+      "id": "tuxsuite:2KsIWzT5JOwL7Jch93qa2JFEXXV",
+      "revision_id": "7c46948a6e9cf47ed03b0d489fde894ad46f1437",
+      "origin": "tuxsuite",
+      "architecture": "i386",
+      "compiler": "Debian clang version 13.0.1-++20220126092033+75e33f71c2da-1~exp1~20220126212112.63",
+      "config_name": "default",
+      "config_url": "https://storage.tuxsuite.com/public/clangbuiltlinux/continuous-integration2/builds/2KsIWzT5JOwL7Jch93qa2JFEXXV/config",
+      "log_url": "https://storage.tuxsuite.com/public/clangbuiltlinux/continuous-integration2/builds/2KsIWzT5JOwL7Jch93qa2JFEXXV/build.log",
+      "start_time": "2023-01-26T18:14:58+00:00",
+      "valid": true
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

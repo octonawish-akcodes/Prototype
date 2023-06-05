@@ -1,0 +1,65 @@
+{
+  "checkouts": [
+    {
+      "id": "broonie:9ee81291e2254421bf7b17f43e66f8f4",
+      "git_commit_hash": "c18bbac353ffed50be134b0a2a059a2bd540c503",
+      "patchset_hash": "",
+      "origin": "broonie",
+      "valid": true,
+      "start_time": "2023-03-17T16:15:01.867251+00:00"
+    }
+  ],
+  "builds": [
+    {
+      "id": "broonie:c18bbac353ffed50be134b0a2a059a2bd540c503-arm-imx_v6_v7_defconfig",
+      "checkout_id": "broonie:9ee81291e2254421bf7b17f43e66f8f4",
+      "architecture": "arm",
+      "config_name": "imx_v6_v7_defconfig",
+      "valid": true,
+      "duration": 1278.66960811615,
+      "compiler": "arm-linux-gnueabihf-gcc (Debian 12.2.0-14) 12.2.0",
+      "origin": "broonie",
+      "output_files": [
+        {
+          "name": "config",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm/imx_v6_v7_defconfig/config"
+        },
+        {
+          "name": "dtbs.tar.xz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm/imx_v6_v7_defconfig/dtbs.tar.xz"
+        },
+        {
+          "name": "dtbs.tar.xz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm/imx_v6_v7_defconfig/dtbs.tar.xz"
+        },
+        {
+          "name": "zImage",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm/imx_v6_v7_defconfig/zImage"
+        },
+        {
+          "name": "kselftest.tar.xz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm/imx_v6_v7_defconfig/kselftest.tar.xz"
+        },
+        {
+          "name": "build.log",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm/imx_v6_v7_defconfig/build.log"
+        },
+        {
+          "name": "build-debug.log",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm/imx_v6_v7_defconfig/build-debug.log"
+        },
+        {
+          "name": "modules.tar.xz",
+          "url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm/imx_v6_v7_defconfig/modules.tar.xz"
+        }
+      ],
+      "config_url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm/imx_v6_v7_defconfig/config",
+      "log_url": "https://builds.sirena.org.uk/c18bbac353ffed50be134b0a2a059a2bd540c503/arm/imx_v6_v7_defconfig/build.log",
+      "start_time": "2023-03-17T16:15:01.867251+00:00"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "dove-cubox",
+          "mach": "mvebu",
+          "lab": "lab-pengutronix",
+          "instance": "dove-cubox-0"
+        },
+        "comment": "dove-cubox in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-dove-cubox.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:46.889000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e62c48680ef9915f2c",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on dove-cubox in lab-pengutronix"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "SKIP",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.tpm-chip-is-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "dove-cubox",
+          "mach": "mvebu",
+          "lab": "lab-pengutronix",
+          "instance": "dove-cubox-0"
+        },
+        "comment": "dove-cubox in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-dove-cubox.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:46.893000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e62c48680ef9915f2e",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on dove-cubox in lab-pengutronix"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.all-cpus-are-online",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "dove-cubox",
+          "mach": "mvebu",
+          "lab": "lab-pengutronix",
+          "instance": "dove-cubox-0"
+        },
+        "comment": "dove-cubox in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-dove-cubox.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:46.895000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e62c48680ef9915f2f",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on dove-cubox in lab-pengutronix"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.bootrr.deferred-probe-empty",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "dove-cubox",
+          "mach": "mvebu",
+          "lab": "lab-pengutronix",
+          "instance": "dove-cubox-0"
+        },
+        "comment": "dove-cubox in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-dove-cubox.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:46.896000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e62c48680ef9915f30",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on dove-cubox in lab-pengutronix"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.emerg",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "dove-cubox",
+          "mach": "mvebu",
+          "lab": "lab-pengutronix",
+          "instance": "dove-cubox-0"
+        },
+        "comment": "dove-cubox in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-dove-cubox.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:46.901000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e62c48680ef9915f32",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on dove-cubox in lab-pengutronix"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.alert",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "dove-cubox",
+          "mach": "mvebu",
+          "lab": "lab-pengutronix",
+          "instance": "dove-cubox-0"
+        },
+        "comment": "dove-cubox in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-dove-cubox.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:46.902000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e62c48680ef9915f33",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on dove-cubox in lab-pengutronix"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "baseline",
+        "kernelci_status": "PASS",
+        "plan_variant": "baseline"
+      },
+      "path": "baseline.dmesg.crit",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz",
+          "device": "dove-cubox",
+          "mach": "mvebu",
+          "lab": "lab-pengutronix",
+          "instance": "dove-cubox-0"
+        },
+        "comment": "dove-cubox in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/baseline-dove-cubox.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/android/android13-5.15/android13-5.15.78_r00-709-g9a8dcea6abcf/arm/multi_v7_defconfig/clang-14/lab-pengutronix/lava-dove-cubox.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:14:46.903000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d298e62c48680ef9915f34",
+      "build_id": "kernelci:kernelci.org:63d294dea53b6e4f82915ed0",
+      "origin": "kernelci",
+      "comment": "baseline on dove-cubox in lab-pengutronix"
+    }
+  ]
+}

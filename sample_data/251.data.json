@@ -1,0 +1,58 @@
+{
+  "builds": [
+    {
+      "compiler": "Debian clang version 14.0.6",
+      "misc": {
+        "vmlinux_data_size": 708512,
+        "kernel_image_size": null,
+        "vmlinux_bss_size": 181620,
+        "build_platform": [
+          "Linux",
+          "build-j1202072-arm-clang-14-aspeed-g5-defconfig-66r48",
+          "5.4.0-1086-azure",
+          "#91~18.04.1-Ubuntu SMP Thu Jun 23 20:33:05 UTC 2022",
+          "x86_64",
+          "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz"
+        ]
+      },
+      "architecture": "arm",
+      "duration": 390.43774700164795,
+      "log_url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/aspeed_g5_defconfig/clang-14/logs",
+      "output_files": [
+        {
+          "name": "kernel_image",
+          "url": "https://storage.kernelci.org//android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/aspeed_g5_defconfig/clang-14/kernel/zImage"
+        },
+        {
+          "name": "System.map",
+          "url": "https://storage.kernelci.org//android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/aspeed_g5_defconfig/clang-14/kernel/System.map"
+        }
+      ],
+      "start_time": "2023-03-17T15:55:55.064000+00:00",
+      "config_url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/aspeed_g5_defconfig/clang-14/config/kernel.config",
+      "valid": true,
+      "config_name": "aspeed_g5_defconfig",
+      "id": "kernelci:kernelci.org:64148d8bdf0b1706178c866a",
+      "origin": "kernelci",
+      "checkout_id": "_:kernelci:afff17f58386f569c7bd324ee4a39b4cd840bf22",
+      "comment": "v5.10-24778-gafff17f58386f"
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "checkouts": [
+    {
+      "git_repository_branch": "android12-5.10",
+      "valid": true,
+      "git_repository_url": "https://android.googlesource.com/kernel/common",
+      "id": "_:kernelci:afff17f58386f569c7bd324ee4a39b4cd840bf22",
+      "origin": "kernelci",
+      "git_commit_hash": "afff17f58386f569c7bd324ee4a39b4cd840bf22",
+      "git_commit_name": "v5.10-24778-gafff17f58386f",
+      "patchset_hash": "",
+      "start_time": "2023-03-17T15:55:55.064000+00:00"
+    }
+  ]
+}

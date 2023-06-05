@@ -1,0 +1,47 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "misc": {
+        "kernelci_status": "FAIL",
+        "plan": "baseline-nfs",
+        "plan_variant": "baseline-nfs"
+      },
+      "status": "FAIL",
+      "waived": false,
+      "environment": {
+        "misc": {
+          "mach": "imx",
+          "lab": "lab-pengutronix",
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye/20230310.0/armhf/initrd.cpio.gz",
+          "instance": "imx28-duckbill-0",
+          "device": "imx28-duckbill"
+        },
+        "comment": "imx28-duckbill in lab-pengutronix"
+      },
+      "output_files": [
+        {
+          "name": "html",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-nfs-imx28-duckbill.html"
+        },
+        {
+          "name": "txt",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/baseline-nfs-imx28-duckbill.txt"
+        },
+        {
+          "name": "lava_json",
+          "url": "https://storage.kernelci.org/android/android12-5.10/ASB-2023-03-05_12-5.10-12-gafff17f58386f/arm/mxs_defconfig/clang-14/lab-pengutronix/lava-imx28-duckbill.json"
+        }
+      ],
+      "start_time": "2023-03-17T15:51:55.514000+00:00",
+      "path": "baseline-nfs.login",
+      "id": "kernelci:kernelci.org:64148c9b72f0bdf0508c8630",
+      "build_id": "kernelci:kernelci.org:64148bc7b844d5d4d58c874e",
+      "origin": "kernelci",
+      "comment": "baseline-nfs on imx28-duckbill in lab-pengutronix"
+    }
+  ]
+}

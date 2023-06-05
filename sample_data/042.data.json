@@ -1,0 +1,1217 @@
+{
+  "version": {
+    "major": 4,
+    "minor": 0
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.login",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.593000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ed8",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.610000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ed9",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_PR_CAP_AMBIENT_RAISE_worked",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.627000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915edb",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_PR_CAP_AMBIENT_RAISE_failed_on_non-permitted_cap",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.628000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915edc",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_PR_CAP_AMBIENT_RAISE_failed_on_non-inheritable_cap",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.629000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915edd",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Basic_manipulation_appears_to_work",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.651000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ede",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_PR_CAP_AMBIENT_RAISE_worked",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.627000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915edb",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_PR_CAP_AMBIENT_RAISE_failed_on_non-permitted_cap",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.628000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915edc",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_PR_CAP_AMBIENT_RAISE_failed_on_non-inheritable_cap",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.629000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915edd",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.pidfd_pidfd_wait",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.632000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915edf",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.netfilter_nft_trans_stress_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.633000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ee0",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.netfilter_nft_flowtable_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.637000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ee1",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.netfilter_bridge_brouter_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.638000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ee2",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.net_tls",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.639000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ee3",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.net_rtnetlink_sh",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.640000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ee4",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.ftrace_ftracetest",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.644000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ee5",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "SKIP",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "SKIP",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.breakpoints_step_after_suspend_test",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.648000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ee6",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Basic_manipulation_appears_to_work",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.651000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915ede",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    },
+    {
+      "status": "PASS",
+      "misc": {
+        "plan": "kselftest-capabilities",
+        "kernelci_status": "PASS",
+        "plan_variant": "kselftest-capabilities"
+      },
+      "path": "kselftest-capabilities.capabilities_test_execve_Passed",
+      "environment": {
+        "misc": {
+          "rootfs_url": "http://storage.kernelci.org/images/rootfs/debian/bullseye-kselftest/20230120.0/armhf/initrd.cpio.gz",
+          "device": "beaglebone-black",
+          "mach": "omap2",
+          "lab": "lab-broonie",
+          "instance": "beaglebone-black-02"
+        },
+        "comment": "beaglebone-black in lab-broonie"
+      },
+      "output_files": [
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.txt",
+          "name": "txt"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/kselftest-capabilities-beaglebone-black.html",
+          "name": "html"
+        },
+        {
+          "url": "https://storage.kernelci.org/stable-rc/linux-5.10.y/v5.10.165/arm/multi_v7_defconfig/gcc-10/lab-broonie/lava-beaglebone-black.json",
+          "name": "lava_json"
+        }
+      ],
+      "start_time": "2023-01-26T15:13:34.652000+00:00",
+      "waived": false,
+      "id": "kernelci:kernelci.org:63d2989e0634fcca59915eda",
+      "build_id": "kernelci:kernelci.org:63d145869e87b4c555915ed3",
+      "origin": "kernelci",
+      "comment": "kselftest-capabilities on beaglebone-black in lab-broonie"
+    }
+  ]
+}
