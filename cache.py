@@ -6,8 +6,8 @@ import hashlib
 import time
 import fcntl
 
-CACHE_DIRECTORY = "/home/abhishek/Documents/prototype/target"
-MAP_FILE_PATH = "/home/abhishek/Documents/prototype/mapping/map.json"
+CACHE_DIRECTORY = "/home/abhishek/Documents/proto/Prototype/target"
+MAP_FILE_PATH = "/home/abhishek/Documents/proto/Prototype/mapping/map.json"
 
 # Cache the URLs
 def cache(urls):
