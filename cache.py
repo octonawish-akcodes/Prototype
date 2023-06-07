@@ -75,7 +75,7 @@ def fetch_file(url):
     if os.path.exists(cache_path):
         return cache_path
     else:
-        return url
+        return None
 
 if __name__ == "__main__":        
     # Check if the command and URLs are provided in the terminal

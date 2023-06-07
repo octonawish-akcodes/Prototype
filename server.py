@@ -7,9 +7,7 @@ serverPort = 8080
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
-        
         encoded_url = self.path[1:]  # Remove the leading '/' from the encoded URL
-        
         url = urllib.parse.unquote(encoded_url)  # Decode the URL
         
         path = cache.fetch_file(url)
