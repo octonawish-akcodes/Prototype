@@ -1,7 +1,8 @@
 from google.cloud import storage
 import hashlib
 import requests
-from urllib.parse import unquote
+from email.header import Header
+import urllib.parse
 
 class Cache:
     def __init__(self, bucket_name, max_store_size):
@@ -14,6 +15,21 @@ class Cache:
         self.bucket_name = bucket_name
         self.max_store_size = max_store_size
         self.client = storage.Client()
+
+
+    def _extract_content_disposition(self, response):
+        content_disposition = response.headers.get("Content-Disposition")
+
+        if content_disposition is None:
+            parsed_url = urllib.parse.urlparse(response.url)
+            original_filename = parsed_url.path.rsplit('/', 1)[-1]
+
+            encoded_filename = Header(original_filename, "utf-8").encode()
+
+            content_disposition = f'inline; filename="{encoded_filename}"'
+
+        return content_disposition
+
 
     def store(self, url):
         """
@@ -33,31 +49,33 @@ class Cache:
         try:
             # Performing HEAD request first
             response = requests.head(url)
+            
             if response.status_code == 200:
                 content_type = response.headers["Content-Type"]
                 
                 # Check the size of the content before downloading
                 content_length = response.headers.get("Content-Length")
-                if content_length is not None:
-                    content_length = int(content_length)
-                    if content_length > self.max_store_size:
-                        print(f"URL '{url}' exceeds the maximum allowed size and cannot be cached.")
-                        return
+                if content_length is None:
+                    print(f"No Content-Length header found for URL '{url}'. Skipping download.")
+                    return
+
+                content_length = int(content_length)
+                if content_length > self.max_store_size:
+                    print(f"URL '{url}' exceeds the maximum allowed size and cannot be cached.")
+                    return
                 
                 # Perform the GET request to download the contents
                 response = requests.get(url)
                 if response.status_code == 200:
                     contents = response.content
                     
-                    # Extract the original filename from the URL
-                    original_filename = self._extract_filename(url)
-
+                    blob.content_disposition = self._extract_content_disposition(response)
+                    
                     blob.upload_from_string(
-                    contents,
-                    content_type=content_type
+                        contents,
+                        content_type=content_type
                     )
-                    blob.content_disposition = f'inline; filename="{original_filename}"'
-                    blob.patch()
+                    
                 
                     print(f"URL '{url}' cached successfully.")
                 else:
@@ -79,16 +97,6 @@ class Cache:
         # Generate a unique hash for the URL as the object name
         return hashlib.sha256(url.encode()).hexdigest()
     
-    def _extract_filename(self, url):
-        """
-        Extract the filename from a given URL.
-        Args:
-            url:    The URL to extract the filename from.
-        Returns:
-            The extracted filename from the URL.
-        """
-        decoded_url = unquote(url)
-        return decoded_url.rsplit('/', 1)[-1]
 
     def _format_public_url(self, url):
         """
@@ -151,3 +159,4 @@ cache = Cache("cache_file_storage", 5 * 1024 * 1024)
 url_list = ["https://www.gutenberg.org/files/1342/old/pandp12p.pdf", "https://www.dwsamplefiles.com/?dl_id=176", "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz"]
 for url in url_list:
     cache.store(url)
+
