@@ -48,7 +48,7 @@ class Cache:
 
         try:
             # Performing HEAD request first
-            response = requests.head(url)
+            response = requests.head(url, allow_redirects=True)
             
             if response.status_code == 200:
                 content_type = response.headers["Content-Type"]
@@ -65,7 +65,7 @@ class Cache:
                     return
                 
                 # Perform the GET request to download the contents
-                response = requests.get(url)
+                response = requests.get(url, allow_redirects=True)
                 if response.status_code == 200:
                     contents = response.content
                     
@@ -156,7 +156,7 @@ class Cache:
 cache = Cache("cache_file_storage", 5 * 1024 * 1024)
 
 # Cache these URLs
-url_list = ["https://www.gutenberg.org/files/1342/old/pandp12p.pdf", "https://www.dwsamplefiles.com/?dl_id=176", "http://storage.kernelci.org/images/rootfs/buildroot/buildroot-baseline/20230120.0/armel/rootfs.cpio.gz"]
+url_list = ["http://localhost:8080/redirect_from"]
 for url in url_list:
     cache.store(url)
 
