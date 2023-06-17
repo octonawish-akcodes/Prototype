@@ -5,6 +5,7 @@ import os
 hostName = "localhost"
 serverPort = 8080
 
+
 class MyServer(BaseHTTPRequestHandler):
     file_directory = "/home/abhishek/Downloads/files/"
 
@@ -26,7 +27,6 @@ class MyServer(BaseHTTPRequestHandler):
 
         if parsed_url.path == "/no_content_disposition":
             self._set_response()
-            
             self.end_headers()
             self.serve_file(os.path.join(self.file_directory, "pol.yaml"))
 
@@ -43,9 +43,11 @@ class MyServer(BaseHTTPRequestHandler):
             self.serve_file(os.path.join(self.file_directory, "res.yaml"))
 
         elif parsed_url.path == "/redirect_from":
-            self._set_response(status_code=302)
+            self.send_response(307)
+            
             self.send_header("Location", "/redirect_to")
             self.end_headers()
+            return
 
         elif parsed_url.path == "/redirect_to":
             self._set_response()
@@ -58,7 +60,25 @@ class MyServer(BaseHTTPRequestHandler):
             self.wfile.write(b"Invalid URL")
 
     def do_HEAD(self):
-        self.do_GET()
+        parsed_url = urlparse(self.path)
+
+        if parsed_url.path == "/redirect_from":
+            self.send_response(307)
+            self.send_header("Location", "/redirect_to")
+            self.end_headers()
+            return
+
+        elif parsed_url.path == "/redirect_to":
+            
+            self._set_response()
+            self.end_headers()
+            return
+
+        else:
+            self._set_response(404)
+            self.end_headers()
+            self.wfile.write(b"Invalid URL")
+
 
 
 if __name__ == "__main__":
